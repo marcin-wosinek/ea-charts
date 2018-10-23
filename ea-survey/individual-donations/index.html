@@ -15,7 +15,6 @@
   </style>
 </head>
 <body>
-  <h1>EA donations per person</h1>
   <!-- Container for the visualization -->
   <div id="vis"></div>
 
@@ -23,17 +22,18 @@
   // Assign the specification to a local variable vlSpec.
   var vlSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "title": "EA donations per person",
+    "width": 800,
+    "height": 300,
     "data": {"url": "indiidual donations.csv"},
     "mark": "bar",
-    "transform": [{
-      "bin": true,
-      "field": "Donation",
-      "as": "bin_Donation"
-    }],
     "encoding": {
       "x": {
         "field": "Donation",
-        "type": "quantitative"
+        "type": "quantitative",
+        "scale": {
+          "type": "log"
+        }
       },
       "y": {
         "aggregate": "count",
