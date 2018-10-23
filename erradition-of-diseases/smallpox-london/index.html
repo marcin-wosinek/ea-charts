@@ -5,16 +5,30 @@
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
 <script type="text/javascript">
-  var svg = dimple.newSvg("#chartContainer", 590, 400);
-  d3.csv("./1600-1700.csv", function (data) {
+  var promise1600s = new Promise (resolve => {
+        d3.csv("./1600-1700.csv", data => {
+            resolve(data);
+        });
+      }),
+    promise1700s = new Promise (resolve => {
+        d3.csv("./1700-1800.csv", data => {
+            resolve(data);
+        });
+      });
+
+  var svg = dimple.newSvg("#chartContainer", 990, 400);
+
+  Promise.all([promise1600s, promise1700s]).then(data => {
+    return data[0].concat(data[1]);
+  }).then(function (data) {
     var myChart = new dimple.chart(svg, data);
-    myChart.setBounds(60, 30, 510, 305)
+    myChart.setBounds(60, 30, 910, 305)
 
     var xAxis = myChart.addTimeAxis("x", "year", "%Y", "%Y");
     xAxis.timePeriod = d3.timeYear;
     xAxis.timeInterval = 10;
     xAxis.overrideMin = new Date(1600, 0);
-    xAxis.overrideMax = new Date(1700, 0);
+    xAxis.overrideMax = new Date(1800, 0);
 
     var y = myChart.addMeasureAxis("y", "smallpox deaths per 1000 deaths");
 
