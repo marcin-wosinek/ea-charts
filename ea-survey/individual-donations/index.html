@@ -16,11 +16,12 @@
 </head>
 <body>
   <!-- Container for the visualization -->
-  <div id="vis"></div>
+  <div id="histagram"></div>
+
+  <div id="cumulative"></div>
 
   <script>
-  // Assign the specification to a local variable vlSpec.
-  var vlSpec = {
+  vegaEmbed("#histagram", {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
     "title": "EA donations per person",
     "width": 800,
@@ -40,10 +41,34 @@
         "type": "quantitative"
       }
     }
-  };
+  });
 
-  // Embed the visualization in the container with id `vis`
-  vegaEmbed("#vis", vlSpec);
+  vegaEmbed("#cumulative", {
+    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "title": "Cumulative donations",
+    "width": 800,
+    "height": 300,
+    "data": {"url": "indiidual donations.csv"},
+    "mark": "area",
+    "transform": [{
+      "sort": [{"field": "Donation"}],
+      "window": [{"op": "count", "field": "count", "as": "cumulative_count"}],
+      "frame": [null, 0]
+    }],
+    "encoding": {
+      "x": {
+        "field": "Donation",
+        "type": "quantitative",
+        "scale": {
+          "type": "log"
+        }
+      },
+      "y": {
+        "field": "cumulative_count",
+        "type": "quantitative"
+      }
+    }
+  });
   </script>
 </body>
 </html>
