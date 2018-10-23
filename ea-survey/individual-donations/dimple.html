@@ -1,0 +1,30 @@
+<html>
+<div id="chartContainer">
+</div>
+
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
+<script type="text/javascript">
+  var svg = dimple.newSvg("#chartContainer", 590, 400);
+  d3.csv("./indiidual donations.csv", function (data) {
+
+    var parsedData = data.map(row => {
+      return {
+        Donation: parseFloat(row.Donation)
+      };
+    });
+
+    var myChart = new dimple.chart(svg, parsedData);
+    myChart.setBounds(60, 30, 510, 305)
+
+    var x = myChart.addCategoryAxis("x", "Donation");
+
+    x.addOrderRule("Date");
+
+    var y = myChart.addMeasureAxis("y");
+
+    myChart.addSeries(null, dimple.plot.bar);
+    myChart.draw();
+  });
+</script>
+</html>
