@@ -10,9 +10,11 @@
     var myChart = new dimple.chart(svg, data);
     myChart.setBounds(60, 30, 510, 305)
 
-    var x = myChart.addTimeAxis("x", "year", "%Y", "%Y");
-
-    x.addOrderRule("Date");
+    var xAxis = myChart.addTimeAxis("x", "year", "%Y", "%Y");
+    xAxis.timePeriod = d3.timeYear;
+    xAxis.timeInterval = 10;
+    xAxis.overrideMin = new Date(1600, 0);
+    xAxis.overrideMax = new Date(1700, 0);
 
     var y = myChart.addMeasureAxis("y", "smallpox deaths per 1000 deaths");
 
