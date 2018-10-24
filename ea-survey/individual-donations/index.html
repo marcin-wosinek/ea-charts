@@ -28,19 +28,59 @@
     "height": 300,
     "data": {"url": "indiidual donations.csv"},
     "mark": "bar",
+    "transform": [{
+      "as": "donationLog10",
+      "calculate": "log(datum.Donation) / LN10"
+    }, {
+      "bin": {
+        "step": 0.5
+      },
+      "field": "donationLog10",
+      "as": "donationLog10Bin"
+    }, {
+      "aggregate": [{
+         "op": "count",
+         "field": "donationLog10Bin",
+         "as": "count"
+      }],
+      "groupby": ["donationLog10Bin", "donationLog10Bin_end"]
+    }, {
+      "as": "donationBin",
+      "calculate": "pow(10, datum.donationLog10Bin)"
+    }, {
+      "as": "donationBin_end",
+      "calculate": "pow(10, datum.donationLog10Bin_end)"
+    }],
     "encoding": {
       "x": {
-        "field": "Donation",
+        "field": "donationBin",
+        "type": "quantitative",
+        "scale": {
+          "type": "log"
+        },
+        "axis": {
+          "title": "donations",
+          "format": ",f"
+        }
+      },
+      "x2": {
+        "field": "donationBin_end",
         "type": "quantitative",
         "scale": {
           "type": "log"
         }
       },
       "y": {
-        "aggregate": "count",
+        "field": "count",
         "type": "quantitative"
-      }
+      },
+      "tooltip": [
+        {"field": "donationBin", "type": "quantitative", "title": "from", "format": ",.2f"},
+        {"field": "donationBin_end", "type": "quantitative", "title": "to", "format": ",.2f"},
+        {"field": "count", "type": "quantitative"}
+      ]
     }
+
   });
 
   vegaEmbed("#cumulative", {
