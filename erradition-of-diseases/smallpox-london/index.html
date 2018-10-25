@@ -14,12 +14,17 @@
         d3.csv("./1700-1800.csv", data => {
             resolve(data);
         });
+      }),
+    promise1800s = new Promise (resolve => {
+        d3.csv("./1800-1900.csv", data => {
+            resolve(data);
+        });
       });
 
   var svg = dimple.newSvg("#chartContainer", 990, 400);
 
-  Promise.all([promise1600s, promise1700s]).then(data => {
-    return data[0].concat(data[1]);
+  Promise.all([promise1600s, promise1700s, promise1800s]).then(data => {
+    return data[0].concat(data[1]).concat(data[2]);
   }).then(function (data) {
     var myChart = new dimple.chart(svg, data);
     myChart.setBounds(60, 30, 910, 305)
@@ -28,7 +33,7 @@
     xAxis.timePeriod = d3.timeYear;
     xAxis.timeInterval = 10;
     xAxis.overrideMin = new Date(1600, 0);
-    xAxis.overrideMax = new Date(1800, 0);
+    xAxis.overrideMax = new Date(1900, 0);
 
     var y = myChart.addMeasureAxis("y", "smallpox deaths per 1000 deaths");
 
