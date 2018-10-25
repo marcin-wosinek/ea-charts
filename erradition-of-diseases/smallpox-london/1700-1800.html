@@ -1,0 +1,35 @@
+<html>
+<style>
+#chartContainer {
+  background-image: url(./1700-1800.png);
+  background-repeat: no-repeat;
+  background-position: 14px 41px;
+}
+</style>
+
+<div id="chartContainer">
+</div>
+
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
+<script type="text/javascript">
+  var svg = dimple.newSvg("#chartContainer", 800, 400);
+  d3.csv("./1700-1800.csv", function (data) {
+    var myChart = new dimple.chart(svg, data);
+
+    myChart.setBounds(58, 54, 707, 281);
+
+    var xAxis = myChart.addTimeAxis("x", "year", "%Y", "%Y");
+    xAxis.timePeriod = d3.timeYear;
+    xAxis.timeInterval = 10;
+    xAxis.overrideMin = new Date(1700, 0);
+    xAxis.overrideMax = new Date(1800, 0);
+
+    var yAxis = myChart.addMeasureAxis("y", "smallpox deaths per 1000 deaths");
+    yAxis.overrideMax = 160;
+
+    myChart.addSeries(null, dimple.plot.bar);
+    myChart.draw();
+  });
+</script>
+</html>
