@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Age",
+  "width": 500,
+  "height": 300,
+  "data": {
+    "url": "../data/age.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [{
+        "op": "count",
+        "as": "count"
+      }],
+      "groupby": ["age"]
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "age",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "count",
+      "type": "quantitative"
+    }
+  }
+}

@@ -8,7 +8,8 @@
     "build": "npm-run-all build:*",
     "build:ea-survey": "npm-run-all build:ea-survey:*",
     "build:ea-survey:individual-donations": "cd ./ea-survey/individual-donations/; vl2png histogram.json > histogram.png; vl2png cumulative.json > cumulative.png",
-    "build:ea-survey:country": "cd ./ea-survey/country/; vl2png bar-chart.json > bar-chart.png"
+    "build:ea-survey:country": "cd ./ea-survey/country/; vl2png bar-chart.json > bar-chart.png",
+    "build:ea-survey:age": "cd ./ea-survey/age/; vl2png bar-chart.json > bar-chart.png"
   },
   "repository": {
     "type": "git",
