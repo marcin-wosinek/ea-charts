@@ -1,33 +1,27 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "title": "Cumulative donations",
-    "width": 800,
-    "height": 300,
-    "data": {
-      "url": "./indiidual donations.csv",
-      "format": {
-        "parse": {
-          "Donation": "number"
-        }
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Cause prioritization",
+  "width": 800,
+  "height": 300,
+  "data": {
+    "url": "../data/cause_import.csv"
+  },
+  "transform": [
+    {"fold": [
+"cause_import_animal_welfare","cause_import_cause_prioritization","cause_import_biosecurity","cause_import_climate_change","cause_import_nuclear_security","cause_import_ai","cause_import_mental_health","cause_import_poverty","cause_import_rationality","cause_import_meta","cause_import_xrisk_other","cause_import_animal_welfare_b","cause_import_cause_prioritization_b","cause_import_biosecurity_b","cause_import_climate_change_b","cause_import_nuclear_security_b","cause_import_ai_b","cause_import_mental_health_b","cause_import_poverty_b","cause_import_rationality_b","cause_import_meta_b","cause_import_xrisk_other_b"
+]}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "value",
+      "type": "nominal"
     },
-    "mark": "area",
-    "transform": [{
-      "sort": [{"field": "Donation"}],
-      "window": [{"op": "count", "field": "count", "as": "cumulative_count"}],
-      "frame": [null, 0]
-    }],
-    "encoding": {
-      "x": {
-        "field": "Donation",
-        "type": "quantitative",
-        "scale": {
-          "type": "log"
-        }
-      },
-      "y": {
-        "field": "cumulative_count",
-        "type": "quantitative"
-      }
-    }
+    "x": {
+      "field": "value",
+      "aggregate": "count",
+      "type": "quantitative"
+    },
+    "row": {"field": "key", "type": "nominal"}
   }
+}
