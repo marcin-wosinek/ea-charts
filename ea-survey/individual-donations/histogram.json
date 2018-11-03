@@ -9,7 +9,7 @@
       }
     },
     "data": {
-      "url": "indiidual donations.csv",
+      "url": "./indiidual donations.csv",
       "format": {
         "parse": {
           "Donation": "number"

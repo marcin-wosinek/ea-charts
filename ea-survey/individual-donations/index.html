@@ -3,8 +3,8 @@
   <title>Vega Lite Bar Chart</title>
   <meta charset="utf-8">
 
-  <script src="https://cdn.jsdelivr.net/npm/vega@4.2.0/build/vega.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc6/build/vega-lite.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega@4.3.0/build/vega.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc8/build/vega-lite.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.19.2/build/vega-embed.js"></script>
 
   <style media="screen">
@@ -16,9 +16,13 @@
 </head>
 <body>
   <!-- Container for the visualization -->
-  <div id="histogram"></div>
+  <div id="histogram">
+    <img src="./histogram.png" alt="Histogram of individual EAs donations">
+  </div>
 
-  <div id="cumulative"></div>
+  <div id="cumulative">
+    <img src="./cumulative.png" alt="Chart with cumulative EAs donations">
+  </div>
 
   <script>
   vegaEmbed("#histogram", "./histogram.json");

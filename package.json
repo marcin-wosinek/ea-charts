@@ -1,0 +1,24 @@
+{
+  "name": "ea-charts",
+  "version": "1.0.0",
+  "description": "library with interactive charts for EA comunity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ./ea-survey/individual-donations/; vl2png histogram.json > histogram.png; vl2png cumulative.json > cumulative.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcin-wosinek/ea-charts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcin-wosinek/ea-charts/issues"
+  },
+  "homepage": "https://github.com/marcin-wosinek/ea-charts#readme",
+  "devDependencies": {
+    "vega": "^4.3.0",
+    "vega-lite": "^3.0.0-rc8"
+  }
+}

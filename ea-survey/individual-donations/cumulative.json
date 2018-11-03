@@ -3,7 +3,14 @@
     "title": "Cumulative donations",
     "width": 800,
     "height": 300,
-    "data": {"url": "indiidual donations.csv"},
+    "data": {
+      "url": "./indiidual donations.csv",
+      "format": {
+        "parse": {
+          "Donation": "number"
+        }
+      }
+    },
     "mark": "area",
     "transform": [{
       "sort": [{"field": "Donation"}],
