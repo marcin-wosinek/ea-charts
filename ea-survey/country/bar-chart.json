@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Country",
+  "width": 300,
+  "height": 500,
+  "data": {
+    "url": "../data/country.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [{
+        "op": "count",
+        "as": "count"
+      }],
+      "groupby": ["country"]
+    },
+    {
+      "calculate": "if(datum.country === 'Other', 0, datum.count)",
+      "as": "weight"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "sort": {
+        "op": "mean",
+        "field": "weight",
+        "order": "descending"
+      }
+    },
+    "x": {
+      "field": "count",
+      "type": "quantitative"
+    }
+  }
+}
