@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "title": "Cumulative donations",
+    "width": 800,
+    "height": 300,
+    "data": {"url": "indiidual donations.csv"},
+    "mark": "area",
+    "transform": [{
+      "sort": [{"field": "Donation"}],
+      "window": [{"op": "count", "field": "count", "as": "cumulative_count"}],
+      "frame": [null, 0]
+    }],
+    "encoding": {
+      "x": {
+        "field": "Donation",
+        "type": "quantitative",
+        "scale": {
+          "type": "log"
+        }
+      },
+      "y": {
+        "field": "cumulative_count",
+        "type": "quantitative"
+      }
+    }
+  }

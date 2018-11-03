@@ -16,120 +16,14 @@
 </head>
 <body>
   <!-- Container for the visualization -->
-  <div id="histagram"></div>
+  <div id="histogram"></div>
 
   <div id="cumulative"></div>
 
   <script>
-  vegaEmbed("#histagram", {
-    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "title": "EA donations per person",
-    "width": 800,
-    "height": 300,
-    "resolve": {
-      "scale": {
-        "y": "independent"
-      }
-    },
-    "data": {
-      "url": "indiidual donations.csv",
-      "format": {
-        "parse": {
-          "Donation": "number"
-        }
-      }
-    },
-    "mark": "bar",
-    "transform": [{
-      "as": "donationLog10",
-      "calculate": "log(datum.Donation) / LN10"
-    }, {
-      "bin": {
-        "step": 0.5
-      },
-      "field": "donationLog10",
-      "as": "donationLog10Bin"
-    }, {
-      "aggregate": [{
-         "op": "count",
-         "field": "donationLog10Bin",
-         "as": "Count"
-      }, {
-         "op": "sum",
-         "field": "Donation",
-         "as": "Sum"
-      }],
-      "groupby": ["donationLog10Bin", "donationLog10Bin_end"]
-    }, {
-      "fold": ["Count", "Sum"]
-    }, {
-      "as": "donationBin",
-      "calculate": "pow(10, datum.donationLog10Bin)"
-    }, {
-      "as": "donationBin_end",
-      "calculate": "pow(10, datum.donationLog10Bin_end)"
-    }],
-    "encoding": {
-      "x": {
-        "field": "donationBin",
-        "type": "quantitative",
-        "scale": {
-          "type": "log"
-        },
-        "axis": {
-          "title": "donations",
-          "format": ",f"
-        }
-      },
-      "x2": {
-        "field": "donationBin_end",
-        "type": "quantitative",
-        "scale": {
-          "type": "log"
-        }
-      },
-      "y": {
-        "field": "value",
-        "type": "quantitative"
-      },
-      "row": {
-        "field": "key",
-        "type": "nominal"
-      },
-      "tooltip": [
-        {"field": "key", "title": "", "type": "nominal"},
-        {"field": "donationBin", "type": "quantitative", "title": "from", "format": ",.2f"},
-        {"field": "donationBin_end", "type": "quantitative", "title": "to", "format": ",.2f"}
-      ]
-    }
-  });
+  vegaEmbed("#histogram", "./histogram.json");
 
-  vegaEmbed("#cumulative", {
-    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "title": "Cumulative donations",
-    "width": 800,
-    "height": 300,
-    "data": {"url": "indiidual donations.csv"},
-    "mark": "area",
-    "transform": [{
-      "sort": [{"field": "Donation"}],
-      "window": [{"op": "count", "field": "count", "as": "cumulative_count"}],
-      "frame": [null, 0]
-    }],
-    "encoding": {
-      "x": {
-        "field": "Donation",
-        "type": "quantitative",
-        "scale": {
-          "type": "log"
-        }
-      },
-      "y": {
-        "field": "cumulative_count",
-        "type": "quantitative"
-      }
-    }
-  });
+  vegaEmbed("#cumulative", "./cumulative.json");
   </script>
 </body>
 </html>
