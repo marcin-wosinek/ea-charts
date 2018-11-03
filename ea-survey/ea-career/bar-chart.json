@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Country",
+  "width": 300,
+  "height": 500,
+  "data": {
+    "url": "../data/ea_career.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "ea_career_type",
+      "type": "nominal",
+      "sort": {
+        "op": "count",
+        "order": "descending"
+      }
+    },
+    "x": {
+      "field": "ea_career_type",
+      "aggregate": "count",
+      "type": "quantitative"
+    }
+  }
+}

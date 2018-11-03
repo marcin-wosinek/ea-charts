@@ -10,12 +10,12 @@ var file = fs.readFileSync(
 
 var data = d3Dsv.csvParse(file);
 
-['cause_import'].forEach(prefix => {
+['cause_import', 'ea_career'].forEach(prefix => {
   fs.writeFileSync(
     prefix + '.csv',
     d3Dsv.csvFormat(
       data,
-      data.columns.filter(column => column.startsWith('cause_import')),
+      data.columns.filter(column => column.startsWith(prefix)),
     ),
     'utf8',
   );
