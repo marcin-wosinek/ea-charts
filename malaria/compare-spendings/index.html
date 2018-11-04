@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Vega Lite Bar Chart</title>
+  <meta charset="utf-8">
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@4.3.0/build/vega.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc8/build/vega-lite.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.19.2/build/vega-embed.js"></script>
+
+  <style media="screen">
+    /* Add space between Vega-Embed links  */
+    .vega-actions a {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Container for the visualization -->
+  <div id="bar-chart">
+    <img src="./bar-chart.png" alt="Bar chart with country">
+  </div>
+
+  <h2>Data sources</h2>
+  <ul>
+    <li>http://www.who.int/malaria/en/ - malaria global founding</li>
+    <li>https://www.statista.com/statistics/244990/spotifys-revenue-and-net-income/ - spotify revenue</li>
+    <li>https://ec.europa.eu/agriculture/sites/agriculture/files/cap-in-your-country/pdf/pl_en.pdf - common agricultural policy spending in Poland</li>
+    <li>
+    <li>http://www.portalspozywczy.pl/alkohole-uzywki/wiadomosci/produkcja-wodki-w-2016-r-wzrosla-o-1-7-proc-a-wartosc-produkcji-o-4-2-proc,147424.html - value of vodka sold in Poland</li>
+  </ul>
+
+  <script>
+  vegaEmbed("#bar-chart", "./bar-chart.json");
+  </script>
+</body>
+</html>

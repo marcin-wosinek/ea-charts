@@ -11,7 +11,9 @@
     "build:ea-survey:country": "cd ./ea-survey/country/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:age": "cd ./ea-survey/age/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:top-priorities": "cd ./ea-survey/top-priorities/; vl2png bar-chart.json > bar-chart.png",
-    "build:ea-survey:ea-carrer": "cd ./ea-survey/ea-career/; vl2png bar-chart.json > bar-chart.png"
+    "build:ea-survey:ea-carrer": "cd ./ea-survey/ea-career/; vl2png bar-chart.json > bar-chart.png",
+    "build:malaria": "npm-run-all build:malaria:*",
+    "build:malaria:compare-spendings": "cd ./malaria/compare-spendings/; vl2png bar-chart.json > bar-chart.png"
   },
   "repository": {
     "type": "git",
