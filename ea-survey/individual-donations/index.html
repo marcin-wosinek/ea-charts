@@ -20,12 +20,18 @@
     <img src="./histogram.png" alt="Histogram of individual EAs donations">
   </div>
 
+  <div id="percent-per-group">
+    <img src="./percent-per-group.png" alt="Percent of donation per group">
+  </div>
+
   <div id="cumulative">
     <img src="./cumulative.png" alt="Chart with cumulative EAs donations">
   </div>
 
   <script>
   vegaEmbed("#histogram", "./histogram.json");
+
+  vegaEmbed("#percent-per-group", "./percent-per-group.json");
 
   vegaEmbed("#cumulative", "./cumulative.json");
   </script>

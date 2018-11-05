@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Cumulative donations",
+  "width": 100,
+  "height": 300,
+  "data": {
+    "url": "./indiidual donations.csv",
+    "format": {
+      "parse": {
+        "Donation": "number"
+      }
+    }
+  },
+  "transform": [{
+    "calculate": "datum.Donation >= 100 ? 'above' : 'below'", "as": "100"
+  }, {
+    "calculate": "datum.Donation >= 1000 ? 'above' : 'below'", "as": "1000"
+  }, {
+    "calculate": "datum.Donation >= 10000 ? 'above' : 'below'", "as": "10000"
+  }, {
+    "calculate": "datum.Donation >= 100000 ? 'above' : 'below'", "as": "100000"
+  }, {
+    "calculate": "datum.Donation >= 1000000 ? 'above' : 'below'", "as": "1000000"
+  }, {
+    "calculate": "datum.Donation >= 10000000 ? 'above' : 'below'", "as": "10000000"
+  }],
+  "repeat": {
+    "column": [
+      "100",
+      "1000",
+      "10000",
+      "100000",
+      "1000000",
+      "10000000"
+    ]
+  },
+  "spec": {
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "aggregate": "sum", "field": "Donation", "type": "quantitative"
+      },
+      "color": {
+        "field": {
+          "repeat": "column"
+        },
+        "type": "nominal"
+      }
+    }
+  }
+}

@@ -11,11 +11,13 @@
         }
       }
     },
-    "mark": "area",
+    "mark": {
+      "type": "line",
+      "interpolate": "step"
+    },
     "transform": [{
       "sort": [{"field": "Donation"}],
-      "window": [{"op": "count", "field": "count", "as": "cumulative_count"}],
-      "frame": [null, 0]
+      "window": [{"op": "sum", "field": "Donation", "as": "cumulative_count"}]
     }],
     "encoding": {
       "x": {
