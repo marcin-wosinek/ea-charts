@@ -1,0 +1,101 @@
+{
+  "title": "Donations per year of joining",
+  "width": 300,
+  "height": 500,
+  "resolve": {
+    "scale": {
+      "upa": {
+        "y": "independent"
+      }
+    }
+  },
+  "data": {
+    "url": "../data/engagement.csv",
+    "format": {
+      "parse": {
+        "donate_2017_c": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "donate_2017_c",
+        "gt": 0
+      }
+    },
+    {
+      "as": "donationLog10",
+      "calculate": "log(datum.donate_2017_c) / LN10"
+    },
+    {
+      "bin": {
+        "step": 1
+      },
+      "field": "donationLog10",
+      "as": "donationLog10Bin"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "count",
+          "field": "donationLog10Bin",
+          "as": "Count"
+        },
+        {
+          "op": "sum",
+          "field": "donate_2017_c",
+          "as": "Sum"
+        }
+      ],
+      "groupby": ["donationLog10Bin", "donationLog10Bin_end", "which_year_EA"]
+    },
+    {
+      "as": "donationBin",
+      "calculate": "pow(10, datum.donationLog10Bin)"
+    },
+    {
+      "as": "donationBin_end",
+      "calculate": "pow(10, datum.donationLog10Bin_end)"
+    }
+  ],
+  "repeat": {
+    "row": [
+      "Count",
+      "Sum"
+    ]
+  },
+  "spec": {
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "donationBin",
+        "type": "quantitative",
+        "scale": {
+          "type": "log"
+        },
+        "axis": {
+          "title": "donations",
+          "format": ",f"
+        }
+      },
+      "x2": {
+        "field": "donationBin_end",
+        "type": "quantitative",
+        "scale": {
+          "type": "log"
+        }
+      },
+      "y": {
+        "field": {
+          "repeat": "row"
+        },
+        "type": "quantitative"
+      },
+      "column": {
+        "field": "which_year_EA",
+        "type": "nominal"
+      }
+    }
+  }
+}

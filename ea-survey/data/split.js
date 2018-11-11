@@ -21,6 +21,19 @@ var data = d3Dsv.csvParse(file);
   );
 });
 
+const combinations = new Map([['engagement', ['want_ea_newsletter', 'which_year_EA', 'donate_2017_c']]]);
+
+for (let [key, value] of combinations) {
+  fs.writeFileSync(
+    key + '.csv',
+    d3Dsv.csvFormat(
+      data,
+      value,
+    ),
+    'utf8',
+  );
+}
+
 data.columns.forEach(column => {
   fs.writeFileSync(column + '.csv', d3Dsv.csvFormat(data, [column]), 'utf8');
 });
