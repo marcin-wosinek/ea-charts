@@ -6,7 +6,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
 <script type="text/javascript">
   var svg = dimple.newSvg("#chartContainer", 590, 400);
-  d3.csv("./indiidual donations.csv", function (data) {
+  d3.csv("./../data/donate_2017_c.csv", function (data) {
 
     var parsedData = data.map(row => {
       return {
@@ -17,7 +17,7 @@
     var myChart = new dimple.chart(svg, parsedData);
     myChart.setBounds(60, 30, 510, 305)
 
-    var x = myChart.addCategoryAxis("x", "Donation");
+    var x = myChart.addCategoryAxis("x", "donate_2017_c");
 
     x.addOrderRule("Date");
 

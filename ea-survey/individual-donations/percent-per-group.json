@@ -4,41 +4,55 @@
   "width": 100,
   "height": 300,
   "data": {
-    "url": "./indiidual donations.csv",
+    "url": "./../data/donate_2017_c.csv",
     "format": {
       "parse": {
-        "Donation": "number"
+        "donate_2017_c": "number"
       }
     }
   },
-  "transform": [{
-    "calculate": "datum.Donation >= 100 ? 'above' : 'below'", "as": "100"
-  }, {
-    "calculate": "datum.Donation >= 1000 ? 'above' : 'below'", "as": "1000"
-  }, {
-    "calculate": "datum.Donation >= 10000 ? 'above' : 'below'", "as": "10000"
-  }, {
-    "calculate": "datum.Donation >= 100000 ? 'above' : 'below'", "as": "100000"
-  }, {
-    "calculate": "datum.Donation >= 1000000 ? 'above' : 'below'", "as": "1000000"
-  }, {
-    "calculate": "datum.Donation >= 10000000 ? 'above' : 'below'", "as": "10000000"
-  }],
+  "transform": [
+    {
+      "filter": {
+        "field": "donate_2017_c",
+        "gt": 0
+      }
+    },
+    {
+      "calculate": "datum.donate_2017_c >= 100 ? 'above' : 'below'",
+      "as": "100"
+    },
+    {
+      "calculate": "datum.donate_2017_c >= 1000 ? 'above' : 'below'",
+      "as": "1000"
+    },
+    {
+      "calculate": "datum.donate_2017_c >= 10000 ? 'above' : 'below'",
+      "as": "10000"
+    },
+    {
+      "calculate": "datum.donate_2017_c >= 100000 ? 'above' : 'below'",
+      "as": "100000"
+    },
+    {
+      "calculate": "datum.donate_2017_c >= 1000000 ? 'above' : 'below'",
+      "as": "1000000"
+    },
+    {
+      "calculate": "datum.donate_2017_c >= 10000000 ? 'above' : 'below'",
+      "as": "10000000"
+    }
+  ],
   "repeat": {
-    "column": [
-      "100",
-      "1000",
-      "10000",
-      "100000",
-      "1000000",
-      "10000000"
-    ]
+    "column": ["100", "1000", "10000", "100000", "1000000", "10000000"]
   },
   "spec": {
     "mark": "bar",
     "encoding": {
       "y": {
-        "aggregate": "sum", "field": "Donation", "type": "quantitative"
+        "aggregate": "sum",
+        "field": "donate_2017_c",
+        "type": "quantitative"
       },
       "color": {
         "field": {

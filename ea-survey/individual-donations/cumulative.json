@@ -1,35 +1,45 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "title": "Cumulative donations",
-    "width": 800,
-    "height": 300,
-    "data": {
-      "url": "./indiidual donations.csv",
-      "format": {
-        "parse": {
-          "Donation": "number"
-        }
-      }
-    },
-    "mark": {
-      "type": "line",
-      "interpolate": "step"
-    },
-    "transform": [{
-      "sort": [{"field": "Donation"}],
-      "window": [{"op": "sum", "field": "Donation", "as": "cumulative_count"}]
-    }],
-    "encoding": {
-      "x": {
-        "field": "Donation",
-        "type": "quantitative",
-        "scale": {
-          "type": "log"
-        }
-      },
-      "y": {
-        "field": "cumulative_count",
-        "type": "quantitative"
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "title": "Cumulative donations",
+  "width": 800,
+  "height": 300,
+  "data": {
+    "url": "./../data/donate_2017_c.csv",
+    "format": {
+      "parse": {
+        "donate_2017_c": "number"
       }
     }
+  },
+  "mark": {
+    "type": "line",
+    "interpolate": "step"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "donate_2017_c",
+        "gt": 0
+      }
+    },
+    {
+      "sort": [{"field": "donate_2017_c"}],
+      "window": [
+        {"op": "sum", "field": "donate_2017_c", "as": "cumulative_count"}
+      ]
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "donate_2017_c",
+      "type": "quantitative",
+      "scale": {
+        "type": "log"
+      }
+    },
+    "y": {
+      "field": "cumulative_count",
+      "type": "quantitative"
+    }
   }
+}

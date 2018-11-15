@@ -9,18 +9,24 @@
     }
   },
   "data": {
-    "url": "./indiidual donations.csv",
+    "url": "./../data/donate_2017_c.csv",
     "format": {
       "parse": {
-        "Donation": "number"
+        "donate_2017_c": "number"
       }
     }
   },
   "mark": "bar",
   "transform": [
     {
+      "filter": {
+        "field": "donate_2017_c",
+        "gt": 0
+      }
+    },
+    {
       "as": "donationLog10",
-      "calculate": "log(datum.Donation) / LN10"
+      "calculate": "log(datum.donate_2017_c) / LN10"
     },
     {
       "bin": {
@@ -38,7 +44,7 @@
         },
         {
           "op": "sum",
-          "field": "Donation",
+          "field": "donate_2017_c",
           "as": "Sum"
         }
       ],
