@@ -13,6 +13,7 @@
     "build:ea-survey:top-priorities": "cd ./ea-survey/top-priorities/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:ea-carrer": "cd ./ea-survey/ea-career/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:engagement": "cd ./ea-survey/engagement/; vl2png bar-chart.json > bar-chart.png",
+    "build:ea-survey:sub-id": "cd ./ea-survey/sub-id/; vl2png bar-chart.json > bar-chart.png",
     "build:malaria": "npm-run-all build:malaria:*",
     "build:malaria:compare-spendings": "cd ./malaria/compare-spendings/; vl2png bar-chart.json > bar-chart.png"
   },
