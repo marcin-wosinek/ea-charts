@@ -1,38 +1,20 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
   "title": "Country",
   "width": 300,
   "height": 500,
   "data": {
-    "url": "../data/sub-id.json"
-  },
-  "transform": [
-    {
-      "aggregate": [{
-        "op": "count",
-        "as": "count"
-      }],
-      "groupby": ["country", "type"]
-    },
-    {
-      "calculate": "if(datum.country === 'Other', 0, datum.count)",
-      "as": "weight"
+    "url": "../data/politics.csv",
+    "format": {
+      "parse": {
+        "donate_2017_c": "number"
+      }
     }
-  ],
+  },
   "mark": "bar",
   "encoding": {
-    "x": {"aggregate": "sum", "field": "count", "type": "quantitative"},
+    "x": {"aggregate": "count", "field": "donate_2017_c", "type": "quantitative"},
     "y": {
-      "field": "country",
-      "type": "nominal",
-      "sort": {
-        "op": "mean",
-        "field": "weight",
-        "order": "descending"
-      }
-    },
-    "color": {
-      "field": "type", "type": "nominal"
+      "field": "politics", "type": "nominal"
     }
   }
 }

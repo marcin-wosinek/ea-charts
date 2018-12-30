@@ -23,7 +23,7 @@ var data = d3Dsv.csvParse(file);
 
 const combinations = new Map([
   ["engagement", ["want_ea_newsletter", "which_year_EA", "donate_2017_c"]],
-  ["political", ["which_year_EA", "donate_2017_c", "ea_career_type"]]
+  ["political", ["politics", "which_year_EA", "donate_2017_c", "ea_career_type"]]
 ]);
 
 for (let [key, value] of combinations) {
