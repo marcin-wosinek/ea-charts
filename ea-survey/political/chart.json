@@ -1,5 +1,5 @@
 {
-  "title": "Average donation per political identity",
+  "title": "Donation per political identity",
   "width": 300,
   "height": 500,
   "data": {
@@ -10,15 +10,40 @@
       }
     }
   },
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "mean",
+          "field": "donate_2017_c",
+          "as": "Mean donation"
+        },
+        {
+          "op": "count",
+          "field": "donate_2017_c",
+          "as": "Count"
+        },
+        {
+          "op": "sum",
+          "field": "donate_2017_c",
+          "as": "Total donate"
+        }
+      ],
+      "groupby": ["politics"]
+    }
+  ],
+  "repeat": {
+    "column": ["Count", "Mean donation", "Total donate"]
+  },
+  "spec": {
   "mark": "bar",
   "encoding": {
     "x": {
-      "aggregate": "average",
-      "field": "donate_2017_c",
+      "field": {
+        "repeat": "column"
+      },
       "type": "quantitative",
-      "axis": {
-        "title": "Donations"
-      }
+      "format": ".0f"
     },
     "y": {
       "field": "politics",
@@ -37,5 +62,6 @@
         ]
       }
     }
+  }
   }
 }
