@@ -48,7 +48,7 @@
       "x": {
         "field": "value",
         "type": "quantitative",
-        "format": ".0f",
+        "format": ".3s",
         "axis": {
           "title": null
         }
