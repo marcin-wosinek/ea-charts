@@ -14,7 +14,7 @@
     "build:ea-survey:ea-carrer": "cd ./ea-survey/ea-career/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:engagement": "cd ./ea-survey/engagement/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:sub-id": "cd ./ea-survey/sub-id/; vl2png bar-chart.json > bar-chart.png",
-    "build:ea-survey:political": "cd ./ea-survey/political/; vl2png chart.json > chart.png",
+    "build:ea-survey:political": "cd ./ea-survey/political/; vl2png donations.json > donations.png; vl2png career.json > career.png",
     "build:malaria": "npm-run-all build:malaria:*",
     "build:malaria:compare-spendings": "cd ./malaria/compare-spendings/; vl2png bar-chart.json > bar-chart.png"
   },

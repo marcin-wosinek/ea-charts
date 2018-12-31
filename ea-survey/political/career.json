@@ -1,0 +1,47 @@
+{
+  "title": "Carrer type per political identity",
+  "width": 200,
+  "height": 200,
+  "data": {
+    "url": "../data/political.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "ea_career_type",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Direct charity/non-profit work",
+          "Research",
+          "Earning to give",
+          "None of above",
+          "NA"
+        ]
+      }
+    },
+    "x": {
+      "field": "ea_career_type",
+      "aggregate": "count",
+      "type": "quantitative"
+    },
+    "row": {
+      "field": "politics",
+      "type": "nominal",
+      "scale": {
+        "type": "ordinal",
+        "domain": [
+          "Libertarian",
+          "Right",
+          "Center right",
+          "Center",
+          "Center left",
+          "Left",
+          "NA",
+          "Prefer not to answer",
+          "Other"
+        ]
+      }
+    }
+  }
+}
