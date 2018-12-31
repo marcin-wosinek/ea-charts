@@ -1,9 +1,9 @@
 {
-  "title": "Country",
+  "title": "Average donation per political identity",
   "width": 300,
   "height": 500,
   "data": {
-    "url": "../data/politics.csv",
+    "url": "../data/political.csv",
     "format": {
       "parse": {
         "donate_2017_c": "number"
@@ -12,9 +12,30 @@
   },
   "mark": "bar",
   "encoding": {
-    "x": {"aggregate": "count", "field": "donate_2017_c", "type": "quantitative"},
+    "x": {
+      "aggregate": "average",
+      "field": "donate_2017_c",
+      "type": "quantitative",
+      "axis": {
+        "title": "Donations"
+      }
+    },
     "y": {
-      "field": "politics", "type": "nominal"
+      "field": "politics",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Libertarian",
+          "Right",
+          "Center right",
+          "Center",
+          "Center left",
+          "Left",
+          "NA",
+          "Prefer not to answer",
+          "Other"
+        ]
+      }
     }
   }
 }
