@@ -14,54 +14,67 @@
     {
       "aggregate": [
         {
-          "op": "mean",
-          "field": "donate_2017_c",
-          "as": "Mean donation"
-        },
-        {
           "op": "count",
           "field": "donate_2017_c",
           "as": "Count"
         },
         {
+          "op": "mean",
+          "field": "donate_2017_c",
+          "as": "Mean donation"
+        },
+        {
           "op": "sum",
           "field": "donate_2017_c",
-          "as": "Total donate"
+          "as": "Total donated"
         }
       ],
       "groupby": ["politics"]
-    }
-  ],
-  "repeat": {
-    "column": ["Count", "Mean donation", "Total donate"]
-  },
-  "spec": {
-  "mark": "bar",
-  "encoding": {
-    "x": {
-      "field": {
-        "repeat": "column"
-      },
-      "type": "quantitative",
-      "format": ".0f"
     },
-    "y": {
-      "field": "politics",
+    {"fold": ["Count", "Mean donation", "Total donated"]}
+  ],
+  "facet": {
+    "column": {
+      "field": "key",
       "type": "nominal",
-      "scale": {
-        "domain": [
-          "Libertarian",
-          "Right",
-          "Center right",
-          "Center",
-          "Center left",
-          "Left",
-          "NA",
-          "Prefer not to answer",
-          "Other"
-        ]
+      "axis": {
+        "title": null
       }
     }
-  }
+  },
+  "spec": {
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "value",
+        "type": "quantitative",
+        "format": ".0f",
+        "axis": {
+          "title": null
+        }
+      },
+      "y": {
+        "field": "politics",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Libertarian",
+            "Right",
+            "Center right",
+            "Center",
+            "Center left",
+            "Left",
+            "NA",
+            "Prefer not to answer",
+            "Other"
+          ]
+        }
+      }
+    }
+  },
+  "resolve": {
+    "scale": {
+      "x": "independent"
+    }
   }
 }
