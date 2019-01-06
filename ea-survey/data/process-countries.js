@@ -10,7 +10,7 @@ const _ = require('lodash'),
 
 const data = d3Dsv.csvParse(file);
 
-const processed = {};
+const counted = {};
 
 _.each(data, row => {
   const countryRaw = row['In what country do you live? Response'];
@@ -34,11 +34,27 @@ _.each(data, row => {
 
   const country = foundCountry ? foundCountry.alpha2 : countryRaw;
 
-  if (processed[country]) {
-    processed[country]++;
+  if (counted[country]) {
+    counted[country]++;
   } else {
-    processed[country] = 1;
+    counted[country] = 1;
   }
+});
+
+const processed = [];
+
+_.each(counted, (value, key) => {
+  const country = countryJs.info(key);
+
+  let data = country.geoJSON;
+
+  data.eaCount = value;
+  data.country = country.name;
+  data.countryAlpha2 = key;
+  data.population = country.population;
+  data.eaPerMillion = (value * 1000000) / country.population;
+
+  processed.push(data);
 });
 
 fs.writeFileSync(

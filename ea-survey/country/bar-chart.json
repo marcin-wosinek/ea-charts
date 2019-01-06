@@ -1,44 +1,24 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
   "title": "Country",
-  "width": 300,
-  "height": 1500,
+  "width": 1000,
+  "height": 750,
   "data": {
-    "url": "../data/countries list.csv"
+    "url": "../data/all-countries.json"
   },
-  "transform": [
-    {
-      "calculate": "datum['In what country do you live? Response']",
-      "as": "country"
-    },
-    {
-      "aggregate": [
-        {
-          "op": "count",
-          "as": "count"
-        }
-      ],
-      "groupby": ["country"]
-    },
-    {
-      "calculate": "if(datum.country === 'Other', 0, datum.count)",
-      "as": "weight"
-    }
-  ],
-  "mark": "bar",
+  "projection": "mercator",
+  "mark": "geoshape",
   "encoding": {
-    "y": {
-      "field": "country",
-      "type": "nominal",
-      "sort": {
-        "op": "mean",
-        "field": "weight",
-        "order": "descending"
+    "color": {
+      "field": "eaPerMillion",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "blues"
       }
     },
-    "x": {
-      "field": "count",
-      "type": "quantitative"
-    }
+    "tooltip": [
+      {"field": "country"},
+      {"field": "eaPerMillion", "format": ".2f"}
+    ]
   }
 }
