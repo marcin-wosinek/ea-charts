@@ -1,3 +1,4 @@
 *ods#
 node_modules
 dist
+*.swm

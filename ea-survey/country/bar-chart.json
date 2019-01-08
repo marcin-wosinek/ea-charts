@@ -1,6 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-  "title": "Country",
+  "title": "EA saturation",
   "width": 1000,
   "height": 750,
   "data": {
@@ -12,13 +11,17 @@
     "color": {
       "field": "eaPerMillion",
       "type": "quantitative",
+      "axis": {
+        "labels": false,
+        "title": "EAs per million"
+      },
       "scale": {
         "scheme": "blues"
       }
     },
     "tooltip": [
       {"field": "country"},
-      {"field": "eaPerMillion", "format": ".2f"}
+      {"field": "eaPerMillion", "title": "EAs per million"}
     ]
   }
 }
