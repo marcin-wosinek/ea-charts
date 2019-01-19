@@ -6,7 +6,11 @@
     "url": "../data/all-countries.json"
   },
   "projection": "mercator",
-  "mark": "geoshape",
+  "mark": {
+    "type": "geoshape",
+    "stroke": "black",
+    "strokeWidth": 0.5
+  },
   "encoding": {
     "color": {
       "field": "eaPerMillion",
