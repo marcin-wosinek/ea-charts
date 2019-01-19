@@ -8,6 +8,8 @@ const _ = require('lodash'),
   d3Dsv = require('d3-dsv'),
   countryJs = require('countryjs');
 
+let otherCountries = new Set(countryJs.all().map(country => country.name).filter(name => !!name));
+
 const data = d3Dsv.csvParse(file);
 
 const counted = {};
@@ -46,6 +48,8 @@ const processed = [];
 _.each(counted, (value, key) => {
   const country = countryJs.info(key);
 
+  otherCountries.delete(country.name);
+
   let data = country.geoJSON;
 
   data.eaCount = value;
@@ -53,6 +57,20 @@ _.each(counted, (value, key) => {
   data.countryAlpha2 = key;
   data.population = country.population;
   data.eaPerMillion = (value * 1000000) / country.population;
+
+  processed.push(data);
+});
+
+otherCountries.forEach(name => {
+  const country = countryJs.info(name, 'name');
+
+  let data = country.geoJSON;
+
+  data.eaCount = 0;
+  data.country = country.name;
+  data.countryAlpha2 = country.ISO.alpha2;
+  data.population = country.population;
+  data.eaPerMillion = 0;
 
   processed.push(data);
 });

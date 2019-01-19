@@ -20,7 +20,8 @@
         "title": "EAs per million"
       },
       "scale": {
-        "scheme": "blues"
+        "domain": [0, 0.009,8],
+        "range": ["#FFFFFF","#F6FAFF","#083B7B"]
       }
     },
     "tooltip": [
