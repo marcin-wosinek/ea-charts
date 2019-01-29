@@ -1,0 +1,15 @@
+{
+  "title": "EA saturation - cities",
+  "width": 1000,
+  "height": 750,
+  "data": {
+    "url": "../data/all-countries.json",
+    "type": "topojson"
+  },
+  "projection": "mercator",
+  "mark": {
+    "type": "geoshape",
+    "stroke": "black",
+    "strokeWidth": 0.3
+  }
+}
