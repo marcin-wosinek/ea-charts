@@ -2,14 +2,48 @@
   "title": "EA saturation - cities",
   "width": 1000,
   "height": 750,
-  "data": {
-    "url": "../data/all-countries.json",
-    "type": "topojson"
-  },
-  "projection": "mercator",
-  "mark": {
-    "type": "geoshape",
-    "stroke": "black",
-    "strokeWidth": 0.3
-  }
+  "layer": [
+    {
+      "data": {
+        "url": "../data/all-countries.json",
+        "type": "topojson"
+      },
+      "projection": "mercator",
+      "mark": {
+        "type": "geoshape",
+        "stroke": "black",
+        "strokeWidth": 0.3
+      }
+    },
+    {
+      "data": {
+        "url": "../data/all-cities.json"
+      },
+      "projection": "mercator",
+      "mark": {
+        "type": "circle"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "value",
+          "scale": {"type": "sqrt"}
+        },
+        "tooltip": [{
+          "field": "formatted_address",
+          "title": "city"
+        }, {
+          "field": "value",
+          "title": "Number of EA"
+        }]
+      }
+    }
+  ]
 }

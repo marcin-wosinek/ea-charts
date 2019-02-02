@@ -40,7 +40,9 @@ const promises = _.map(counted, async (value, key) => {
     name: key,
     value: value,
     formatted_address: result.formatted_address,
-    location: result.geometry.location
+    location: result.geometry.location,
+    longitude: result.geometry.location.lng,
+    latitude: result.geometry.location.lat
   });
 });
 
