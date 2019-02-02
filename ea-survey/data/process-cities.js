@@ -6,7 +6,13 @@ const _ = require('lodash'),
   fs = require('fs'),
   file = fs.readFileSync('./ea-survey/data/Cities combined.csv', 'utf8'),
   d3Dsv = require('d3-dsv'),
-  worldCountries = require("world-atlas/world/110m.json");
+  worldCountries = require('world-atlas/world/110m.json'),
+  key = fs.readFileSync('/home/marcin/.keys/google.api', 'utf8');
+
+const googleMapsClient = require('@google/maps').createClient({
+  key,
+  Promise,
+});
 
 const data = d3Dsv.csvParse(file),
   counted = _.countBy(data, 'Cities');
@@ -17,71 +23,31 @@ fs.writeFileSync(
   'utf8',
 );
 
-return;
-
-_.each(data, row => {
-  const countryRaw = row['In what country do you live? Response'];
-  let foundCountry = countryJs.ISOcodes(countryRaw, 'name');
-
-  if (!foundCountry) {
-    switch (countryRaw) {
-      case 'Myanmar': // BU or MM
-      case 'Serbia': // RS
-        return;
-      case 'United Kingdom of Great Britain and Northern Ireland':
-        foundCountry = countryJs.ISOcodes('GB');
-        break;
-      case 'The former Yugoslav Republic of Macedonia':
-        foundCountry = countryJs.ISOcodes('MK');
-        break;
-      default:
-        console.warn(countryRaw);
-    }
-  }
-
-  const country = foundCountry ? foundCountry.alpha2 : countryRaw;
-
-  if (counted[country]) {
-    counted[country]++;
-  } else {
-    counted[country] = 1;
-  }
-});
-
 const processed = [];
 
-_.each(counted, (value, key) => {
-  const country = countryJs.info(key);
+let count = 0;
 
-  otherCountries.delete(country.name);
+const promises = _.map(counted, async (value, key) => {
+  const response = await googleMapsClient.geocode({address: key}).asPromise();
 
-  let data = country.geoJSON;
+  const result = response.json.results[0];
 
-  data.eaCount = value;
-  data.country = country.name;
-  data.countryAlpha2 = key;
-  data.population = country.population;
-  data.eaPerMillion = (value * 1000000) / country.population;
+  if (!result || !result.geometry) {
+    console.error('failed to understand', key);
+  }
 
-  processed.push(data);
+  processed.push({
+    name: key,
+    value: value,
+    formatted_address: result.formatted_address,
+    location: result.geometry.location
+  });
 });
 
-otherCountries.forEach(name => {
-  const country = countryJs.info(name, 'name');
-
-  let data = country.geoJSON;
-
-  data.eaCount = 0;
-  data.country = country.name;
-  data.countryAlpha2 = country.ISO.alpha2;
-  data.population = country.population;
-  data.eaPerMillion = 0;
-
-  processed.push(data);
+Promise.all(promises).finally(() => {
+  fs.writeFileSync(
+    'ea-survey/data/all-cities.json',
+    JSON.stringify(processed),
+    'utf8',
+  );
 });
-
-fs.writeFileSync(
-  'ea-survey/data/all-countries.json',
-  JSON.stringify(processed),
-  'utf8',
-);
