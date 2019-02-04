@@ -2,7 +2,7 @@
   "title": "EA saturation - cities",
   "width": 1000,
   "height": 750,
-  "projection": {"type": "mercator"},
+  "projection": {"type": "mercator", "clipExtent": [[0, 0], [1000, 750]]},
   "layer": [
     {
       "data": {
@@ -22,6 +22,11 @@
       "mark": {
         "type": "circle"
       },
+      "transform": [
+        {
+          "filter": "datum.longitude < 51 && datum.longitude > -17 && datum.latitude < 75 && datum.latitude > 22"
+        }
+      ],
       "encoding": {
         "longitude": {
           "field": "longitude",

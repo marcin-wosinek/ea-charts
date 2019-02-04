@@ -51,7 +51,6 @@ function translate(city) {
       return 'Witten, Germany';
   }
 
-  //return false;
   return city;
 }
 
