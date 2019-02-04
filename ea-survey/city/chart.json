@@ -1,5 +1,5 @@
 {
-  "title": "EA saturation - cities",
+  "title": "EA cities - Europe",
   "width": 1000,
   "height": 750,
   "projection": {"type": "mercator", "clipExtent": [[0, 0], [1000, 750]]},
@@ -36,10 +36,16 @@
           "field": "latitude",
           "type": "quantitative"
         },
+        "opacity": {
+          "value": "0.4"
+        },
         "size": {
           "field": "value",
           "type": "quantitative",
-          "scale": {"type": "sqrt"}
+          "scale": {
+            "domain": [0, 200],
+            "range": [0, 4000]
+          }
         },
         "tooltip": [
           {
