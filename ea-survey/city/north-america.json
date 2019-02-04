@@ -1,5 +1,5 @@
 {
-  "title": "EA cities",
+  "title": "EA cities - North America",
   "width": 1000,
   "height": 750,
   "projection": {"type": "mercator", "clipExtent": [[0, 0], [1000, 750]]},
@@ -22,6 +22,11 @@
       "mark": {
         "type": "circle"
       },
+      "transform": [
+        {
+          "filter": "datum.longitude < -50 && datum.longitude > -177 && datum.latitude < 180 && datum.latitude > 10"
+        }
+      ],
       "encoding": {
         "longitude": {
           "field": "longitude",
@@ -32,7 +37,7 @@
           "type": "quantitative"
         },
         "opacity": {
-          "value": "0.2"
+          "value": "0.4"
         },
         "size": {
           "field": "value",

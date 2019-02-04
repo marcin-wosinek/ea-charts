@@ -9,6 +9,7 @@
     "build:ea-survey": "npm-run-all build:ea-survey:*",
     "build:ea-survey:individual-donations": "cd ./ea-survey/individual-donations/; vl2png histogram.json > histogram.png; vl2png cumulative.json > cumulative.png; vl2png percent-per-group.json > percent-per-group.png",
     "build:ea-survey:country": "cd ./ea-survey/country/; vl2png bar-chart.json > bar-chart.png",
+    "build:ea-survey:country": "cd ./ea-survey/city/; vl2png north-america.json > north-america.png; vl2png europe.json > europe.png; vl2png chart.json > chart.png",
     "build:ea-survey:age": "cd ./ea-survey/age/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:top-priorities": "cd ./ea-survey/top-priorities/; vl2png bar-chart.json > bar-chart.png",
     "build:ea-survey:ea-carrer": "cd ./ea-survey/ea-career/; vl2png bar-chart.json > bar-chart.png",

@@ -1,5 +1,5 @@
 {
-  "title": "EA cities",
+  "title": "EA cities - Europe",
   "width": 1000,
   "height": 750,
   "projection": {"type": "mercator", "clipExtent": [[0, 0], [1000, 750]]},
@@ -22,6 +22,11 @@
       "mark": {
         "type": "circle"
       },
+      "transform": [
+        {
+          "filter": "datum.longitude < 51 && datum.longitude > -17 && datum.latitude < 75 && datum.latitude > 22"
+        }
+      ],
       "encoding": {
         "longitude": {
           "field": "longitude",
@@ -32,7 +37,7 @@
           "type": "quantitative"
         },
         "opacity": {
-          "value": "0.2"
+          "value": "0.4"
         },
         "size": {
           "field": "value",
