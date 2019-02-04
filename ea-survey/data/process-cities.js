@@ -25,19 +25,53 @@ fs.writeFileSync(
 
 const processed = [];
 
-let count = 0;
+function translate(city) {
+  switch(city) {
+    case 'Warsaw':
+      return 'Warszawa';
+    case 'London (ON)':
+      return 'London, Ontario, Canada';
+    case 'SF Bay Area':
+      return 'San Francisco'
+    case 'Oxford':
+      return 'Oxford, UK'
+    case 'Boston':
+      return 'Boston, UK'
+    case 'Cambridge (UK)':
+      return 'Cambridge, UK'
+    case 'Durham':
+      return 'Durham, UK'
+    case 'Ruhr Valley':
+      return 'Ruhr';
+    case 'Waterloo':
+      return 'Ruhr, Belgium';
+    case 'Yorkshire':
+      return 'County of York, England';
+    case 'Witten':
+      return 'Witten, Germany';
+  }
+
+  //return false;
+  return city;
+}
 
 const promises = _.map(counted, async (value, key) => {
-  const response = await googleMapsClient.geocode({address: key}).asPromise();
+  const city = translate(key);
+
+  if (!city) {
+    return;
+  }
+
+  const response = await googleMapsClient.geocode({address: city}).asPromise();
 
   const result = response.json.results[0];
 
-  if (!result || !result.geometry) {
-    console.error('failed to understand', key);
+  if (!result || !result.geometry || !result.formatted_address) {
+    console.error('failed to understand', city);
   }
 
   processed.push({
-    name: key,
+    name: city,
     value: value,
     formatted_address: result.formatted_address,
     location: result.geometry.location,
