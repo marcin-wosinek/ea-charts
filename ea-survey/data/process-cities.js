@@ -26,7 +26,7 @@ fs.writeFileSync(
 const processed = [];
 
 function translate(city) {
-  switch(city) {
+  switch (city) {
     case 'Warsaw':
       return 'Warszawa';
     case 'London (ON)':
@@ -75,14 +75,24 @@ const promises = _.map(counted, async (value, key) => {
     formatted_address: result.formatted_address,
     location: result.geometry.location,
     longitude: result.geometry.location.lng,
-    latitude: result.geometry.location.lat
+    latitude: result.geometry.location.lat,
   });
 });
 
 Promise.all(promises).finally(() => {
+  const combined = _.chain(processed)
+    .groupBy(city => city.formatted_address)
+    .map(cityGroup => {
+      return _.reduce(cityGroup, (currentCity, nextCity) => {
+        currentCity.value += nextCity.value;
+        return currentCity;
+      });
+    })
+    .value();
+
   fs.writeFileSync(
     'ea-survey/data/all-cities.json',
-    JSON.stringify(processed),
+    JSON.stringify(combined),
     'utf8',
   );
 });
