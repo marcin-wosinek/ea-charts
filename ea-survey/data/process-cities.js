@@ -7,7 +7,8 @@ const _ = require('lodash'),
   file = fs.readFileSync('./ea-survey/data/Cities combined.csv', 'utf8'),
   d3Dsv = require('d3-dsv'),
   worldCountries = require('world-atlas/world/110m.json'),
-  key = fs.readFileSync('/home/marcin/.keys/google.api', 'utf8');
+  key = fs.readFileSync('/home/marcin/.keys/google.api', 'utf8'),
+  stringify = require('json-stable-stringify');
 
 const googleMapsClient = require('@google/maps').createClient({
   key,
@@ -19,7 +20,7 @@ const data = d3Dsv.csvParse(file),
 
 fs.writeFileSync(
   'ea-survey/data/world-countries.json',
-  JSON.stringify(worldCountries),
+  stringify(worldCountries, {space: '  '}),
   'utf8',
 );
 
@@ -32,15 +33,15 @@ function translate(city) {
     case 'London (ON)':
       return 'London, Ontario, Canada';
     case 'SF Bay Area':
-      return 'San Francisco'
+      return 'San Francisco';
     case 'Oxford':
-      return 'Oxford, UK'
+      return 'Oxford, UK';
     case 'Boston':
-      return 'Boston, UK'
+      return 'Boston, UK';
     case 'Cambridge (UK)':
-      return 'Cambridge, UK'
+      return 'Cambridge, UK';
     case 'Durham':
-      return 'Durham, UK'
+      return 'Durham, UK';
     case 'Ruhr Valley':
       return 'Ruhr';
     case 'Waterloo':
@@ -54,6 +55,8 @@ function translate(city) {
   return city;
 }
 
+const vague = [];
+
 const promises = _.map(counted, async (value, key) => {
   const city = translate(key);
 
@@ -64,6 +67,10 @@ const promises = _.map(counted, async (value, key) => {
   const response = await googleMapsClient.geocode({address: city}).asPromise();
 
   const result = response.json.results[0];
+
+  if (response.json.results.length > 1) {
+    vague.push(response.json.results);
+  }
 
   if (!result || !result.geometry || !result.formatted_address) {
     console.error('failed to understand', city);
@@ -94,7 +101,19 @@ Promise.all(promises).finally(() => {
 
   fs.writeFileSync(
     'ea-survey/data/all-cities.json',
-    JSON.stringify(combined),
+    stringify(combined, {space: '  '}),
+    'utf8',
+  );
+
+  console.log(
+    `there is ${
+      vague.length
+    } vague locations (more than 1 match in google api)`,
+  );
+
+  fs.writeFileSync(
+    'ea-survey/data/vague-cities.json',
+    stringify(vague, {space: '  '}),
     'utf8',
   );
 });

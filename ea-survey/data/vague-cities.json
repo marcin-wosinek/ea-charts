@@ -1,0 +1,5248 @@
+[
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Aalborg",
+          "short_name": "Aalborg",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Denmark",
+          "short_name": "DK",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Aalborg, Denmark",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 57.07916789999999,
+            "lng": 10.0656796
+          },
+          "southwest": {
+            "lat": 56.9745056,
+            "lng": 9.7498684
+          }
+        },
+        "location": {
+          "lat": 57.0488195,
+          "lng": 9.921747
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 57.07916789999999,
+            "lng": 10.0656796
+          },
+          "southwest": {
+            "lat": 56.9745056,
+            "lng": 9.7498684
+          }
+        }
+      },
+      "place_id": "ChIJDT3fX7IzSUYRwybsLmq0sU4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Aalborg Municipality",
+          "short_name": "Aalborg Municipality",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Denmark",
+          "short_name": "DK",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Aalborg Municipality, Denmark",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 57.23001989999999,
+            "lng": 10.389417
+          },
+          "southwest": {
+            "lat": 56.810939,
+            "lng": 9.3910421
+          }
+        },
+        "location": {
+          "lat": 56.99619209999999,
+          "lng": 9.9907108
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 57.23001989999999,
+            "lng": 10.389417
+          },
+          "southwest": {
+            "lat": 56.810939,
+            "lng": 9.3910421
+          }
+        }
+      },
+      "place_id": "ChIJPWUQiZPvS0YR_eGH08ZIdvY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Baden",
+          "short_name": "Baden",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Baden District",
+          "short_name": "Baden District",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Aargau",
+          "short_name": "AG",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Switzerland",
+          "short_name": "CH",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Baden, Switzerland",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 47.4855001,
+            "lng": 8.3180342
+          },
+          "southwest": {
+            "lat": 47.4326116,
+            "lng": 8.258751
+          }
+        },
+        "location": {
+          "lat": 47.47288,
+          "lng": 8.30809
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 47.4855001,
+            "lng": 8.3180342
+          },
+          "southwest": {
+            "lat": 47.4326116,
+            "lng": 8.258751
+          }
+        }
+      },
+      "place_id": "ChIJ7Y326MZskEcRQFdiJY87Iys",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Baden bei Wien",
+          "short_name": "Baden bei Wien",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Baden District",
+          "short_name": "Baden District",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Lower Austria",
+          "short_name": "Lower Austria",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Austria",
+          "short_name": "AT",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "2500",
+          "short_name": "2500",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "2500 Baden bei Wien, Austria",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 48.0245101,
+            "lng": 16.3025999
+          },
+          "southwest": {
+            "lat": 47.96400999999999,
+            "lng": 16.1720699
+          }
+        },
+        "location": {
+          "lat": 48.00214,
+          "lng": 16.23091
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 48.0245101,
+            "lng": 16.3025999
+          },
+          "southwest": {
+            "lat": 47.96400999999999,
+            "lng": 16.1720699
+          }
+        }
+      },
+      "place_id": "ChIJu2wdYYCwbUcRWrT9Xz_ONm8",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Baden",
+          "short_name": "Baden",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Beaver County",
+          "short_name": "Beaver County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Pennsylvania",
+          "short_name": "PA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Baden, PA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.65624589999999,
+            "lng": -80.2060821
+          },
+          "southwest": {
+            "lat": 40.626166,
+            "lng": -80.23837390000001
+          }
+        },
+        "location": {
+          "lat": 40.6350668,
+          "lng": -80.22811589999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.65624589999999,
+            "lng": -80.2060821
+          },
+          "southwest": {
+            "lat": 40.626166,
+            "lng": -80.23837390000001
+          }
+        }
+      },
+      "place_id": "ChIJ8Rq7vTBkNIgRFgdyZEBU0pY",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Batavia",
+          "short_name": "Batavia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Batavia Township",
+          "short_name": "Batavia Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kane County",
+          "short_name": "Kane County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Illinois",
+          "short_name": "IL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Batavia, IL, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.8713089,
+            "lng": -88.259776
+          },
+          "southwest": {
+            "lat": 41.8198651,
+            "lng": -88.3628459
+          }
+        },
+        "location": {
+          "lat": 41.8500284,
+          "lng": -88.3125738
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.8713089,
+            "lng": -88.259776
+          },
+          "southwest": {
+            "lat": 41.8198651,
+            "lng": -88.3628459
+          }
+        }
+      },
+      "place_id": "ChIJQ-DbM7j8DogRJCXW8TgXle4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Batavia",
+          "short_name": "Batavia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Batavia",
+          "short_name": "Batavia",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Genesee County",
+          "short_name": "Genesee County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New York",
+          "short_name": "NY",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "14020",
+          "short_name": "14020",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Batavia, NY 14020, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.017361,
+            "lng": -78.149896
+          },
+          "southwest": {
+            "lat": 42.980779,
+            "lng": -78.212848
+          }
+        },
+        "location": {
+          "lat": 42.9981156,
+          "lng": -78.1875167
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.017361,
+            "lng": -78.149896
+          },
+          "southwest": {
+            "lat": 42.980779,
+            "lng": -78.212848
+          }
+        }
+      },
+      "place_id": "ChIJ8fiC-EPu04kRVZTS1TTd5Tc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Bern",
+          "short_name": "Bern",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Bern",
+          "short_name": "Bern",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canton of Bern",
+          "short_name": "BE",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Switzerland",
+          "short_name": "CH",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Bern, Switzerland",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 46.99019,
+            "lng": 7.495510099999999
+          },
+          "southwest": {
+            "lat": 46.9191499,
+            "lng": 7.294230000000001
+          }
+        },
+        "location": {
+          "lat": 46.9479739,
+          "lng": 7.4474468
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 46.99019,
+            "lng": 7.495510099999999
+          },
+          "southwest": {
+            "lat": 46.9191499,
+            "lng": 7.294230000000001
+          }
+        }
+      },
+      "place_id": "ChIJdxs61MA5jkcRmmVXBP5fVcs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Berne",
+          "short_name": "Berne",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Wabash Township",
+          "short_name": "Wabash Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Adams County",
+          "short_name": "Adams County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Indiana",
+          "short_name": "IN",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "46711",
+          "short_name": "46711",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Berne, IN 46711, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.672497,
+            "lng": -84.936465
+          },
+          "southwest": {
+            "lat": 40.643002,
+            "lng": -84.975938
+          }
+        },
+        "location": {
+          "lat": 40.6578242,
+          "lng": -84.9519115
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.672497,
+            "lng": -84.936465
+          },
+          "southwest": {
+            "lat": 40.643002,
+            "lng": -84.975938
+          }
+        }
+      },
+      "place_id": "ChIJbWGpSZeHFYgRR_tCA7dLVko",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Berne",
+          "short_name": "Berne",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Wesermarsch",
+          "short_name": "Wesermarsch",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Lower Saxony",
+          "short_name": "NDS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Germany",
+          "short_name": "DE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "27804",
+          "short_name": "27804",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "27804 Berne, Germany",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 53.22789119999999,
+            "lng": 8.5786061
+          },
+          "southwest": {
+            "lat": 53.1188649,
+            "lng": 8.3860714
+          }
+        },
+        "location": {
+          "lat": 53.1814974,
+          "lng": 8.4826433
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 53.22789119999999,
+            "lng": 8.5786061
+          },
+          "southwest": {
+            "lat": 53.1188649,
+            "lng": 8.3860714
+          }
+        }
+      },
+      "place_id": "ChIJr5Ts2znRtkcRS4mBukrwWF4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Bristol",
+          "short_name": "Bristol",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "City of Bristol",
+          "short_name": "City of Bristol",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Bristol, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 51.5444326,
+            "lng": -2.4509024
+          },
+          "southwest": {
+            "lat": 51.39254529999999,
+            "lng": -2.7305326
+          }
+        },
+        "location": {
+          "lat": 51.454513,
+          "lng": -2.58791
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 51.5444326,
+            "lng": -2.4509024
+          },
+          "southwest": {
+            "lat": 51.39254529999999,
+            "lng": -2.7305326
+          }
+        }
+      },
+      "place_id": "ChIJYdizgWaDcUgRH9eaSy6y5I4",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Bristol",
+          "short_name": "Bristol",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Hartford County",
+          "short_name": "Hartford County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Connecticut",
+          "short_name": "CT",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "06010",
+          "short_name": "06010",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Bristol, CT 06010, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.7235979,
+            "lng": -72.8833729
+          },
+          "southwest": {
+            "lat": 41.6395989,
+            "lng": -72.99855
+          }
+        },
+        "location": {
+          "lat": 41.67176480000001,
+          "lng": -72.9492703
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.7235979,
+            "lng": -72.8833729
+          },
+          "southwest": {
+            "lat": 41.6395989,
+            "lng": -72.99855
+          }
+        }
+      },
+      "place_id": "ChIJp6GRxEu654kRJwy7dYth-WI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Coventry",
+          "short_name": "Coventry",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Coventry",
+          "short_name": "Coventry",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "West Midlands",
+          "short_name": "West Midlands",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Coventry, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 52.4634723,
+            "lng": -1.4239508
+          },
+          "southwest": {
+            "lat": 52.3639108,
+            "lng": -1.6058853
+          }
+        },
+        "location": {
+          "lat": 52.406822,
+          "lng": -1.519693
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 52.4634723,
+            "lng": -1.4239508
+          },
+          "southwest": {
+            "lat": 52.3639108,
+            "lng": -1.6058853
+          }
+        }
+      },
+      "place_id": "ChIJtyJuZVGxcEgRiQZPVvVg9gQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Coventry",
+          "short_name": "Coventry",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kent County",
+          "short_name": "Kent County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Rhode Island",
+          "short_name": "RI",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Coventry, RI, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.730208,
+            "lng": -71.5324061
+          },
+          "southwest": {
+            "lat": 41.6560649,
+            "lng": -71.789703
+          }
+        },
+        "location": {
+          "lat": 41.6885978,
+          "lng": -71.5642076
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.730208,
+            "lng": -71.5324061
+          },
+          "southwest": {
+            "lat": 41.6560649,
+            "lng": -71.789703
+          }
+        }
+      },
+      "place_id": "ChIJxU5US6k05IkRxRSKECkaVDM",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Dundee",
+          "short_name": "Dundee",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Dundee City",
+          "short_name": "Dundee City",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Scotland",
+          "short_name": "Scotland",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Dundee, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 56.50559699999999,
+            "lng": -2.8356419
+          },
+          "southwest": {
+            "lat": 56.4436037,
+            "lng": -3.0980246
+          }
+        },
+        "location": {
+          "lat": 56.462018,
+          "lng": -2.970721
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 56.50559699999999,
+            "lng": -2.8356419
+          },
+          "southwest": {
+            "lat": 56.4436037,
+            "lng": -3.0980246
+          }
+        }
+      },
+      "place_id": "ChIJ05xjq0RBhkgRKuVLOB475JQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Dundee",
+          "short_name": "Dundee",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Yamhill County",
+          "short_name": "Yamhill County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Oregon",
+          "short_name": "OR",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "97115",
+          "short_name": "97115",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Dundee, OR 97115, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.28621400000001,
+            "lng": -122.9824963
+          },
+          "southwest": {
+            "lat": 45.264633,
+            "lng": -123.0250465
+          }
+        },
+        "location": {
+          "lat": 45.27958539999999,
+          "lng": -123.0095137
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.28621400000001,
+            "lng": -122.9824963
+          },
+          "southwest": {
+            "lat": 45.264633,
+            "lng": -123.0250465
+          }
+        }
+      },
+      "place_id": "ChIJDfmChApBlVQRvFM7S-hSXfA",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Dundee",
+          "short_name": "Dundee",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Dundee Township",
+          "short_name": "Dundee Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Monroe County",
+          "short_name": "Monroe County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Michigan",
+          "short_name": "MI",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "48131",
+          "short_name": "48131",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Dundee, MI 48131, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.997356,
+            "lng": -83.6320799
+          },
+          "southwest": {
+            "lat": 41.9422858,
+            "lng": -83.69316409999999
+          }
+        },
+        "location": {
+          "lat": 41.9572676,
+          "lng": -83.6596596
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.997356,
+            "lng": -83.6320799
+          },
+          "southwest": {
+            "lat": 41.9422858,
+            "lng": -83.69316409999999
+          }
+        }
+      },
+      "place_id": "ChIJtX91rIibPIgRUufWnU2xfks",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Exeter",
+          "short_name": "Exeter",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Exeter",
+          "short_name": "Exeter",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Devon",
+          "short_name": "Devon",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Exeter, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 50.76146490000001,
+            "lng": -3.456359
+          },
+          "southwest": {
+            "lat": 50.6873915,
+            "lng": -3.570736
+          }
+        },
+        "location": {
+          "lat": 50.718412,
+          "lng": -3.533899
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 50.76146490000001,
+            "lng": -3.456359
+          },
+          "southwest": {
+            "lat": 50.6873915,
+            "lng": -3.570736
+          }
+        }
+      },
+      "place_id": "ChIJp41J1MRSbEgRHq3fayXjdqk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Exeter",
+          "short_name": "Exeter",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Exeter",
+          "short_name": "Exeter",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Rockingham County",
+          "short_name": "Rockingham County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New Hampshire",
+          "short_name": "NH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "03833",
+          "short_name": "03833",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Exeter, NH 03833, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 43.0338601,
+            "lng": -70.887699
+          },
+          "southwest": {
+            "lat": 42.956986,
+            "lng": -71.0138839
+          }
+        },
+        "location": {
+          "lat": 42.9814292,
+          "lng": -70.9477546
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 43.0338601,
+            "lng": -70.887699
+          },
+          "southwest": {
+            "lat": 42.956986,
+            "lng": -71.0138839
+          }
+        }
+      },
+      "place_id": "ChIJ-damMYvu4okRMRjH2GEMmHk",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Exeter",
+          "short_name": "Exeter",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Tulare County",
+          "short_name": "Tulare County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "California",
+          "short_name": "CA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "93221",
+          "short_name": "93221",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Exeter, CA 93221, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 36.306502,
+            "lng": -119.127593
+          },
+          "southwest": {
+            "lat": 36.268311,
+            "lng": -119.167487
+          }
+        },
+        "location": {
+          "lat": 36.2960613,
+          "lng": -119.1420517
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 36.306502,
+            "lng": -119.127593
+          },
+          "southwest": {
+            "lat": 36.268311,
+            "lng": -119.167487
+          }
+        }
+      },
+      "place_id": "ChIJN8Nu_74zlYARIqSc-5jbc-E",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Germantown",
+          "short_name": "Germantown",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Shelby County",
+          "short_name": "Shelby County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Tennessee",
+          "short_name": "TN",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Germantown, TN, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.1214901,
+            "lng": -89.7350589
+          },
+          "southwest": {
+            "lat": 35.0285018,
+            "lng": -89.84539079999999
+          }
+        },
+        "location": {
+          "lat": 35.0867577,
+          "lng": -89.8100858
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.1214901,
+            "lng": -89.7350589
+          },
+          "southwest": {
+            "lat": 35.0285018,
+            "lng": -89.84539079999999
+          }
+        }
+      },
+      "place_id": "ChIJTS_af2CDf4gRP0zvofxd680",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Germantown",
+          "short_name": "Germantown",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Montgomery County",
+          "short_name": "Montgomery County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maryland",
+          "short_name": "MD",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Germantown, MD, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.2067559,
+            "lng": -77.22032879999999
+          },
+          "southwest": {
+            "lat": 39.1453929,
+            "lng": -77.30254409999999
+          }
+        },
+        "location": {
+          "lat": 39.1731621,
+          "lng": -77.2716502
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.2067559,
+            "lng": -77.22032879999999
+          },
+          "southwest": {
+            "lat": 39.1453929,
+            "lng": -77.30254409999999
+          }
+        }
+      },
+      "place_id": "ChIJaVb1SHUrtokRhQqCsheruOE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Germantown",
+          "short_name": "Germantown",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Morton",
+          "short_name": "Morton",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Philadelphia",
+          "short_name": "Philadelphia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Philadelphia County",
+          "short_name": "Philadelphia County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Pennsylvania",
+          "short_name": "PA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Germantown, Philadelphia, PA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.0458109,
+            "lng": -75.159221
+          },
+          "southwest": {
+            "lat": 40.017512,
+            "lng": -75.19292209999999
+          }
+        },
+        "location": {
+          "lat": 40.028521,
+          "lng": -75.1749671
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.0458109,
+            "lng": -75.159221
+          },
+          "southwest": {
+            "lat": 40.017512,
+            "lng": -75.19292209999999
+          }
+        }
+      },
+      "place_id": "ChIJL8zVjTe4xokRKlat_dVrHuA",
+      "types": [
+        "neighborhood",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Halifax Regional Municipality",
+          "short_name": "Halifax Regional Municipality",
+          "types": [
+            "administrative_area_level_2",
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Nova Scotia",
+          "short_name": "NS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Halifax Regional Municipality, NS, Canada",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.2761,
+            "lng": -58.227553
+          },
+          "southwest": {
+            "lat": 42.1770179,
+            "lng": -64.2371771
+          }
+        },
+        "location": {
+          "lat": 44.64876350000001,
+          "lng": -63.5752387
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 45.2761,
+            "lng": -58.227553
+          },
+          "southwest": {
+            "lat": 42.1770179,
+            "lng": -64.2371771
+          }
+        }
+      },
+      "place_id": "ChIJxesm0LsTRUsRW2dKWg1nkM0",
+      "types": [
+        "administrative_area_level_2",
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Halifax",
+          "short_name": "Halifax",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Plymouth County",
+          "short_name": "Plymouth County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Massachusetts",
+          "short_name": "MA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "02338",
+          "short_name": "02338",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Halifax, MA 02338, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.0266631,
+            "lng": -70.806384
+          },
+          "southwest": {
+            "lat": 41.9484051,
+            "lng": -70.912212
+          }
+        },
+        "location": {
+          "lat": 41.99121299999999,
+          "lng": -70.86198499999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.0266631,
+            "lng": -70.806384
+          },
+          "southwest": {
+            "lat": 41.9484051,
+            "lng": -70.912212
+          }
+        }
+      },
+      "place_id": "ChIJjb_9tQmX5IkRbJyeevFodvU",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Kenilworth",
+          "short_name": "Kenilworth",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Union County",
+          "short_name": "Union County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New Jersey",
+          "short_name": "NJ",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Kenilworth, NJ, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.6911039,
+            "lng": -74.269352
+          },
+          "southwest": {
+            "lat": 40.665187,
+            "lng": -74.3145519
+          }
+        },
+        "location": {
+          "lat": 40.6764911,
+          "lng": -74.2907032
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.6911039,
+            "lng": -74.269352
+          },
+          "southwest": {
+            "lat": 40.665187,
+            "lng": -74.3145519
+          }
+        }
+      },
+      "place_id": "ChIJlXr2WQqyw4kRWwYEi2JQtkc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Kenilworth",
+          "short_name": "Kenilworth",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kenilworth",
+          "short_name": "Kenilworth",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Warwickshire",
+          "short_name": "Warwickshire",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "CV8",
+          "short_name": "CV8",
+          "types": [
+            "postal_code",
+            "postal_code_prefix"
+          ]
+        }
+      ],
+      "formatted_address": "Kenilworth CV8, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 52.3621734,
+            "lng": -1.5383786
+          },
+          "southwest": {
+            "lat": 52.3301968,
+            "lng": -1.5959881
+          }
+        },
+        "location": {
+          "lat": 52.349557,
+          "lng": -1.58073
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 52.3621734,
+            "lng": -1.5383786
+          },
+          "southwest": {
+            "lat": 52.3301968,
+            "lng": -1.5959881
+          }
+        }
+      },
+      "place_id": "ChIJycY3_gm1cEgRZdt-gne8anw",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Kenilworth",
+          "short_name": "Kenilworth",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New Trier Township",
+          "short_name": "New Trier Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Cook County",
+          "short_name": "Cook County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Illinois",
+          "short_name": "IL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "60043",
+          "short_name": "60043",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Kenilworth, IL 60043, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.0954839,
+            "lng": -87.70278449999999
+          },
+          "southwest": {
+            "lat": 42.0826454,
+            "lng": -87.72606069999999
+          }
+        },
+        "location": {
+          "lat": 42.085862,
+          "lng": -87.71756069999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.0954839,
+            "lng": -87.70278449999999
+          },
+          "southwest": {
+            "lat": 42.0826454,
+            "lng": -87.72606069999999
+          }
+        }
+      },
+      "place_id": "ChIJ0cjBjwrGD4gR3Ae12yufq2Q",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Leeds",
+          "short_name": "Leeds",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "West Yorkshire",
+          "short_name": "West Yorkshire",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Leeds, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 53.8812021,
+            "lng": -1.3973731
+          },
+          "southwest": {
+            "lat": 53.7308029,
+            "lng": -1.6740915
+          }
+        },
+        "location": {
+          "lat": 53.8007554,
+          "lng": -1.5490774
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 53.8812021,
+            "lng": -1.3973731
+          },
+          "southwest": {
+            "lat": 53.7308029,
+            "lng": -1.6740915
+          }
+        }
+      },
+      "place_id": "ChIJmb1k2ko-eUgRqdwTAv26rVE",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "City of Leeds",
+          "short_name": "City of Leeds",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "West Yorkshire",
+          "short_name": "West Yorkshire",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "City of Leeds, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 53.9458715,
+            "lng": -1.2903822
+          },
+          "southwest": {
+            "lat": 53.6989844,
+            "lng": -1.8003592
+          }
+        },
+        "location": {
+          "lat": 53.8578054,
+          "lng": -1.5023113
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 53.9458715,
+            "lng": -1.2903822
+          },
+          "southwest": {
+            "lat": 53.6989844,
+            "lng": -1.8003592
+          }
+        }
+      },
+      "place_id": "ChIJYXT0cPtbeUgRUOJs7Z75DAQ",
+      "types": [
+        "administrative_area_level_3",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Lincoln",
+          "short_name": "Lincoln",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Lincoln Township",
+          "short_name": "Lincoln Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Washington County",
+          "short_name": "Washington County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Arkansas",
+          "short_name": "AR",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "72744",
+          "short_name": "72744",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Lincoln, AR 72744, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.970863,
+            "lng": -94.38255009999999
+          },
+          "southwest": {
+            "lat": 35.9334458,
+            "lng": -94.43988999999999
+          }
+        },
+        "location": {
+          "lat": 35.949526,
+          "lng": -94.4235482
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.970863,
+            "lng": -94.38255009999999
+          },
+          "southwest": {
+            "lat": 35.9334458,
+            "lng": -94.43988999999999
+          }
+        }
+      },
+      "place_id": "ChIJs2Jz41WCyYcR01gDA8CmiJw",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "201",
+          "short_name": "201",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "East 1st Avenue",
+          "short_name": "E 1st Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Caney",
+          "short_name": "Caney",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Montgomery County",
+          "short_name": "Montgomery County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "67333",
+          "short_name": "67333",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "1999",
+          "short_name": "1999",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "201 E 1st Ave, Caney, KS 67333, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.0149484,
+          "lng": -95.93291099999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0162973802915,
+            "lng": -95.9315620197085
+          },
+          "southwest": {
+            "lat": 37.01359941970851,
+            "lng": -95.9342599802915
+          }
+        }
+      },
+      "place_id": "ChIJx2IkhwRlt4cRdrUsnRpY2Gs",
+      "plus_code": {
+        "compound_code": "2378+XR Caney, KS, United States",
+        "global_code": "86962378+XR"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "school"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "401",
+          "short_name": "401",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "East Main Street",
+          "short_name": "E Main St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Cherryvale",
+          "short_name": "Cherryvale",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Montgomery County",
+          "short_name": "Montgomery County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "67335",
+          "short_name": "67335",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "1524",
+          "short_name": "1524",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "401 E Main St, Cherryvale, KS 67335, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.2681531,
+          "lng": -95.547198
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2695020802915,
+            "lng": -95.5458490197085
+          },
+          "southwest": {
+            "lat": 37.2668041197085,
+            "lng": -95.5485469802915
+          }
+        }
+      },
+      "place_id": "ChIJfaN5mu4luIcRdlvFb2Egq6s",
+      "plus_code": {
+        "compound_code": "7F93+74 Cherryvale, Kansas, United States",
+        "global_code": "86967F93+74"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "school"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "801",
+          "short_name": "801",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Lincoln Avenue",
+          "short_name": "Lincoln Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Baxter Springs",
+          "short_name": "Baxter Springs",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Cherokee County",
+          "short_name": "Cherokee County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "66713",
+          "short_name": "66713",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "2429",
+          "short_name": "2429",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "801 Lincoln Ave, Baxter Springs, KS 66713, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.0279165,
+          "lng": -94.7377089
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.0292654802915,
+            "lng": -94.73635991970849
+          },
+          "southwest": {
+            "lat": 37.0265675197085,
+            "lng": -94.73905788029151
+          }
+        }
+      },
+      "place_id": "ChIJbcXrm6gSyIcRG_fzuJ5HEts",
+      "plus_code": {
+        "compound_code": "27H6+5W Baxter Springs, Kansas, United States",
+        "global_code": "869727H6+5W"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "school"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "1800",
+          "short_name": "1800",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Dirr Avenue",
+          "short_name": "Dirr Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Parsons",
+          "short_name": "Parsons",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Labette County",
+          "short_name": "Labette County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "67357",
+          "short_name": "67357",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "3027",
+          "short_name": "3027",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "1800 Dirr Ave, Parsons, KS 67357, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.3461341,
+          "lng": -95.26295209999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.3474830802915,
+            "lng": -95.26160311970848
+          },
+          "southwest": {
+            "lat": 37.3447851197085,
+            "lng": -95.2643010802915
+          }
+        }
+      },
+      "place_id": "ChIJc98cqoYauIcRXSLoRXv0DNQ",
+      "plus_code": {
+        "compound_code": "8PWP+FR Parsons, Kansas, United States",
+        "global_code": "86968PWP+FR"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "school"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "4111",
+          "short_name": "4111",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "South Memorial Drive",
+          "short_name": "S Memorial Dr",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Tulsa",
+          "short_name": "Tulsa",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Tulsa County",
+          "short_name": "Tulsa County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Oklahoma",
+          "short_name": "OK",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "74145",
+          "short_name": "74145",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "4111 S Memorial Dr, Tulsa, OK 74145, USA",
+      "geometry": {
+        "location": {
+          "lat": 36.1035477,
+          "lng": -95.8854192
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 36.1048966802915,
+            "lng": -95.88407021970849
+          },
+          "southwest": {
+            "lat": 36.1021987197085,
+            "lng": -95.88676818029151
+          }
+        }
+      },
+      "place_id": "ChIJsXKDZkSNtocRv7axlsVWppk",
+      "plus_code": {
+        "compound_code": "4437+CR Tulsa, Oklahoma, United States",
+        "global_code": "86864437+CR"
+      },
+      "types": [
+        "car_dealer",
+        "car_repair",
+        "establishment",
+        "point_of_interest",
+        "store"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "713",
+          "short_name": "713",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "North 9th Street",
+          "short_name": "N 9th St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Fredonia",
+          "short_name": "Fredonia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Wilson County",
+          "short_name": "Wilson County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "66736",
+          "short_name": "66736",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "713 N 9th St, Fredonia, KS 66736, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.5379081,
+          "lng": -95.8239249
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.53925708029149,
+            "lng": -95.82257591970848
+          },
+          "southwest": {
+            "lat": 37.53655911970849,
+            "lng": -95.8252738802915
+          }
+        }
+      },
+      "place_id": "ChIJgb4Y9oe2uYcR32VH3Z1P7Mc",
+      "plus_code": {
+        "compound_code": "G5QG+5C Fredonia, Center, KS, United States",
+        "global_code": "8696G5QG+5C"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "school"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Lincoln",
+          "short_name": "Lincoln",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sedgwick County",
+          "short_name": "Sedgwick County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Lincoln, KS, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.9127329,
+            "lng": -97.1521449
+          },
+          "southwest": {
+            "lat": 37.8250021,
+            "lng": -97.26347100000001
+          }
+        },
+        "location": {
+          "lat": 37.8642593,
+          "lng": -97.2005806
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.9127329,
+            "lng": -97.1521449
+          },
+          "southwest": {
+            "lat": 37.8250021,
+            "lng": -97.26347100000001
+          }
+        }
+      },
+      "place_id": "ChIJcdL8jkMEu4cR9PU7wzrR71Y",
+      "types": [
+        "administrative_area_level_3",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Lincoln",
+          "short_name": "Lincoln",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Neosho County",
+          "short_name": "Neosho County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Lincoln, KS, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.471386,
+            "lng": -95.087632
+          },
+          "southwest": {
+            "lat": 37.3837199,
+            "lng": -95.2337841
+          }
+        },
+        "location": {
+          "lat": 37.4196129,
+          "lng": -95.16406049999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.471386,
+            "lng": -95.087632
+          },
+          "southwest": {
+            "lat": 37.3837199,
+            "lng": -95.2337841
+          }
+        }
+      },
+      "place_id": "ChIJzX7EfrwOuIcR3r3EshEHVNM",
+      "types": [
+        "administrative_area_level_3",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "7801",
+          "short_name": "7801",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "East Lincoln Street",
+          "short_name": "E Lincoln St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Eastridge",
+          "short_name": "Eastridge",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Wichita",
+          "short_name": "Wichita",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sedgwick County",
+          "short_name": "Sedgwick County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas",
+          "short_name": "KS",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "67207",
+          "short_name": "67207",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "2748",
+          "short_name": "2748",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "7801 E Lincoln St, Wichita, KS 67207, USA",
+      "geometry": {
+        "location": {
+          "lat": 37.671641,
+          "lng": -97.24615899999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 37.6729899802915,
+            "lng": -97.2448100197085
+          },
+          "southwest": {
+            "lat": 37.6702920197085,
+            "lng": -97.2475079802915
+          }
+        }
+      },
+      "place_id": "ChIJ3WpCfKD8uocR5DlEGFKBtcc",
+      "plus_code": {
+        "compound_code": "MQC3+MG Wichita, Kansas, United States",
+        "global_code": "8694MQC3+MG"
+      },
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Longview",
+          "short_name": "Longview",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Gregg County",
+          "short_name": "Gregg County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Texas",
+          "short_name": "TX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Longview, TX, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.5816351,
+            "lng": -94.6662851
+          },
+          "southwest": {
+            "lat": 32.4315179,
+            "lng": -94.84434
+          }
+        },
+        "location": {
+          "lat": 32.5007037,
+          "lng": -94.74048909999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 32.5816351,
+            "lng": -94.6662851
+          },
+          "southwest": {
+            "lat": 32.4315179,
+            "lng": -94.84434
+          }
+        }
+      },
+      "place_id": "ChIJUTPfl_81NoYRM1kZdPfwD7M",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Longview",
+          "short_name": "Longview",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Cowlitz County",
+          "short_name": "Cowlitz County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Washington",
+          "short_name": "WA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Longview, WA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 46.183532,
+            "lng": -122.8917669
+          },
+          "southwest": {
+            "lat": 46.1015329,
+            "lng": -123.03884
+          }
+        },
+        "location": {
+          "lat": 46.1381676,
+          "lng": -122.9381672
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 46.183532,
+            "lng": -122.8917669
+          },
+          "southwest": {
+            "lat": 46.1015329,
+            "lng": -123.03884
+          }
+        }
+      },
+      "place_id": "ChIJFw1pHRRzlFQRuWZ_vomzWMY",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Monrovia",
+          "short_name": "Monrovia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Los Angeles County",
+          "short_name": "Los Angeles County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "California",
+          "short_name": "CA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Monrovia, CA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 34.194181,
+            "lng": -117.941536
+          },
+          "southwest": {
+            "lat": 34.102902,
+            "lng": -118.022046
+          }
+        },
+        "location": {
+          "lat": 34.1442616,
+          "lng": -118.0019482
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 34.194181,
+            "lng": -117.941536
+          },
+          "southwest": {
+            "lat": 34.102902,
+            "lng": -118.022046
+          }
+        }
+      },
+      "place_id": "ChIJ2eJeOzfZwoARhfe1CC46JE8",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Monrovia",
+          "short_name": "Monrovia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Greater Monrovia",
+          "short_name": "Greater Monrovia",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Montserrado",
+          "short_name": "Montserrado",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Liberia",
+          "short_name": "LR",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Monrovia, Liberia",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 6.331197500000001,
+            "lng": -10.7209933
+          },
+          "southwest": {
+            "lat": 6.2597063,
+            "lng": -10.8183626
+          }
+        },
+        "location": {
+          "lat": 6.3156068,
+          "lng": -10.8073698
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 6.331197500000001,
+            "lng": -10.7209933
+          },
+          "southwest": {
+            "lat": 6.2597063,
+            "lng": -10.8183626
+          }
+        }
+      },
+      "place_id": "ChIJwfyp1AP4CQ8Rr5SWBtdNbFs",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Norwalk",
+          "short_name": "Norwalk",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Huntington",
+          "short_name": "Huntington",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Fairfield County",
+          "short_name": "Fairfield County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Connecticut",
+          "short_name": "CT",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Norwalk, CT, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.1715961,
+            "lng": -73.38056209999999
+          },
+          "southwest": {
+            "lat": 41.020449,
+            "lng": -73.474565
+          }
+        },
+        "location": {
+          "lat": 41.11774399999999,
+          "lng": -73.4081575
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.1715961,
+            "lng": -73.38056209999999
+          },
+          "southwest": {
+            "lat": 41.020449,
+            "lng": -73.474565
+          }
+        }
+      },
+      "place_id": "ChIJucU2nEoc6IkRjdVJvAki-l0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Norwalk",
+          "short_name": "Norwalk",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Norwalk Township",
+          "short_name": "Norwalk Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Huron County",
+          "short_name": "Huron County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ohio",
+          "short_name": "OH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Norwalk, OH, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 41.2759829,
+            "lng": -82.558337
+          },
+          "southwest": {
+            "lat": 41.218208,
+            "lng": -82.6592139
+          }
+        },
+        "location": {
+          "lat": 41.24255309999999,
+          "lng": -82.6157331
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 41.2759829,
+            "lng": -82.558337
+          },
+          "southwest": {
+            "lat": 41.218208,
+            "lng": -82.6592139
+          }
+        }
+      },
+      "place_id": "ChIJyXYMJOUSOogRrNP6Yh7zeGI",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Norwalk",
+          "short_name": "Norwalk",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Los Angeles County",
+          "short_name": "Los Angeles County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "California",
+          "short_name": "CA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Norwalk, CA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 33.9340258,
+            "lng": -118.0420779
+          },
+          "southwest": {
+            "lat": 33.8803119,
+            "lng": -118.111812
+          }
+        },
+        "location": {
+          "lat": 33.9022367,
+          "lng": -118.081733
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 33.9340258,
+            "lng": -118.0420779
+          },
+          "southwest": {
+            "lat": 33.8803119,
+            "lng": -118.111812
+          }
+        }
+      },
+      "place_id": "ChIJ0_EvDMzSwoARhERzb-kP0qc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Olympia",
+          "short_name": "Olympia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Thurston County",
+          "short_name": "Thurston County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Washington",
+          "short_name": "WA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Olympia, WA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 47.078086,
+            "lng": -122.8231391
+          },
+          "southwest": {
+            "lat": 47.0005809,
+            "lng": -122.9645981
+          }
+        },
+        "location": {
+          "lat": 47.0378741,
+          "lng": -122.9006951
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 47.078086,
+            "lng": -122.8231391
+          },
+          "southwest": {
+            "lat": 47.0005809,
+            "lng": -122.9645981
+          }
+        }
+      },
+      "place_id": "ChIJaVUorsHJkVQRgxuI4pdhFE8",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Olympia",
+          "short_name": "Olympia",
+          "types": [
+            "political"
+          ]
+        },
+        {
+          "long_name": "Thurston County",
+          "short_name": "Thurston County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Washington",
+          "short_name": "WA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Olympia, WA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 47.187627,
+            "lng": -122.836557
+          },
+          "southwest": {
+            "lat": 46.98869,
+            "lng": -123.201504
+          }
+        },
+        "location": {
+          "lat": 47.0589364,
+          "lng": -122.9078813
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 47.187627,
+            "lng": -122.836557
+          },
+          "southwest": {
+            "lat": 46.98869,
+            "lng": -123.201504
+          }
+        }
+      },
+      "place_id": "ChIJfWiuciOekVQRbVy9sQhXUn0",
+      "types": [
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Sofia",
+          "short_name": "Sofia",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sofia City Province",
+          "short_name": "Sofia City Province",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Bulgaria",
+          "short_name": "BG",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Sofia, Bulgaria",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.7877752,
+            "lng": 23.4569049
+          },
+          "southwest": {
+            "lat": 42.6030891,
+            "lng": 23.1909885
+          }
+        },
+        "location": {
+          "lat": 42.6977082,
+          "lng": 23.3218675
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.7877752,
+            "lng": 23.4569049
+          },
+          "southwest": {
+            "lat": 42.6030891,
+            "lng": 23.1909885
+          }
+        }
+      },
+      "place_id": "ChIJ9Xsxy4KGqkARYF6_aRKgAAQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Sofia City Province",
+          "short_name": "Sofia City Province",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Bulgaria",
+          "short_name": "BG",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Sofia City Province, Bulgaria",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.8964344,
+            "lng": 23.6786801
+          },
+          "southwest": {
+            "lat": 42.4125751,
+            "lng": 23.0512522
+          }
+        },
+        "location": {
+          "lat": 42.7570109,
+          "lng": 23.4504683
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.8964344,
+            "lng": 23.6786801
+          },
+          "southwest": {
+            "lat": 42.4125751,
+            "lng": 23.0512522
+          }
+        }
+      },
+      "place_id": "ChIJo6WgMoOGqkARcE2_aRKgAAM",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "5700",
+          "short_name": "5700",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Winner Road",
+          "short_name": "Winner Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sheffield",
+          "short_name": "Sheffield",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas City",
+          "short_name": "KCMO",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Blue Township",
+          "short_name": "Blue Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Jackson County",
+          "short_name": "Jackson County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Missouri",
+          "short_name": "MO",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "64127",
+          "short_name": "64127",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "1847",
+          "short_name": "1847",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "5700 Winner Rd, Kansas City, MO 64127, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.1021214,
+          "lng": -94.5139136
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 39.1034703802915,
+            "lng": -94.5125646197085
+          },
+          "southwest": {
+            "lat": 39.10077241970851,
+            "lng": -94.5152625802915
+          }
+        }
+      },
+      "place_id": "ChIJPUCPWgT7wIcRLQeGW6i_mAg",
+      "plus_code": {
+        "compound_code": "4F2P+RC Kansas City, Missouri, United States",
+        "global_code": "86F74F2P+RC"
+      },
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Sheffield",
+          "short_name": "Sheffield",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Berkshire County",
+          "short_name": "Berkshire County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Massachusetts",
+          "short_name": "MA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Sheffield, MA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.160092,
+            "lng": -73.291218
+          },
+          "southwest": {
+            "lat": 42.04703800000001,
+            "lng": -73.4367439
+          }
+        },
+        "location": {
+          "lat": 42.1099885,
+          "lng": -73.35514359999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.160092,
+            "lng": -73.291218
+          },
+          "southwest": {
+            "lat": 42.04703800000001,
+            "lng": -73.4367439
+          }
+        }
+      },
+      "place_id": "ChIJFZFrWVF754kRn63-JILCTaw",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Sheffield",
+          "short_name": "Sheffield",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Franklin County",
+          "short_name": "Franklin County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Iowa",
+          "short_name": "IA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "50475",
+          "short_name": "50475",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Sheffield, IA 50475, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.907699,
+            "lng": -93.182351
+          },
+          "southwest": {
+            "lat": 42.8767468,
+            "lng": -93.24153109999999
+          }
+        },
+        "location": {
+          "lat": 42.8944129,
+          "lng": -93.21186879999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.907699,
+            "lng": -93.182351
+          },
+          "southwest": {
+            "lat": 42.8767468,
+            "lng": -93.24153109999999
+          }
+        }
+      },
+      "place_id": "ChIJT0y04NO28YcRCBGkNVz-BUQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Sheffield",
+          "short_name": "Sheffield",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas City",
+          "short_name": "KCMO",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Blue Township",
+          "short_name": "Blue Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Jackson County",
+          "short_name": "Jackson County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Missouri",
+          "short_name": "MO",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Sheffield, Kansas City, MO, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.1112039,
+            "lng": -94.4938631
+          },
+          "southwest": {
+            "lat": 39.097304,
+            "lng": -94.5296319
+          }
+        },
+        "location": {
+          "lat": 39.1012463,
+          "lng": -94.5083097
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.1112039,
+            "lng": -94.4938631
+          },
+          "southwest": {
+            "lat": 39.097304,
+            "lng": -94.5296319
+          }
+        }
+      },
+      "place_id": "ChIJp8j6pw77wIcROTH4p9CeeDQ",
+      "types": [
+        "neighborhood",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "3258",
+          "short_name": "3258",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "North Sheffield Avenue",
+          "short_name": "N Sheffield Ave",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Lake View",
+          "short_name": "Lake View",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Chicago",
+          "short_name": "Chicago",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Cook County",
+          "short_name": "Cook County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Illinois",
+          "short_name": "IL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "60657",
+          "short_name": "60657",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "3258 N Sheffield Ave, Chicago, IL 60657, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.94158660000001,
+          "lng": -87.6545107
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 41.94293558029151,
+            "lng": -87.65316171970849
+          },
+          "southwest": {
+            "lat": 41.94023761970851,
+            "lng": -87.6558596802915
+          }
+        }
+      },
+      "place_id": "ChIJ2fWQFazTD4gRX_abZ0iwjQM",
+      "plus_code": {
+        "compound_code": "W8RW+J5 Chicago, Illinois, United States",
+        "global_code": "86HJW8RW+J5"
+      },
+      "types": [
+        "bar",
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Sheffield Park",
+          "short_name": "Sheffield Park",
+          "types": [
+            "establishment",
+            "park",
+            "point_of_interest"
+          ]
+        },
+        {
+          "long_name": "6900",
+          "short_name": "6900",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "East 12th Street",
+          "short_name": "E 12th St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sheffield",
+          "short_name": "Sheffield",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas City",
+          "short_name": "KCMO",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Blue Township",
+          "short_name": "Blue Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Jackson County",
+          "short_name": "Jackson County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Missouri",
+          "short_name": "MO",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "64126",
+          "short_name": "64126",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Sheffield Park, 6900 E 12th St, Kansas City, MO 64126, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.0985592,
+          "lng": -94.5021909
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 39.09990818029149,
+            "lng": -94.50084191970849
+          },
+          "southwest": {
+            "lat": 39.09721021970849,
+            "lng": -94.50353988029151
+          }
+        }
+      },
+      "place_id": "ChIJnTeamBL7wIcRZSpeRrXsmyM",
+      "plus_code": {
+        "compound_code": "3FXX+C4 Kansas City, Missouri, United States",
+        "global_code": "86F73FXX+C4"
+      },
+      "types": [
+        "establishment",
+        "park",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "1824",
+          "short_name": "1824",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Harris Road",
+          "short_name": "Harris Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sheffield",
+          "short_name": "Sheffield",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Lorain County",
+          "short_name": "Lorain County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ohio",
+          "short_name": "OH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "44054",
+          "short_name": "44054",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "1824 Harris Rd, Sheffield, OH 44054, USA",
+      "geometry": {
+        "location": {
+          "lat": 41.4662689,
+          "lng": -82.0954781
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 41.4676178802915,
+            "lng": -82.0941291197085
+          },
+          "southwest": {
+            "lat": 41.4649199197085,
+            "lng": -82.0968270802915
+          }
+        }
+      },
+      "place_id": "ChIJP_q9KxibMIgRyRmWA9RcfJg",
+      "plus_code": {
+        "compound_code": "FW83+GR Sheffield, Sheffield Township, OH, United States",
+        "global_code": "86HVFW83+GR"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "school"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "5700",
+          "short_name": "5700",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Winner Road",
+          "short_name": "Winner Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Sheffield",
+          "short_name": "Sheffield",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Kansas City",
+          "short_name": "KCMO",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Blue Township",
+          "short_name": "Blue Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Jackson County",
+          "short_name": "Jackson County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Missouri",
+          "short_name": "MO",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "64127",
+          "short_name": "64127",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "1847",
+          "short_name": "1847",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "5700 Winner Rd, Kansas City, MO 64127, USA",
+      "geometry": {
+        "location": {
+          "lat": 39.1021243,
+          "lng": -94.5137497
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 39.1034732802915,
+            "lng": -94.51240071970851
+          },
+          "southwest": {
+            "lat": 39.1007753197085,
+            "lng": -94.51509868029152
+          }
+        }
+      },
+      "place_id": "ChIJPUCPWgT7wIcR7Yj_otL2qGA",
+      "plus_code": {
+        "compound_code": "4F2P+RG Kansas City, Missouri, United States",
+        "global_code": "86F74F2P+RG"
+      },
+      "types": [
+        "church",
+        "establishment",
+        "place_of_worship",
+        "point_of_interest"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Springfield",
+          "short_name": "Springfield",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Hampden County",
+          "short_name": "Hampden County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Massachusetts",
+          "short_name": "MA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Springfield, MA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.1620859,
+            "lng": -72.471149
+          },
+          "southwest": {
+            "lat": 42.063595,
+            "lng": -72.6215339
+          }
+        },
+        "location": {
+          "lat": 42.1014831,
+          "lng": -72.589811
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 42.1620859,
+            "lng": -72.471149
+          },
+          "southwest": {
+            "lat": 42.063595,
+            "lng": -72.6215339
+          }
+        }
+      },
+      "place_id": "ChIJH7jkCCzm5okRvaq5QdoIGB0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Springfield",
+          "short_name": "Springfield",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Springfield Township",
+          "short_name": "Springfield Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Greene County",
+          "short_name": "Greene County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Missouri",
+          "short_name": "MO",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Springfield, MO, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 37.2708071,
+            "lng": -93.1786431
+          },
+          "southwest": {
+            "lat": 37.0874019,
+            "lng": -93.414006
+          }
+        },
+        "location": {
+          "lat": 37.2089572,
+          "lng": -93.29229889999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 37.2708071,
+            "lng": -93.1786431
+          },
+          "southwest": {
+            "lat": 37.0874019,
+            "lng": -93.414006
+          }
+        }
+      },
+      "place_id": "ChIJP5jIRfdiz4cRoA1pHrNs_Ws",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "5904",
+          "short_name": "5904",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Bee Cave Road",
+          "short_name": "Bee Cave Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Westlake Medical Center",
+          "short_name": "Westlake Medical Center",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Austin",
+          "short_name": "Austin",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Travis County",
+          "short_name": "Travis County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Texas",
+          "short_name": "TX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "78746",
+          "short_name": "78746",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "5904 Bee Cave Rd, Austin, TX 78746, USA",
+      "geometry": {
+        "location": {
+          "lat": 30.2963348,
+          "lng": -97.82666170000002
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 30.2976837802915,
+            "lng": -97.82531271970852
+          },
+          "southwest": {
+            "lat": 30.2949858197085,
+            "lng": -97.82801068029153
+          }
+        }
+      },
+      "place_id": "ChIJPVM6pH81W4YRz3mnLaZ2Q8E",
+      "plus_code": {
+        "compound_code": "75WF+G8 West Lake Hills, Texas, United States",
+        "global_code": "862475WF+G8"
+      },
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "201",
+          "short_name": "201",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Northwest Victoria Drive",
+          "short_name": "NW Victoria Dr",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Lee's Summit",
+          "short_name": "Lee's Summit",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Prairie Township",
+          "short_name": "Prairie Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Jackson County",
+          "short_name": "Jackson County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Missouri",
+          "short_name": "MO",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "64086",
+          "short_name": "64086",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "4709",
+          "short_name": "4709",
+          "types": [
+            "postal_code_suffix"
+          ]
+        }
+      ],
+      "formatted_address": "201 NW Victoria Dr, Lee's Summit, MO 64086, USA",
+      "geometry": {
+        "location": {
+          "lat": 38.93654,
+          "lng": -94.384627
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 38.9378889802915,
+            "lng": -94.38327801970848
+          },
+          "southwest": {
+            "lat": 38.9351910197085,
+            "lng": -94.3859759802915
+          }
+        }
+      },
+      "place_id": "ChIJVSGCgcUfwYcR1bfeWqRzX7Y",
+      "plus_code": {
+        "compound_code": "WJP8+J4 Lee's Summit, Prairie Township, MO, United States",
+        "global_code": "86C7WJP8+J4"
+      },
+      "types": [
+        "electronics_store",
+        "establishment",
+        "home_goods_store",
+        "point_of_interest",
+        "store"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "Urbana",
+          "short_name": "Urbana",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Cunningham Township",
+          "short_name": "Cunningham Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Champaign County",
+          "short_name": "Champaign County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Illinois",
+          "short_name": "IL",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Urbana, IL, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.1574202,
+            "lng": -88.1530726
+          },
+          "southwest": {
+            "lat": 40.0732478,
+            "lng": -88.2330202
+          }
+        },
+        "location": {
+          "lat": 40.1105875,
+          "lng": -88.2072697
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.1574202,
+            "lng": -88.1530726
+          },
+          "southwest": {
+            "lat": 40.0732478,
+            "lng": -88.2330202
+          }
+        }
+      },
+      "place_id": "ChIJj0KEhJbXDIgRQWUMOa3LjfQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Urbana",
+          "short_name": "Urbana",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Urbana Township",
+          "short_name": "Urbana Township",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Champaign County",
+          "short_name": "Champaign County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ohio",
+          "short_name": "OH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "43078",
+          "short_name": "43078",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Urbana, OH 43078, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 40.1414289,
+            "lng": -83.7116829
+          },
+          "southwest": {
+            "lat": 40.0840101,
+            "lng": -83.7847938
+          }
+        },
+        "location": {
+          "lat": 40.1083912,
+          "lng": -83.7524298
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 40.1414289,
+            "lng": -83.7116829
+          },
+          "southwest": {
+            "lat": 40.0840101,
+            "lng": -83.7847938
+          }
+        }
+      },
+      "place_id": "ChIJI9YHTm5IP4gRxLrNKOXf790",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ],
+  [
+    {
+      "address_components": [
+        {
+          "long_name": "York",
+          "short_name": "York",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "York",
+          "short_name": "York",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "York",
+          "short_name": "York",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "England",
+          "short_name": "England",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United Kingdom",
+          "short_name": "GB",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "York, UK",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 53.9912585,
+            "lng": -1.0139137
+          },
+          "southwest": {
+            "lat": 53.9259345,
+            "lng": -1.1472695
+          }
+        },
+        "location": {
+          "lat": 53.95996510000001,
+          "lng": -1.0872979
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 53.9912585,
+            "lng": -1.0139137
+          },
+          "southwest": {
+            "lat": 53.9259345,
+            "lng": -1.1472695
+          }
+        }
+      },
+      "place_id": "ChIJ8WWY4UDDeEgR0eRUiomrdEc",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "York",
+          "short_name": "York",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "York County",
+          "short_name": "York County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Pennsylvania",
+          "short_name": "PA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "York, PA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 39.9910931,
+            "lng": -76.6991889
+          },
+          "southwest": {
+            "lat": 39.942798,
+            "lng": -76.76259
+          }
+        },
+        "location": {
+          "lat": 39.9625984,
+          "lng": -76.727745
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 39.9910931,
+            "lng": -76.6991889
+          },
+          "southwest": {
+            "lat": 39.942798,
+            "lng": -76.76259
+          }
+        }
+      },
+      "place_id": "ChIJYYWuV8GLyIkRzRPyXur6rBo",
+      "types": [
+        "locality",
+        "political"
+      ]
+    }
+  ]
+]

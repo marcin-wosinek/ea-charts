@@ -40,6 +40,7 @@
     "world-atlas": "^1.1.4"
   },
   "dependencies": {
-    "@google/maps": "^0.5.5"
+    "@google/maps": "^0.5.5",
+    "json-stable-stringify": "^1.0.1"
   }
 }
