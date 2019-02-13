@@ -1,5 +1,5 @@
-[
-  [
+{
+  "Aalborg": [
     {
       "address_components": [
         {
@@ -107,7 +107,7 @@
       ]
     }
   ],
-  [
+  "Baden": [
     {
       "address_components": [
         {
@@ -323,7 +323,7 @@
       ]
     }
   ],
-  [
+  "Batavia": [
     {
       "address_components": [
         {
@@ -486,7 +486,7 @@
       ]
     }
   ],
-  [
+  "Berne": [
     {
       "address_components": [
         {
@@ -717,7 +717,7 @@
       ]
     }
   ],
-  [
+  "Bristol": [
     {
       "address_components": [
         {
@@ -864,7 +864,7 @@
       ]
     }
   ],
-  [
+  "Coventry": [
     {
       "address_components": [
         {
@@ -1011,7 +1011,7 @@
       ]
     }
   ],
-  [
+  "Dundee": [
     {
       "address_components": [
         {
@@ -1242,7 +1242,7 @@
       ]
     }
   ],
-  [
+  "Exeter": [
     {
       "address_components": [
         {
@@ -1480,7 +1480,7 @@
       ]
     }
   ],
-  [
+  "Germantown": [
     {
       "address_components": [
         {
@@ -1706,66 +1706,80 @@
       ]
     }
   ],
-  [
+  "Greenbelt": [
     {
       "address_components": [
         {
-          "long_name": "Halifax Regional Municipality",
-          "short_name": "Halifax Regional Municipality",
+          "long_name": "Greenbelt",
+          "short_name": "Greenbelt",
           "types": [
-            "administrative_area_level_2",
             "locality",
             "political"
           ]
         },
         {
-          "long_name": "Nova Scotia",
-          "short_name": "NS",
+          "long_name": "Berwyn",
+          "short_name": "21, Berwyn",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Prince George's County",
+          "short_name": "Prince George's County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maryland",
+          "short_name": "MD",
           "types": [
             "administrative_area_level_1",
             "political"
           ]
         },
         {
-          "long_name": "Canada",
-          "short_name": "CA",
+          "long_name": "United States",
+          "short_name": "US",
           "types": [
             "country",
             "political"
           ]
         }
       ],
-      "formatted_address": "Halifax Regional Municipality, NS, Canada",
+      "formatted_address": "Greenbelt, MD, USA",
       "geometry": {
         "bounds": {
           "northeast": {
-            "lat": 45.2761,
-            "lng": -58.227553
+            "lat": 39.014476,
+            "lng": -76.8588429
           },
           "southwest": {
-            "lat": 42.1770179,
-            "lng": -64.2371771
+            "lat": 38.971759,
+            "lng": -76.919866
           }
         },
         "location": {
-          "lat": 44.64876350000001,
-          "lng": -63.5752387
+          "lat": 39.0045544,
+          "lng": -76.87552819999999
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 45.2761,
-            "lng": -58.227553
+            "lat": 39.014476,
+            "lng": -76.8588429
           },
           "southwest": {
-            "lat": 42.1770179,
-            "lng": -64.2371771
+            "lat": 38.971759,
+            "lng": -76.919866
           }
         }
       },
-      "place_id": "ChIJxesm0LsTRUsRW2dKWg1nkM0",
+      "place_id": "ChIJm1DBlNjDt4kREfRE8q04B6U",
       "types": [
-        "administrative_area_level_2",
         "locality",
         "political"
       ]
@@ -1773,24 +1787,40 @@
     {
       "address_components": [
         {
-          "long_name": "Halifax",
-          "short_name": "Halifax",
+          "long_name": "Indian Bend Wash Greenbelt",
+          "short_name": "Indian Bend Wash Greenbelt",
+          "types": [
+            "establishment",
+            "natural_feature"
+          ]
+        },
+        {
+          "long_name": "South Scottsdale",
+          "short_name": "South Scottsdale",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Scottsdale",
+          "short_name": "Scottsdale",
           "types": [
             "locality",
             "political"
           ]
         },
         {
-          "long_name": "Plymouth County",
-          "short_name": "Plymouth County",
+          "long_name": "Maricopa County",
+          "short_name": "Maricopa County",
           "types": [
             "administrative_area_level_2",
             "political"
           ]
         },
         {
-          "long_name": "Massachusetts",
-          "short_name": "MA",
+          "long_name": "Arizona",
+          "short_name": "AZ",
           "types": [
             "administrative_area_level_1",
             "political"
@@ -1805,49 +1835,39 @@
           ]
         },
         {
-          "long_name": "02338",
-          "short_name": "02338",
+          "long_name": "85250",
+          "short_name": "85250",
           "types": [
             "postal_code"
           ]
         }
       ],
-      "formatted_address": "Halifax, MA 02338, USA",
+      "formatted_address": "Indian Bend Wash Greenbelt, Scottsdale, AZ 85250, USA",
       "geometry": {
-        "bounds": {
-          "northeast": {
-            "lat": 42.0266631,
-            "lng": -70.806384
-          },
-          "southwest": {
-            "lat": 41.9484051,
-            "lng": -70.912212
-          }
-        },
         "location": {
-          "lat": 41.99121299999999,
-          "lng": -70.86198499999999
+          "lat": 33.5322653,
+          "lng": -111.9129222
         },
         "location_type": "APPROXIMATE",
         "viewport": {
           "northeast": {
-            "lat": 42.0266631,
-            "lng": -70.806384
+            "lat": 33.5415658,
+            "lng": -111.8969148
           },
           "southwest": {
-            "lat": 41.9484051,
-            "lng": -70.912212
+            "lat": 33.5229638,
+            "lng": -111.9289296
           }
         }
       },
-      "place_id": "ChIJjb_9tQmX5IkRbJyeevFodvU",
+      "place_id": "ChIJc3a01xsLK4cRQNfL2HZoHB8",
       "types": [
-        "locality",
-        "political"
+        "establishment",
+        "natural_feature"
       ]
     }
   ],
-  [
+  "Kenilworth": [
     {
       "address_components": [
         {
@@ -2086,7 +2106,7 @@
       ]
     }
   ],
-  [
+  "Leeds": [
     {
       "address_components": [
         {
@@ -2226,7 +2246,7 @@
       ]
     }
   ],
-  [
+  "Lincoln": [
     {
       "address_components": [
         {
@@ -3091,7 +3111,7 @@
       ]
     }
   ],
-  [
+  "Longview": [
     {
       "address_components": [
         {
@@ -3231,7 +3251,7 @@
       ]
     }
   ],
-  [
+  "Monrovia": [
     {
       "address_components": [
         {
@@ -3371,7 +3391,7 @@
       ]
     }
   ],
-  [
+  "Norwalk": [
     {
       "address_components": [
         {
@@ -3596,7 +3616,7 @@
       ]
     }
   ],
-  [
+  "Olympia": [
     {
       "address_components": [
         {
@@ -3734,123 +3754,7 @@
       ]
     }
   ],
-  [
-    {
-      "address_components": [
-        {
-          "long_name": "Sofia",
-          "short_name": "Sofia",
-          "types": [
-            "locality",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Sofia City Province",
-          "short_name": "Sofia City Province",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Bulgaria",
-          "short_name": "BG",
-          "types": [
-            "country",
-            "political"
-          ]
-        }
-      ],
-      "formatted_address": "Sofia, Bulgaria",
-      "geometry": {
-        "bounds": {
-          "northeast": {
-            "lat": 42.7877752,
-            "lng": 23.4569049
-          },
-          "southwest": {
-            "lat": 42.6030891,
-            "lng": 23.1909885
-          }
-        },
-        "location": {
-          "lat": 42.6977082,
-          "lng": 23.3218675
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 42.7877752,
-            "lng": 23.4569049
-          },
-          "southwest": {
-            "lat": 42.6030891,
-            "lng": 23.1909885
-          }
-        }
-      },
-      "place_id": "ChIJ9Xsxy4KGqkARYF6_aRKgAAQ",
-      "types": [
-        "locality",
-        "political"
-      ]
-    },
-    {
-      "address_components": [
-        {
-          "long_name": "Sofia City Province",
-          "short_name": "Sofia City Province",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Bulgaria",
-          "short_name": "BG",
-          "types": [
-            "country",
-            "political"
-          ]
-        }
-      ],
-      "formatted_address": "Sofia City Province, Bulgaria",
-      "geometry": {
-        "bounds": {
-          "northeast": {
-            "lat": 42.8964344,
-            "lng": 23.6786801
-          },
-          "southwest": {
-            "lat": 42.4125751,
-            "lng": 23.0512522
-          }
-        },
-        "location": {
-          "lat": 42.7570109,
-          "lng": 23.4504683
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 42.8964344,
-            "lng": 23.6786801
-          },
-          "southwest": {
-            "lat": 42.4125751,
-            "lng": 23.0512522
-          }
-        }
-      },
-      "place_id": "ChIJo6WgMoOGqkARcE2_aRKgAAM",
-      "types": [
-        "administrative_area_level_1",
-        "political"
-      ]
-    }
-  ],
-  [
+  "Sheffield": [
     {
       "address_components": [
         {
@@ -4590,7 +4494,7 @@
       ]
     }
   ],
-  [
+  "Springfield": [
     {
       "address_components": [
         {
@@ -4738,7 +4642,7 @@
       ]
     }
   ],
-  [
+  "Strangeland": [
     {
       "address_components": [
         {
@@ -4935,7 +4839,7 @@
       ]
     }
   ],
-  [
+  "Urbana": [
     {
       "address_components": [
         {
@@ -5098,7 +5002,7 @@
       ]
     }
   ],
-  [
+  "York": [
     {
       "address_components": [
         {
@@ -5245,4 +5149,4 @@
       ]
     }
   ]
-]
+}

@@ -172,7 +172,7 @@
       "lng": 8.541694
     },
     "longitude": 8.541694,
-    "name": "Zurich",
+    "name": "Zürich",
     "value": 27
   },
   {
@@ -282,7 +282,7 @@
       "lng": 4.9035614
     },
     "longitude": 4.9035614,
-    "name": "Amsterdam ",
+    "name": "Amsterdam",
     "value": 14
   },
   {
@@ -326,7 +326,7 @@
       "lng": 12.5683372
     },
     "longitude": 12.5683372,
-    "name": "Copenhagen ",
+    "name": "Copenhagen",
     "value": 13
   },
   {
@@ -381,7 +381,7 @@
       "lng": -6.2603097
     },
     "longitude": -6.2603097,
-    "name": "Dublin ",
+    "name": "Dublin",
     "value": 10
   },
   {
@@ -392,7 +392,7 @@
       "lng": 4.3517211
     },
     "longitude": 4.3517211,
-    "name": "Brussels ",
+    "name": "Brussels",
     "value": 10
   },
   {
@@ -404,17 +404,6 @@
     },
     "longitude": -1.0872979,
     "name": "York",
-    "value": 9
-  },
-  {
-    "formatted_address": "5700 Winner Rd, Kansas City, MO 64127, USA",
-    "latitude": 39.1021214,
-    "location": {
-      "lat": 39.1021214,
-      "lng": -94.5139136
-    },
-    "longitude": -94.5139136,
-    "name": "Sheffield",
     "value": 9
   },
   {
@@ -458,7 +447,7 @@
       "lng": -78.898619
     },
     "longitude": -78.898619,
-    "name": "Durham (US)",
+    "name": "Durham ",
     "value": 9
   },
   {
@@ -480,7 +469,18 @@
       "lng": 174.7633315
     },
     "longitude": 174.7633315,
-    "name": "Auckland ",
+    "name": "Auckland",
+    "value": 9
+  },
+  {
+    "formatted_address": "5700 Winner Rd, Kansas City, MO 64127, USA",
+    "latitude": 39.1021214,
+    "location": {
+      "lat": 39.1021214,
+      "lng": -94.5139136
+    },
+    "longitude": -94.5139136,
+    "name": "Sheffield",
     "value": 9
   },
   {
@@ -656,7 +656,7 @@
       "lng": 172.6362254
     },
     "longitude": 172.6362254,
-    "name": "Christchurch",
+    "name": "Christchurch ",
     "value": 7
   },
   {
@@ -668,17 +668,6 @@
     },
     "longitude": -2.58791,
     "name": "Bristol",
-    "value": 7
-  },
-  {
-    "formatted_address": "8302 S Brighton Loop Rd, Brighton, UT 84121, USA",
-    "latitude": 40.598019,
-    "location": {
-      "lat": 40.598019,
-      "lng": -111.583187
-    },
-    "longitude": -111.583187,
-    "name": "Brighton",
     "value": 7
   },
   {
@@ -712,6 +701,17 @@
     },
     "longitude": 138.6007456,
     "name": "Adelaide",
+    "value": 7
+  },
+  {
+    "formatted_address": "8302 S Brighton Loop Rd, Brighton, UT 84121, USA",
+    "latitude": 40.598019,
+    "location": {
+      "lat": 40.598019,
+      "lng": -111.583187
+    },
+    "longitude": -111.583187,
+    "name": "Brighton",
     "value": 7
   },
   {
@@ -777,7 +777,7 @@
       "lng": -2.2426305
     },
     "longitude": -2.2426305,
-    "name": "Manchester ",
+    "name": "Manchester",
     "value": 6
   },
   {
@@ -789,6 +789,17 @@
     },
     "longitude": 19.9449799,
     "name": "Kraków",
+    "value": 6
+  },
+  {
+    "formatted_address": "Independence, KS 67301, USA",
+    "latitude": 37.09024,
+    "location": {
+      "lat": 37.09024,
+      "lng": -95.712891
+    },
+    "longitude": -95.712891,
+    "name": "Bennett",
     "value": 6
   },
   {
@@ -836,17 +847,6 @@
     "value": 6
   },
   {
-    "formatted_address": "Independence, KS 67301, USA",
-    "latitude": 37.09024,
-    "location": {
-      "lat": 37.09024,
-      "lng": -95.712891
-    },
-    "longitude": -95.712891,
-    "name": "Bennett",
-    "value": 6
-  },
-  {
     "formatted_address": "Bengaluru, Karnataka, India",
     "latitude": 12.9715987,
     "location": {
@@ -854,7 +854,7 @@
       "lng": 77.5945627
     },
     "longitude": 77.5945627,
-    "name": "Bangalore ",
+    "name": "Bangalore",
     "value": 6
   },
   {
@@ -876,7 +876,7 @@
       "lng": -78.6381787
     },
     "longitude": -78.6381787,
-    "name": "Raleigh ",
+    "name": "Raleigh",
     "value": 5
   },
   {
@@ -931,7 +931,7 @@
       "lng": -90.19940419999999
     },
     "longitude": -90.19940419999999,
-    "name": "St Louis",
+    "name": "St. Louis",
     "value": 4
   },
   {
@@ -1041,7 +1041,7 @@
       "lng": 18.4240553
     },
     "longitude": 18.4240553,
-    "name": "Cape Town",
+    "name": "Cape Town ",
     "value": 4
   },
   {
@@ -1155,17 +1155,6 @@
     "value": 3
   },
   {
-    "formatted_address": "Porto, Portugal",
-    "latitude": 41.1579438,
-    "location": {
-      "lat": 41.1579438,
-      "lng": -8.629105299999999
-    },
-    "longitude": -8.629105299999999,
-    "name": "Porto",
-    "value": 3
-  },
-  {
     "formatted_address": "Portsmouth, NH 03801, USA",
     "latitude": 43.0717552,
     "location": {
@@ -1174,6 +1163,17 @@
     },
     "longitude": -70.7625532,
     "name": "Portsmouth (US)",
+    "value": 3
+  },
+  {
+    "formatted_address": "Porto, Portugal",
+    "latitude": 41.1579438,
+    "location": {
+      "lat": 41.1579438,
+      "lng": -8.629105299999999
+    },
+    "longitude": -8.629105299999999,
+    "name": "Porto",
     "value": 3
   },
   {
@@ -1206,7 +1206,7 @@
       "lng": -9.1393366
     },
     "longitude": -9.1393366,
-    "name": "Lisboa",
+    "name": "Lisbon",
     "value": 3
   },
   {
@@ -1298,17 +1298,6 @@
     "value": 3
   },
   {
-    "formatted_address": "1100 Canterbury Rd S, Shakopee, MN 55379, USA",
-    "latitude": 44.7912253,
-    "location": {
-      "lat": 44.7912253,
-      "lng": -93.4839865
-    },
-    "longitude": -93.4839865,
-    "name": "Canterbury",
-    "value": 3
-  },
-  {
     "formatted_address": "Brno, Czechia",
     "latitude": 49.1950602,
     "location": {
@@ -1353,6 +1342,17 @@
     "value": 3
   },
   {
+    "formatted_address": "Athens, Greece",
+    "latitude": 37.9838096,
+    "location": {
+      "lat": 37.9838096,
+      "lng": 23.7275388
+    },
+    "longitude": 23.7275388,
+    "name": "Athens",
+    "value": 3
+  },
+  {
     "formatted_address": "Aachen, Germany",
     "latitude": 50.7753455,
     "location": {
@@ -1364,14 +1364,14 @@
     "value": 3
   },
   {
-    "formatted_address": "Athens, Greece",
-    "latitude": 37.9838096,
+    "formatted_address": "1100 Canterbury Rd S, Shakopee, MN 55379, USA",
+    "latitude": 44.7912253,
     "location": {
-      "lat": 37.9838096,
-      "lng": 23.7275388
+      "lat": 44.7912253,
+      "lng": -93.4839865
     },
-    "longitude": 23.7275388,
-    "name": "Athens ",
+    "longitude": -93.4839865,
+    "name": "Canterbury",
     "value": 3
   },
   {
@@ -1474,6 +1474,17 @@
     "value": 2
   },
   {
+    "formatted_address": "St Paul, MN, USA",
+    "latitude": 44.9537029,
+    "location": {
+      "lat": 44.9537029,
+      "lng": -93.0899578
+    },
+    "longitude": -93.0899578,
+    "name": "Saint Paul",
+    "value": 2
+  },
+  {
     "formatted_address": "Springfield, MA, USA",
     "latitude": 42.1014831,
     "location": {
@@ -1482,17 +1493,6 @@
     },
     "longitude": -72.589811,
     "name": "Springfield",
-    "value": 2
-  },
-  {
-    "formatted_address": "3101 Wisconsin Ave NW, Washington, DC 20016, USA",
-    "latitude": 38.9284816,
-    "location": {
-      "lat": 38.9284816,
-      "lng": -77.07182480000002
-    },
-    "longitude": -77.07182480000002,
-    "name": "St Albans",
     "value": 2
   },
   {
@@ -1562,14 +1562,14 @@
     "value": 2
   },
   {
-    "formatted_address": "St Paul, MN, USA",
-    "latitude": 44.9537029,
+    "formatted_address": "Royal Leamington Spa, UK",
+    "latitude": 52.2851905,
     "location": {
-      "lat": 44.9537029,
-      "lng": -93.0899578
+      "lat": 52.2851905,
+      "lng": -1.5200789
     },
-    "longitude": -93.0899578,
-    "name": "Saint Paul",
+    "longitude": -1.5200789,
+    "name": "Leamington Spa",
     "value": 2
   },
   {
@@ -1639,6 +1639,17 @@
     "value": 2
   },
   {
+    "formatted_address": "Olympia, WA, USA",
+    "latitude": 47.0378741,
+    "location": {
+      "lat": 47.0378741,
+      "lng": -122.9006951
+    },
+    "longitude": -122.9006951,
+    "name": "Olympia",
+    "value": 2
+  },
+  {
     "formatted_address": "Olomouc, Czechia",
     "latitude": 49.593778,
     "location": {
@@ -1661,25 +1672,14 @@
     "value": 2
   },
   {
-    "formatted_address": "Olympia, WA, USA",
-    "latitude": 47.0378741,
+    "formatted_address": "Nottingham, UK",
+    "latitude": 52.95478319999999,
     "location": {
-      "lat": 47.0378741,
-      "lng": -122.9006951
+      "lat": 52.95478319999999,
+      "lng": -1.1581086
     },
-    "longitude": -122.9006951,
-    "name": "Olympia",
-    "value": 2
-  },
-  {
-    "formatted_address": "New York, USA",
-    "latitude": 43.2994285,
-    "location": {
-      "lat": 43.2994285,
-      "lng": -74.21793260000001
-    },
-    "longitude": -74.21793260000001,
-    "name": "New York State",
+    "longitude": -1.1581086,
+    "name": "Nottingham ",
     "value": 2
   },
   {
@@ -1694,14 +1694,14 @@
     "value": 2
   },
   {
-    "formatted_address": "Nottingham, UK",
-    "latitude": 52.95478319999999,
+    "formatted_address": "New York, USA",
+    "latitude": 43.2994285,
     "location": {
-      "lat": 52.95478319999999,
-      "lng": -1.1581086
+      "lat": 43.2994285,
+      "lng": -74.21793260000001
     },
-    "longitude": -1.1581086,
-    "name": "Nottingham ",
+    "longitude": -74.21793260000001,
+    "name": "New York State",
     "value": 2
   },
   {
@@ -1771,17 +1771,6 @@
     "value": 2
   },
   {
-    "formatted_address": "Luanda, Angola",
-    "latitude": -8.8146556,
-    "location": {
-      "lat": -8.8146556,
-      "lng": 13.2301756
-    },
-    "longitude": 13.2301756,
-    "name": "Luanda",
-    "value": 2
-  },
-  {
     "formatted_address": "Malmö, Sweden",
     "latitude": 55.604981,
     "location": {
@@ -1790,17 +1779,6 @@
     },
     "longitude": 13.003822,
     "name": "Malmö",
-    "value": 2
-  },
-  {
-    "formatted_address": "London, ON, Canada",
-    "latitude": 42.9849233,
-    "location": {
-      "lat": 42.9849233,
-      "lng": -81.2452768
-    },
-    "longitude": -81.2452768,
-    "name": "London, Ontario, Canada",
     "value": 2
   },
   {
@@ -1815,6 +1793,28 @@
     "value": 2
   },
   {
+    "formatted_address": "Luanda, Angola",
+    "latitude": -8.8146556,
+    "location": {
+      "lat": -8.8146556,
+      "lng": 13.2301756
+    },
+    "longitude": 13.2301756,
+    "name": "Luanda",
+    "value": 2
+  },
+  {
+    "formatted_address": "London, ON, Canada",
+    "latitude": 42.9849233,
+    "location": {
+      "lat": 42.9849233,
+      "lng": -81.2452768
+    },
+    "longitude": -81.2452768,
+    "name": "London, Ontario, Canada",
+    "value": 2
+  },
+  {
     "formatted_address": "Leipzig, Germany",
     "latitude": 51.3396955,
     "location": {
@@ -1823,17 +1823,6 @@
     },
     "longitude": 12.3730747,
     "name": "Leipz ",
-    "value": 2
-  },
-  {
-    "formatted_address": "Royal Leamington Spa, UK",
-    "latitude": 52.2851905,
-    "location": {
-      "lat": 52.2851905,
-      "lng": -1.5200789
-    },
-    "longitude": -1.5200789,
-    "name": "Leamington Spa",
     "value": 2
   },
   {
@@ -1892,17 +1881,6 @@
     "value": 2
   },
   {
-    "formatted_address": "Graz, Austria",
-    "latitude": 47.070714,
-    "location": {
-      "lat": 47.070714,
-      "lng": 15.439504
-    },
-    "longitude": 15.439504,
-    "name": "Graz",
-    "value": 2
-  },
-  {
     "formatted_address": "Grinnell, IA 50112, USA",
     "latitude": 41.74340919999999,
     "location": {
@@ -1914,6 +1892,17 @@
     "value": 2
   },
   {
+    "formatted_address": "Graz, Austria",
+    "latitude": 47.070714,
+    "location": {
+      "lat": 47.070714,
+      "lng": 15.439504
+    },
+    "longitude": 15.439504,
+    "name": "Graz",
+    "value": 2
+  },
+  {
     "formatted_address": "Gothenburg, Sweden",
     "latitude": 57.70887,
     "location": {
@@ -1921,7 +1910,7 @@
       "lng": 11.97456
     },
     "longitude": 11.97456,
-    "name": "Gothenburg",
+    "name": "Gothenburg ",
     "value": 2
   },
   {
@@ -1958,6 +1947,17 @@
     "value": 2
   },
   {
+    "formatted_address": "Durham, UK",
+    "latitude": 54.77525,
+    "location": {
+      "lat": 54.77525,
+      "lng": -1.584852
+    },
+    "longitude": -1.584852,
+    "name": "Durham, UK",
+    "value": 2
+  },
+  {
     "formatted_address": "Dundee, UK",
     "latitude": 56.462018,
     "location": {
@@ -1969,14 +1969,14 @@
     "value": 2
   },
   {
-    "formatted_address": "Durham, UK",
-    "latitude": 54.77525,
+    "formatted_address": "Dubai - United Arab Emirates",
+    "latitude": 25.2048493,
     "location": {
-      "lat": 54.77525,
-      "lng": -1.584852
+      "lat": 25.2048493,
+      "lng": 55.2707828
     },
-    "longitude": -1.584852,
-    "name": "Durham, UK",
+    "longitude": 55.2707828,
+    "name": "Dubai",
     "value": 2
   },
   {
@@ -1999,17 +1999,6 @@
     },
     "longitude": -83.0457538,
     "name": "Detroit",
-    "value": 2
-  },
-  {
-    "formatted_address": "Dubai - United Arab Emirates",
-    "latitude": 25.2048493,
-    "location": {
-      "lat": 25.2048493,
-      "lng": 55.2707828
-    },
-    "longitude": 55.2707828,
-    "name": "Dubai",
     "value": 2
   },
   {
@@ -2068,17 +2057,6 @@
     "value": 2
   },
   {
-    "formatted_address": "7101 Jahnke Rd, Richmond, VA 23225, USA",
-    "latitude": 37.5136429,
-    "location": {
-      "lat": 37.5136429,
-      "lng": -77.52574129999999
-    },
-    "longitude": -77.52574129999999,
-    "name": "Chippenham",
-    "value": 2
-  },
-  {
     "formatted_address": "Charlottesville, VA, USA",
     "latitude": 38.0293059,
     "location": {
@@ -2101,17 +2079,6 @@
     "value": 2
   },
   {
-    "formatted_address": "1887 S Yale Ave, Tulsa, OK 74112, USA",
-    "latitude": 36.135688,
-    "location": {
-      "lat": 36.135688,
-      "lng": -95.91991159999999
-    },
-    "longitude": -95.91991159999999,
-    "name": "Burlington",
-    "value": 2
-  },
-  {
     "formatted_address": "Calgary, AB, Canada",
     "latitude": 51.0486151,
     "location": {
@@ -2123,17 +2090,6 @@
     "value": 2
   },
   {
-    "formatted_address": "Budapest, Hungary",
-    "latitude": 47.497912,
-    "location": {
-      "lat": 47.497912,
-      "lng": 19.040235
-    },
-    "longitude": 19.040235,
-    "name": "Budapest",
-    "value": 2
-  },
-  {
     "formatted_address": "Buffalo, NY, USA",
     "latitude": 42.88644679999999,
     "location": {
@@ -2142,6 +2098,17 @@
     },
     "longitude": -78.8783689,
     "name": "Buffalo",
+    "value": 2
+  },
+  {
+    "formatted_address": "Budapest, Hungary",
+    "latitude": 47.497912,
+    "location": {
+      "lat": 47.497912,
+      "lng": 19.040235
+    },
+    "longitude": 19.040235,
+    "name": "Budapest",
     "value": 2
   },
   {
@@ -2211,25 +2178,58 @@
     "value": 2
   },
   {
-    "formatted_address": "Xiamen, Fujian, China",
-    "latitude": 24.479833,
+    "formatted_address": "7101 Jahnke Rd, Richmond, VA 23225, USA",
+    "latitude": 37.5136429,
     "location": {
-      "lat": 24.479833,
-      "lng": 118.089425
+      "lat": 37.5136429,
+      "lng": -77.52574129999999
     },
-    "longitude": 118.089425,
-    "name": "Xiamen",
+    "longitude": -77.52574129999999,
+    "name": "Chippenham",
+    "value": 2
+  },
+  {
+    "formatted_address": "3101 Wisconsin Ave NW, Washington, DC 20016, USA",
+    "latitude": 38.9284816,
+    "location": {
+      "lat": 38.9284816,
+      "lng": -77.07182480000002
+    },
+    "longitude": -77.07182480000002,
+    "name": "St Albans",
+    "value": 2
+  },
+  {
+    "formatted_address": "1887 S Yale Ave, Tulsa, OK 74112, USA",
+    "latitude": 36.135688,
+    "location": {
+      "lat": 36.135688,
+      "lng": -95.91991159999999
+    },
+    "longitude": -95.91991159999999,
+    "name": "Burlington",
+    "value": 2
+  },
+  {
+    "formatted_address": "Łódź, Poland",
+    "latitude": 51.7592485,
+    "location": {
+      "lat": 51.7592485,
+      "lng": 19.4559833
+    },
+    "longitude": 19.4559833,
+    "name": "Łódź",
     "value": 1
   },
   {
-    "formatted_address": "Yangon, Myanmar (Burma)",
-    "latitude": 16.8660694,
+    "formatted_address": "Ämnäs 22410, Åland Islands",
+    "latitude": 60.21135220000001,
     "location": {
-      "lat": 16.8660694,
-      "lng": 96.19513200000002
+      "lat": 60.21135220000001,
+      "lng": 19.9731429
     },
-    "longitude": 96.19513200000002,
-    "name": "Yangon",
+    "longitude": 19.9731429,
+    "name": "Ämnäs",
     "value": 1
   },
   {
@@ -2244,6 +2244,28 @@
     "value": 1
   },
   {
+    "formatted_address": "Yangon, Myanmar (Burma)",
+    "latitude": 16.8660694,
+    "location": {
+      "lat": 16.8660694,
+      "lng": 96.19513200000002
+    },
+    "longitude": 96.19513200000002,
+    "name": "Yangon",
+    "value": 1
+  },
+  {
+    "formatted_address": "Xiamen, Fujian, China",
+    "latitude": 24.479833,
+    "location": {
+      "lat": 24.479833,
+      "lng": 118.089425
+    },
+    "longitude": 118.089425,
+    "name": "Xiamen",
+    "value": 1
+  },
+  {
     "formatted_address": "Würzburg, Germany",
     "latitude": 49.79130439999999,
     "location": {
@@ -2252,50 +2274,6 @@
     },
     "longitude": 9.9533548,
     "name": "Würzburg",
-    "value": 1
-  },
-  {
-    "formatted_address": "Wooster, OH 44691, USA",
-    "latitude": 40.8050565,
-    "location": {
-      "lat": 40.8050565,
-      "lng": -81.935143
-    },
-    "longitude": -81.935143,
-    "name": "Wooster",
-    "value": 1
-  },
-  {
-    "formatted_address": "Witten, Germany",
-    "latitude": 51.4438926,
-    "location": {
-      "lat": 51.4438926,
-      "lng": 7.353197000000001
-    },
-    "longitude": 7.353197000000001,
-    "name": "Witten, Germany",
-    "value": 1
-  },
-  {
-    "formatted_address": "Wausau, WI, USA",
-    "latitude": 44.9591352,
-    "location": {
-      "lat": 44.9591352,
-      "lng": -89.6301221
-    },
-    "longitude": -89.6301221,
-    "name": "Wausau",
-    "value": 1
-  },
-  {
-    "formatted_address": "TOWNE EAST SQUARE 7700 East Kellogg Drive #H08, Wichita, KS 67207, United States",
-    "latitude": 37.6835476,
-    "location": {
-      "lat": 37.6835476,
-      "lng": -97.24737689999999
-    },
-    "longitude": -97.24737689999999,
-    "name": "Windsor",
     "value": 1
   },
   {
@@ -2310,14 +2288,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Wilmington, DE, USA",
-    "latitude": 39.744655,
+    "formatted_address": "Wooster, OH 44691, USA",
+    "latitude": 40.8050565,
     "location": {
-      "lat": 39.744655,
-      "lng": -75.5483909
+      "lat": 40.8050565,
+      "lng": -81.935143
     },
-    "longitude": -75.5483909,
-    "name": "Wilmington",
+    "longitude": -81.935143,
+    "name": "Wooster",
     "value": 1
   },
   {
@@ -2329,6 +2307,28 @@
     },
     "longitude": 150.8930607,
     "name": "Wollongong",
+    "value": 1
+  },
+  {
+    "formatted_address": "Witten, Germany",
+    "latitude": 51.4438926,
+    "location": {
+      "lat": 51.4438926,
+      "lng": 7.353197000000001
+    },
+    "longitude": 7.353197000000001,
+    "name": "Witten, Germany",
+    "value": 1
+  },
+  {
+    "formatted_address": "Wilmington, DE, USA",
+    "latitude": 39.744655,
+    "location": {
+      "lat": 39.744655,
+      "lng": -75.5483909
+    },
+    "longitude": -75.5483909,
+    "name": "Wilmington",
     "value": 1
   },
   {
@@ -2354,25 +2354,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Valladolid, Spain",
-    "latitude": 41.652251,
+    "formatted_address": "Wausau, WI, USA",
+    "latitude": 44.9591352,
     "location": {
-      "lat": 41.652251,
-      "lng": -4.724532099999999
+      "lat": 44.9591352,
+      "lng": -89.6301221
     },
-    "longitude": -4.724532099999999,
-    "name": "Valladolid",
-    "value": 1
-  },
-  {
-    "formatted_address": "Urbana, IL, USA",
-    "latitude": 40.1105875,
-    "location": {
-      "lat": 40.1105875,
-      "lng": -88.2072697
-    },
-    "longitude": -88.2072697,
-    "name": "Urbana",
+    "longitude": -89.6301221,
+    "name": "Wausau",
     "value": 1
   },
   {
@@ -2387,6 +2376,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Valladolid, Spain",
+    "latitude": 41.652251,
+    "location": {
+      "lat": 41.652251,
+      "lng": -4.724532099999999
+    },
+    "longitude": -4.724532099999999,
+    "name": "Valladolid",
+    "value": 1
+  },
+  {
     "formatted_address": "Valença, 4930, Portugal",
     "latitude": 42.02688939999999,
     "location": {
@@ -2398,14 +2398,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Umeå, Sweden",
-    "latitude": 63.8258471,
+    "formatted_address": "Urbana, IL, USA",
+    "latitude": 40.1105875,
     "location": {
-      "lat": 63.8258471,
-      "lng": 20.2630354
+      "lat": 40.1105875,
+      "lng": -88.2072697
     },
-    "longitude": 20.2630354,
-    "name": "Umeå",
+    "longitude": -88.2072697,
+    "name": "Urbana",
     "value": 1
   },
   {
@@ -2420,14 +2420,36 @@
     "value": 1
   },
   {
-    "formatted_address": "700 University Ave, Monroe, LA 71209, USA",
-    "latitude": 32.528282,
+    "formatted_address": "Umeå, Sweden",
+    "latitude": 63.8258471,
     "location": {
-      "lat": 32.528282,
-      "lng": -92.073415
+      "lat": 63.8258471,
+      "lng": 20.2630354
     },
-    "longitude": -92.073415,
-    "name": "Ulm",
+    "longitude": 20.2630354,
+    "name": "Umeå",
+    "value": 1
+  },
+  {
+    "formatted_address": "Uberlândia, State of Minas Gerais, Brazil",
+    "latitude": -18.9127534,
+    "location": {
+      "lat": -18.9127534,
+      "lng": -48.275484
+    },
+    "longitude": -48.275484,
+    "name": "Uberlândia",
+    "value": 1
+  },
+  {
+    "formatted_address": "Tychy, Poland",
+    "latitude": 50.12180069999999,
+    "location": {
+      "lat": 50.12180069999999,
+      "lng": 19.0200023
+    },
+    "longitude": 19.0200023,
+    "name": "Tychy",
     "value": 1
   },
   {
@@ -2453,39 +2475,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Uberlândia, State of Minas Gerais, Brazil",
-    "latitude": -18.9127534,
-    "location": {
-      "lat": -18.9127534,
-      "lng": -48.275484
-    },
-    "longitude": -48.275484,
-    "name": "Uberlândia",
-    "value": 1
-  },
-  {
-    "formatted_address": "Tilburg, Netherlands",
-    "latitude": 51.58525280000001,
-    "location": {
-      "lat": 51.58525280000001,
-      "lng": 5.056375
-    },
-    "longitude": 5.056375,
-    "name": "Tilburg",
-    "value": 1
-  },
-  {
-    "formatted_address": "Tychy, Poland",
-    "latitude": 50.12180069999999,
-    "location": {
-      "lat": 50.12180069999999,
-      "lng": 19.0200023
-    },
-    "longitude": 19.0200023,
-    "name": "Tychy",
-    "value": 1
-  },
-  {
     "formatted_address": "Trier, Germany",
     "latitude": 49.749992,
     "location": {
@@ -2508,14 +2497,14 @@
     "value": 1
   },
   {
-    "formatted_address": "The Hague, Netherlands",
-    "latitude": 52.0704978,
+    "formatted_address": "Tilburg, Netherlands",
+    "latitude": 51.58525280000001,
     "location": {
-      "lat": 52.0704978,
-      "lng": 4.3006999
+      "lat": 51.58525280000001,
+      "lng": 5.056375
     },
-    "longitude": 4.3006999,
-    "name": "The Hague",
+    "longitude": 5.056375,
+    "name": "Tilburg",
     "value": 1
   },
   {
@@ -2527,6 +2516,17 @@
     },
     "longitude": 39.1231459,
     "name": "Thuwal",
+    "value": 1
+  },
+  {
+    "formatted_address": "The Hague, Netherlands",
+    "latitude": 52.0704978,
+    "location": {
+      "lat": 52.0704978,
+      "lng": 4.3006999
+    },
+    "longitude": 4.3006999,
+    "name": "The Hague",
     "value": 1
   },
   {
@@ -2574,17 +2574,6 @@
     "value": 1
   },
   {
-    "formatted_address": "82 S Main St, Eureka Springs, AR 72632, USA",
-    "latitude": 36.3997612,
-    "location": {
-      "lat": 36.3997612,
-      "lng": -93.7406462
-    },
-    "longitude": -93.7406462,
-    "name": "Stonehouse",
-    "value": 1
-  },
-  {
     "formatted_address": "Taichung City, Taiwan",
     "latitude": 24.1477358,
     "location": {
@@ -2596,14 +2585,14 @@
     "value": 1
   },
   {
-    "formatted_address": "5904 Bee Cave Rd, Austin, TX 78746, USA",
-    "latitude": 30.2963348,
+    "formatted_address": "TOWNE EAST SQUARE 7700 East Kellogg Drive #H08, Wichita, KS 67207, United States",
+    "latitude": 37.6835476,
     "location": {
-      "lat": 30.2963348,
-      "lng": -97.82666170000002
+      "lat": 37.6835476,
+      "lng": -97.24737689999999
     },
-    "longitude": -97.82666170000002,
-    "name": "Strangeland",
+    "longitude": -97.24737689999999,
+    "name": "Windsor",
     "value": 1
   },
   {
@@ -2615,39 +2604,6 @@
     },
     "longitude": 11.3575114,
     "name": "Sulzkirchen",
-    "value": 1
-  },
-  {
-    "formatted_address": "05-070 Sulejowek, Poland",
-    "latitude": 52.25242410000001,
-    "location": {
-      "lat": 52.25242410000001,
-      "lng": 21.2690107
-    },
-    "longitude": 21.2690107,
-    "name": "Sulejówek",
-    "value": 1
-  },
-  {
-    "formatted_address": "Stamford, CT, USA",
-    "latitude": 41.0534302,
-    "location": {
-      "lat": 41.0534302,
-      "lng": -73.5387341
-    },
-    "longitude": -73.5387341,
-    "name": "Stamford",
-    "value": 1
-  },
-  {
-    "formatted_address": "3600 E Harry St, Wichita, KS 67218, USA",
-    "latitude": 37.66614939999999,
-    "location": {
-      "lat": 37.66614939999999,
-      "lng": -97.29310060000002
-    },
-    "longitude": -97.29310060000002,
-    "name": "St. Joseph",
     "value": 1
   },
   {
@@ -2673,6 +2629,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Stamford, CT, USA",
+    "latitude": 41.0534302,
+    "location": {
+      "lat": 41.0534302,
+      "lng": -73.5387341
+    },
+    "longitude": -73.5387341,
+    "name": "Stamford",
+    "value": 1
+  },
+  {
     "formatted_address": "Staffanstorp, Sweden",
     "latitude": 55.641065,
     "location": {
@@ -2695,17 +2662,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Sint-Niklaas, Belgium",
-    "latitude": 51.1558839,
-    "location": {
-      "lat": 51.1558839,
-      "lng": 4.154440999999999
-    },
-    "longitude": 4.154440999999999,
-    "name": "Sint-Niklaas",
-    "value": 1
-  },
-  {
     "formatted_address": "Soldotna, AK 99669, USA",
     "latitude": 60.4877778,
     "location": {
@@ -2717,25 +2673,25 @@
     "value": 1
   },
   {
-    "formatted_address": "53100 Siena, Province of Siena, Italy",
-    "latitude": 43.31880899999999,
+    "formatted_address": "Sint-Niklaas, Belgium",
+    "latitude": 51.1558839,
     "location": {
-      "lat": 43.31880899999999,
-      "lng": 11.3307574
+      "lat": 51.1558839,
+      "lng": 4.154440999999999
     },
-    "longitude": 11.3307574,
-    "name": "Siena",
+    "longitude": 4.154440999999999,
+    "name": "Sint-Niklaas",
     "value": 1
   },
   {
-    "formatted_address": "1707 Johnson Rd, Springdale, AR 72762, USA",
-    "latitude": 36.1709755,
+    "formatted_address": "Seoul, South Korea",
+    "latitude": 37.566535,
     "location": {
-      "lat": 36.1709755,
-      "lng": -94.15627169999999
+      "lat": 37.566535,
+      "lng": 126.9779692
     },
-    "longitude": -94.15627169999999,
-    "name": "Shiloh",
+    "longitude": 126.9779692,
+    "name": "Seoul",
     "value": 1
   },
   {
@@ -2761,14 +2717,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Seoul, South Korea",
-    "latitude": 37.566535,
+    "formatted_address": "Schorndorf, Germany",
+    "latitude": 48.8015423,
     "location": {
-      "lat": 37.566535,
-      "lng": 126.9779692
+      "lat": 48.8015423,
+      "lng": 9.52962
     },
-    "longitude": 126.9779692,
-    "name": "Seoul",
+    "longitude": 9.52962,
+    "name": "Schorndorf",
     "value": 1
   },
   {
@@ -2780,17 +2736,6 @@
     },
     "longitude": -73.9395687,
     "name": "Schenectady",
-    "value": 1
-  },
-  {
-    "formatted_address": "Schorndorf, Germany",
-    "latitude": 48.8015423,
-    "location": {
-      "lat": 48.8015423,
-      "lng": 9.52962
-    },
-    "longitude": 9.52962,
-    "name": "Schorndorf",
     "value": 1
   },
   {
@@ -2838,6 +2783,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Ruhr, Germany",
+    "latitude": 51.418754,
+    "location": {
+      "lat": 51.418754,
+      "lng": 7.5578181
+    },
+    "longitude": 7.5578181,
+    "name": "Ruhr",
+    "value": 1
+  },
+  {
     "formatted_address": "Round Lake, IL, USA",
     "latitude": 42.353355,
     "location": {
@@ -2857,17 +2813,6 @@
     },
     "longitude": -117.3754942,
     "name": "Riverside",
-    "value": 1
-  },
-  {
-    "formatted_address": "Ruhr, Germany",
-    "latitude": 51.418754,
-    "location": {
-      "lat": 51.418754,
-      "lng": 7.5578181
-    },
-    "longitude": 7.5578181,
-    "name": "Ruhr",
     "value": 1
   },
   {
@@ -2904,6 +2849,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Reykjavík, Iceland",
+    "latitude": 64.146582,
+    "location": {
+      "lat": 64.146582,
+      "lng": -21.9426354
+    },
+    "longitude": -21.9426354,
+    "name": "Reykjavik",
+    "value": 1
+  },
+  {
     "formatted_address": "Red Deer, AB, Canada",
     "latitude": 52.2681118,
     "location": {
@@ -2923,28 +2879,6 @@
     },
     "longitude": -71.0022705,
     "name": "Quincy",
-    "value": 1
-  },
-  {
-    "formatted_address": "Reykjavík, Iceland",
-    "latitude": 64.146582,
-    "location": {
-      "lat": 64.146582,
-      "lng": -21.9426354
-    },
-    "longitude": -21.9426354,
-    "name": "Reykjavik",
-    "value": 1
-  },
-  {
-    "formatted_address": "Platteville, WI 53818, USA",
-    "latitude": 42.73416,
-    "location": {
-      "lat": 42.73416,
-      "lng": -90.4784621
-    },
-    "longitude": -90.4784621,
-    "name": "Platteville",
     "value": 1
   },
   {
@@ -2992,17 +2926,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Pittsburg, CA, USA",
-    "latitude": 38.0279762,
-    "location": {
-      "lat": 38.0279762,
-      "lng": -121.8846806
-    },
-    "longitude": -121.8846806,
-    "name": "Pittsburg",
-    "value": 1
-  },
-  {
     "formatted_address": "Pocatello, ID, USA",
     "latitude": 42.8621042,
     "location": {
@@ -3014,14 +2937,25 @@
     "value": 1
   },
   {
-    "formatted_address": "Peekskill, NY, USA",
-    "latitude": 41.2900939,
+    "formatted_address": "Platteville, WI 53818, USA",
+    "latitude": 42.73416,
     "location": {
-      "lat": 41.2900939,
-      "lng": -73.9204158
+      "lat": 42.73416,
+      "lng": -90.4784621
     },
-    "longitude": -73.9204158,
-    "name": "Peekskill",
+    "longitude": -90.4784621,
+    "name": "Platteville",
+    "value": 1
+  },
+  {
+    "formatted_address": "Pittsburg, CA, USA",
+    "latitude": 38.0279762,
+    "location": {
+      "lat": 38.0279762,
+      "lng": -121.8846806
+    },
+    "longitude": -121.8846806,
+    "name": "Pittsburg",
     "value": 1
   },
   {
@@ -3033,6 +2967,17 @@
     },
     "longitude": 34.887762,
     "name": "Petah Tikva",
+    "value": 1
+  },
+  {
+    "formatted_address": "Peekskill, NY, USA",
+    "latitude": 41.2900939,
+    "location": {
+      "lat": 41.2900939,
+      "lng": -73.9204158
+    },
+    "longitude": -73.9204158,
+    "name": "Peekskill",
     "value": 1
   },
   {
@@ -3058,28 +3003,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Oxford, KS 67119, USA",
-    "latitude": 37.2741908,
-    "location": {
-      "lat": 37.2741908,
-      "lng": -97.1689296
-    },
-    "longitude": -97.1689296,
-    "name": "Oxford ",
-    "value": 1
-  },
-  {
-    "formatted_address": "Ottery St Mary, Ottery Saint Mary EX11, UK",
-    "latitude": 50.75117820000001,
-    "location": {
-      "lat": 50.75117820000001,
-      "lng": -3.279352
-    },
-    "longitude": -3.279352,
-    "name": "Ottery St Mary ",
-    "value": 1
-  },
-  {
     "formatted_address": "Palo Alto, CA, USA",
     "latitude": 37.4418834,
     "location": {
@@ -3088,83 +3011,6 @@
     },
     "longitude": -122.1430195,
     "name": "Palo Alto",
-    "value": 1
-  },
-  {
-    "formatted_address": "Overland Park, KS, USA",
-    "latitude": 38.9822282,
-    "location": {
-      "lat": 38.9822282,
-      "lng": -94.6707917
-    },
-    "longitude": -94.6707917,
-    "name": "Overland Park",
-    "value": 1
-  },
-  {
-    "formatted_address": "Oregon, USA",
-    "latitude": 43.8041334,
-    "location": {
-      "lat": 43.8041334,
-      "lng": -120.5542012
-    },
-    "longitude": -120.5542012,
-    "name": "Oregon ",
-    "value": 1
-  },
-  {
-    "formatted_address": "Orlando, FL, USA",
-    "latitude": 28.5383355,
-    "location": {
-      "lat": 28.5383355,
-      "lng": -81.3792365
-    },
-    "longitude": -81.3792365,
-    "name": "Orlando",
-    "value": 1
-  },
-  {
-    "formatted_address": "Ogre, Ogres pilsēta, Latvia",
-    "latitude": 56.8147355,
-    "location": {
-      "lat": 56.8147355,
-      "lng": 24.6044555
-    },
-    "longitude": 24.6044555,
-    "name": "Ogre",
-    "value": 1
-  },
-  {
-    "formatted_address": "Novi Sad, Serbia",
-    "latitude": 45.2671352,
-    "location": {
-      "lat": 45.2671352,
-      "lng": 19.8335496
-    },
-    "longitude": 19.8335496,
-    "name": "Novi Sad ",
-    "value": 1
-  },
-  {
-    "formatted_address": "Olten, Switzerland",
-    "latitude": 47.3499624,
-    "location": {
-      "lat": 47.3499624,
-      "lng": 7.903703399999999
-    },
-    "longitude": 7.903703399999999,
-    "name": "Olten",
-    "value": 1
-  },
-  {
-    "formatted_address": "Oakland, CA, USA",
-    "latitude": 37.8043637,
-    "location": {
-      "lat": 37.8043637,
-      "lng": -122.2711137
-    },
-    "longitude": -122.2711137,
-    "name": "Oakland",
     "value": 1
   },
   {
@@ -3179,14 +3025,58 @@
     "value": 1
   },
   {
-    "formatted_address": "Oberlin, OH 44074, USA",
-    "latitude": 41.2939386,
+    "formatted_address": "Oxford, KS 67119, USA",
+    "latitude": 37.2741908,
     "location": {
-      "lat": 41.2939386,
-      "lng": -82.21737859999999
+      "lat": 37.2741908,
+      "lng": -97.1689296
     },
-    "longitude": -82.21737859999999,
-    "name": "Oberlin",
+    "longitude": -97.1689296,
+    "name": "Oxford ",
+    "value": 1
+  },
+  {
+    "formatted_address": "Overland Park, KS, USA",
+    "latitude": 38.9822282,
+    "location": {
+      "lat": 38.9822282,
+      "lng": -94.6707917
+    },
+    "longitude": -94.6707917,
+    "name": "Overland Park",
+    "value": 1
+  },
+  {
+    "formatted_address": "Ottery St Mary, Ottery Saint Mary EX11, UK",
+    "latitude": 50.75117820000001,
+    "location": {
+      "lat": 50.75117820000001,
+      "lng": -3.279352
+    },
+    "longitude": -3.279352,
+    "name": "Ottery St Mary ",
+    "value": 1
+  },
+  {
+    "formatted_address": "Orlando, FL, USA",
+    "latitude": 28.5383355,
+    "location": {
+      "lat": 28.5383355,
+      "lng": -81.3792365
+    },
+    "longitude": -81.3792365,
+    "name": "Orlando",
+    "value": 1
+  },
+  {
+    "formatted_address": "Oregon, USA",
+    "latitude": 43.8041334,
+    "location": {
+      "lat": 43.8041334,
+      "lng": -120.5542012
+    },
+    "longitude": -120.5542012,
+    "name": "Oregon ",
     "value": 1
   },
   {
@@ -3201,6 +3091,50 @@
     "value": 1
   },
   {
+    "formatted_address": "Olten, Switzerland",
+    "latitude": 47.3499624,
+    "location": {
+      "lat": 47.3499624,
+      "lng": 7.903703399999999
+    },
+    "longitude": 7.903703399999999,
+    "name": "Olten",
+    "value": 1
+  },
+  {
+    "formatted_address": "Ogre, Ogres pilsēta, Latvia",
+    "latitude": 56.8147355,
+    "location": {
+      "lat": 56.8147355,
+      "lng": 24.6044555
+    },
+    "longitude": 24.6044555,
+    "name": "Ogre",
+    "value": 1
+  },
+  {
+    "formatted_address": "Oberlin, OH 44074, USA",
+    "latitude": 41.2939386,
+    "location": {
+      "lat": 41.2939386,
+      "lng": -82.21737859999999
+    },
+    "longitude": -82.21737859999999,
+    "name": "Oberlin",
+    "value": 1
+  },
+  {
+    "formatted_address": "Oakland, CA, USA",
+    "latitude": 37.8043637,
+    "location": {
+      "lat": 37.8043637,
+      "lng": -122.2711137
+    },
+    "longitude": -122.2711137,
+    "name": "Oakland",
+    "value": 1
+  },
+  {
     "formatted_address": "Nyagatare, Rwanda",
     "latitude": -1.3782249,
     "location": {
@@ -3212,17 +3146,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Norwalk, CT, USA",
-    "latitude": 41.11774399999999,
-    "location": {
-      "lat": 41.11774399999999,
-      "lng": -73.4081575
-    },
-    "longitude": -73.4081575,
-    "name": "Norwalk",
-    "value": 1
-  },
-  {
     "formatted_address": "Nuremberg, Germany",
     "latitude": 49.4521018,
     "location": {
@@ -3231,6 +3154,28 @@
     },
     "longitude": 11.0766654,
     "name": "Nuremberg",
+    "value": 1
+  },
+  {
+    "formatted_address": "Novi Sad, Serbia",
+    "latitude": 45.2671352,
+    "location": {
+      "lat": 45.2671352,
+      "lng": 19.8335496
+    },
+    "longitude": 19.8335496,
+    "name": "Novi Sad ",
+    "value": 1
+  },
+  {
+    "formatted_address": "Norwalk, CT, USA",
+    "latitude": 41.11774399999999,
+    "location": {
+      "lat": 41.11774399999999,
+      "lng": -73.4081575
+    },
+    "longitude": -73.4081575,
+    "name": "Norwalk",
     "value": 1
   },
   {
@@ -3289,17 +3234,6 @@
     "value": 1
   },
   {
-    "formatted_address": "3200 Mount Vernon Hwy, Mt Vernon, VA 22121, USA",
-    "latitude": 38.707982,
-    "location": {
-      "lat": 38.707982,
-      "lng": -77.0861753
-    },
-    "longitude": -77.0861753,
-    "name": "Mount Vernon",
-    "value": 1
-  },
-  {
     "formatted_address": "Nairobi, Kenya",
     "latitude": -1.2920659,
     "location": {
@@ -3333,17 +3267,6 @@
     "value": 1
   },
   {
-    "formatted_address": "400 Cedar Ave, West Long Branch, NJ 07764, USA",
-    "latitude": 40.2804557,
-    "location": {
-      "lat": 40.2804557,
-      "lng": -74.0058114
-    },
-    "longitude": -74.0058114,
-    "name": "Monmouth",
-    "value": 1
-  },
-  {
     "formatted_address": "Minsk, Belarus",
     "latitude": 53.90453979999999,
     "location": {
@@ -3352,6 +3275,17 @@
     },
     "longitude": 27.5615244,
     "name": "Minsk",
+    "value": 1
+  },
+  {
+    "formatted_address": "Milwaukee, WI, USA",
+    "latitude": 43.0389025,
+    "location": {
+      "lat": 43.0389025,
+      "lng": -87.9064736
+    },
+    "longitude": -87.9064736,
+    "name": "Milwaukee",
     "value": 1
   },
   {
@@ -3366,25 +3300,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Manchester, NH, USA",
-    "latitude": 42.9956397,
+    "formatted_address": "Miami, FL, USA",
+    "latitude": 25.7616798,
     "location": {
-      "lat": 42.9956397,
-      "lng": -71.4547891
+      "lat": 25.7616798,
+      "lng": -80.1917902
     },
-    "longitude": -71.4547891,
-    "name": "Manchester (US)",
-    "value": 1
-  },
-  {
-    "formatted_address": "Maarssen, Netherlands",
-    "latitude": 52.1319071,
-    "location": {
-      "lat": 52.1319071,
-      "lng": 5.017102
-    },
-    "longitude": 5.017102,
-    "name": "Maarssen",
+    "longitude": -80.1917902,
+    "name": "Miami",
     "value": 1
   },
   {
@@ -3410,28 +3333,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Miami, FL, USA",
-    "latitude": 25.7616798,
-    "location": {
-      "lat": 25.7616798,
-      "lng": -80.1917902
-    },
-    "longitude": -80.1917902,
-    "name": "Miami",
-    "value": 1
-  },
-  {
-    "formatted_address": "Milwaukee, WI, USA",
-    "latitude": 43.0389025,
-    "location": {
-      "lat": 43.0389025,
-      "lng": -87.9064736
-    },
-    "longitude": -87.9064736,
-    "name": "Milwaukee",
-    "value": 1
-  },
-  {
     "formatted_address": "Marburg, Germany",
     "latitude": 50.8021728,
     "location": {
@@ -3443,91 +3344,25 @@
     "value": 1
   },
   {
-    "formatted_address": "Lubbock, TX, USA",
-    "latitude": 33.5778631,
+    "formatted_address": "Mangalore Central, Attavar, Mangaluru, Karnataka 575001, India",
+    "latitude": 12.8633482,
     "location": {
-      "lat": 33.5778631,
-      "lng": -101.8551665
+      "lat": 12.8633482,
+      "lng": 74.8432576
     },
-    "longitude": -101.8551665,
-    "name": "Lubbock",
+    "longitude": 74.8432576,
+    "name": "Chennai & Mangalore ",
     "value": 1
   },
   {
-    "formatted_address": "Llanberis, Caernarfon LL55, UK",
-    "latitude": 53.1180329,
+    "formatted_address": "Manchester, NH, USA",
+    "latitude": 42.9956397,
     "location": {
-      "lat": 53.1180329,
-      "lng": -4.127549
+      "lat": 42.9956397,
+      "lng": -71.4547891
     },
-    "longitude": -4.127549,
-    "name": "Llanberis",
-    "value": 1
-  },
-  {
-    "formatted_address": "Lüneburg, Germany",
-    "latitude": 53.2464214,
-    "location": {
-      "lat": 53.2464214,
-      "lng": 10.4115179
-    },
-    "longitude": 10.4115179,
-    "name": "Lüneburg",
-    "value": 1
-  },
-  {
-    "formatted_address": "Longview, TX, USA",
-    "latitude": 32.5007037,
-    "location": {
-      "lat": 32.5007037,
-      "lng": -94.74048909999999
-    },
-    "longitude": -94.74048909999999,
-    "name": "Longview",
-    "value": 1
-  },
-  {
-    "formatted_address": "Lugano, Switzerland",
-    "latitude": 46.0036778,
-    "location": {
-      "lat": 46.0036778,
-      "lng": 8.951051999999999
-    },
-    "longitude": 8.951051999999999,
-    "name": "Lugano",
-    "value": 1
-  },
-  {
-    "formatted_address": "Łódź, Poland",
-    "latitude": 51.7592485,
-    "location": {
-      "lat": 51.7592485,
-      "lng": 19.4559833
-    },
-    "longitude": 19.4559833,
-    "name": "Łódź",
-    "value": 1
-  },
-  {
-    "formatted_address": "Lyon, France",
-    "latitude": 45.764043,
-    "location": {
-      "lat": 45.764043,
-      "lng": 4.835659
-    },
-    "longitude": 4.835659,
-    "name": "Lyon",
-    "value": 1
-  },
-  {
-    "formatted_address": "Lund, Sweden",
-    "latitude": 55.7046601,
-    "location": {
-      "lat": 55.7046601,
-      "lng": 13.1910073
-    },
-    "longitude": 13.1910073,
-    "name": "Lund",
+    "longitude": -71.4547891,
+    "name": "Manchester (US)",
     "value": 1
   },
   {
@@ -3542,6 +3377,39 @@
     "value": 1
   },
   {
+    "formatted_address": "Maarssen, Netherlands",
+    "latitude": 52.1319071,
+    "location": {
+      "lat": 52.1319071,
+      "lng": 5.017102
+    },
+    "longitude": 5.017102,
+    "name": "Maarssen",
+    "value": 1
+  },
+  {
+    "formatted_address": "Lüneburg, Germany",
+    "latitude": 53.2464214,
+    "location": {
+      "lat": 53.2464214,
+      "lng": 10.4115179
+    },
+    "longitude": 10.4115179,
+    "name": "Lüneburg",
+    "value": 1
+  },
+  {
+    "formatted_address": "Lyon, France",
+    "latitude": 45.764043,
+    "location": {
+      "lat": 45.764043,
+      "lng": 4.835659
+    },
+    "longitude": 4.835659,
+    "name": "Lyon",
+    "value": 1
+  },
+  {
     "formatted_address": "Lynchburg, VA, USA",
     "latitude": 37.4137536,
     "location": {
@@ -3553,25 +3421,58 @@
     "value": 1
   },
   {
-    "formatted_address": "Lincolnton, NC 28092, USA",
-    "latitude": 35.473745,
+    "formatted_address": "Lund, Sweden",
+    "latitude": 55.7046601,
     "location": {
-      "lat": 35.473745,
-      "lng": -81.2545251
+      "lat": 55.7046601,
+      "lng": 13.1910073
     },
-    "longitude": -81.2545251,
-    "name": "Lincolnton",
+    "longitude": 13.1910073,
+    "name": "Lund",
     "value": 1
   },
   {
-    "formatted_address": "Leuven, Belgium",
-    "latitude": 50.8798438,
+    "formatted_address": "Lugano, Switzerland",
+    "latitude": 46.0036778,
     "location": {
-      "lat": 50.8798438,
-      "lng": 4.7005176
+      "lat": 46.0036778,
+      "lng": 8.951051999999999
     },
-    "longitude": 4.7005176,
-    "name": "Leuven",
+    "longitude": 8.951051999999999,
+    "name": "Lugano",
+    "value": 1
+  },
+  {
+    "formatted_address": "Lubbock, TX, USA",
+    "latitude": 33.5778631,
+    "location": {
+      "lat": 33.5778631,
+      "lng": -101.8551665
+    },
+    "longitude": -101.8551665,
+    "name": "Lubbock",
+    "value": 1
+  },
+  {
+    "formatted_address": "Longview, TX, USA",
+    "latitude": 32.5007037,
+    "location": {
+      "lat": 32.5007037,
+      "lng": -94.74048909999999
+    },
+    "longitude": -94.74048909999999,
+    "name": "Longview",
+    "value": 1
+  },
+  {
+    "formatted_address": "Llanberis, Caernarfon LL55, UK",
+    "latitude": 53.1180329,
+    "location": {
+      "lat": 53.1180329,
+      "lng": -4.127549
+    },
+    "longitude": -4.127549,
+    "name": "Llanberis",
     "value": 1
   },
   {
@@ -3586,6 +3487,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Lincolnton, NC 28092, USA",
+    "latitude": 35.473745,
+    "location": {
+      "lat": 35.473745,
+      "lng": -81.2545251
+    },
+    "longitude": -81.2545251,
+    "name": "Lincolnton",
+    "value": 1
+  },
+  {
     "formatted_address": "Lexington, KY, USA",
     "latitude": 38.0405837,
     "location": {
@@ -3594,6 +3506,17 @@
     },
     "longitude": -84.5037164,
     "name": "Lexington",
+    "value": 1
+  },
+  {
+    "formatted_address": "Leuven, Belgium",
+    "latitude": 50.8798438,
+    "location": {
+      "lat": 50.8798438,
+      "lng": 4.7005176
+    },
+    "longitude": 4.7005176,
+    "name": "Leuven",
     "value": 1
   },
   {
@@ -3608,6 +3531,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Las Cruces, NM, USA",
+    "latitude": 32.3199396,
+    "location": {
+      "lat": 32.3199396,
+      "lng": -106.7636538
+    },
+    "longitude": -106.7636538,
+    "name": "Las Cruces",
+    "value": 1
+  },
+  {
     "formatted_address": "Lake Tahoe, United States",
     "latitude": 39.0968493,
     "location": {
@@ -3619,14 +3553,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Las Cruces, NM, USA",
-    "latitude": 32.3199396,
+    "formatted_address": "Lake Charles, LA, USA",
+    "latitude": 30.2265949,
     "location": {
-      "lat": 32.3199396,
-      "lng": -106.7636538
+      "lat": 30.2265949,
+      "lng": -93.2173758
     },
-    "longitude": -106.7636538,
-    "name": "Las Cruces",
+    "longitude": -93.2173758,
+    "name": "Lake Charles",
     "value": 1
   },
   {
@@ -3652,14 +3586,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Lake Charles, LA, USA",
-    "latitude": 30.2265949,
+    "formatted_address": "Kristianstad, Sweden",
+    "latitude": 56.0293936,
     "location": {
-      "lat": 30.2265949,
-      "lng": -93.2173758
+      "lat": 56.0293936,
+      "lng": 14.1566779
     },
-    "longitude": -93.2173758,
-    "name": "Lake Charles",
+    "longitude": 14.1566779,
+    "name": "Kristianstad",
     "value": 1
   },
   {
@@ -3674,14 +3608,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Kristianstad, Sweden",
-    "latitude": 56.0293936,
+    "formatted_address": "Knoxville, TN, USA",
+    "latitude": 35.9606384,
     "location": {
-      "lat": 56.0293936,
-      "lng": 14.1566779
+      "lat": 35.9606384,
+      "lng": -83.9207392
     },
-    "longitude": 14.1566779,
-    "name": "Kristianstad",
+    "longitude": -83.9207392,
+    "name": "Knoxville",
     "value": 1
   },
   {
@@ -3696,28 +3630,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Kenilworth, NJ, USA",
-    "latitude": 40.6764911,
-    "location": {
-      "lat": 40.6764911,
-      "lng": -74.2907032
-    },
-    "longitude": -74.2907032,
-    "name": "Kenilworth",
-    "value": 1
-  },
-  {
-    "formatted_address": "Knoxville, TN, USA",
-    "latitude": 35.9606384,
-    "location": {
-      "lat": 35.9606384,
-      "lng": -83.9207392
-    },
-    "longitude": -83.9207392,
-    "name": "Knoxville",
-    "value": 1
-  },
-  {
     "formatted_address": "Kigoma, Tanzania",
     "latitude": -4.8824092,
     "location": {
@@ -3729,14 +3641,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Kampala, Uganda",
-    "latitude": 0.3475964,
+    "formatted_address": "Kenilworth, NJ, USA",
+    "latitude": 40.6764911,
     "location": {
-      "lat": 0.3475964,
-      "lng": 32.5825197
+      "lat": 40.6764911,
+      "lng": -74.2907032
     },
-    "longitude": 32.5825197,
-    "name": "Kampala",
+    "longitude": -74.2907032,
+    "name": "Kenilworth",
     "value": 1
   },
   {
@@ -3762,14 +3674,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Jefferson, Fawn Creek, KS 67301, USA",
-    "latitude": 37.1095843,
+    "formatted_address": "Kampala, Uganda",
+    "latitude": 0.3475964,
     "location": {
-      "lat": 37.1095843,
-      "lng": -95.76257129999999
+      "lat": 0.3475964,
+      "lng": 32.5825197
     },
-    "longitude": -95.76257129999999,
-    "name": "Jefferson",
+    "longitude": 32.5825197,
+    "name": "Kampala",
     "value": 1
   },
   {
@@ -3784,80 +3696,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Inverness, UK",
-    "latitude": 57.477773,
+    "formatted_address": "Jefferson, Fawn Creek, KS 67301, USA",
+    "latitude": 37.1095843,
     "location": {
-      "lat": 57.477773,
-      "lng": -4.224721
+      "lat": 37.1095843,
+      "lng": -95.76257129999999
     },
-    "longitude": -4.224721,
-    "name": "Inverness",
-    "value": 1
-  },
-  {
-    "formatted_address": "Huonville TAS 7109, Australia",
-    "latitude": -43.0295194,
-    "location": {
-      "lat": -43.0295194,
-      "lng": 147.0580307
-    },
-    "longitude": 147.0580307,
-    "name": "Huonville",
-    "value": 1
-  },
-  {
-    "formatted_address": "Islamabad, Islamabad Capital Territory, Pakistan",
-    "latitude": 33.6844202,
-    "location": {
-      "lat": 33.6844202,
-      "lng": 73.04788479999999
-    },
-    "longitude": 73.04788479999999,
-    "name": "Islamabad",
-    "value": 1
-  },
-  {
-    "formatted_address": "Hurlburt Field, FL, USA",
-    "latitude": 30.4236556,
-    "location": {
-      "lat": 30.4236556,
-      "lng": -86.69497109999999
-    },
-    "longitude": -86.69497109999999,
-    "name": "Hurlburt Field",
-    "value": 1
-  },
-  {
-    "formatted_address": "525 Grandview Ave, Ottumwa, IA 52501, USA",
-    "latitude": 41.044962,
-    "location": {
-      "lat": 41.044962,
-      "lng": -92.394464
-    },
-    "longitude": -92.394464,
-    "name": "Indian Hills",
-    "value": 1
-  },
-  {
-    "formatted_address": "Huntly AB54, UK",
-    "latitude": 57.445936,
-    "location": {
-      "lat": 57.445936,
-      "lng": -2.7878058
-    },
-    "longitude": -2.7878058,
-    "name": "Huntly",
-    "value": 1
-  },
-  {
-    "formatted_address": "Huntsville, AL, USA",
-    "latitude": 34.7303688,
-    "location": {
-      "lat": 34.7303688,
-      "lng": -86.5861037
-    },
-    "longitude": -86.5861037,
-    "name": "Huntsville",
+    "longitude": -95.76257129999999,
+    "name": "Jefferson",
     "value": 1
   },
   {
@@ -3872,6 +3718,28 @@
     "value": 1
   },
   {
+    "formatted_address": "Islamabad, Islamabad Capital Territory, Pakistan",
+    "latitude": 33.6844202,
+    "location": {
+      "lat": 33.6844202,
+      "lng": 73.04788479999999
+    },
+    "longitude": 73.04788479999999,
+    "name": "Islamabad",
+    "value": 1
+  },
+  {
+    "formatted_address": "Inverness, UK",
+    "latitude": 57.477773,
+    "location": {
+      "lat": 57.477773,
+      "lng": -4.224721
+    },
+    "longitude": -4.224721,
+    "name": "Inverness",
+    "value": 1
+  },
+  {
     "formatted_address": "Hyderabad, Telangana, India",
     "latitude": 17.385044,
     "location": {
@@ -3880,6 +3748,50 @@
     },
     "longitude": 78.486671,
     "name": "Hyderabad",
+    "value": 1
+  },
+  {
+    "formatted_address": "Hurlburt Field, FL, USA",
+    "latitude": 30.4236556,
+    "location": {
+      "lat": 30.4236556,
+      "lng": -86.69497109999999
+    },
+    "longitude": -86.69497109999999,
+    "name": "Hurlburt Field",
+    "value": 1
+  },
+  {
+    "formatted_address": "Huonville TAS 7109, Australia",
+    "latitude": -43.0295194,
+    "location": {
+      "lat": -43.0295194,
+      "lng": 147.0580307
+    },
+    "longitude": 147.0580307,
+    "name": "Huonville",
+    "value": 1
+  },
+  {
+    "formatted_address": "Huntsville, AL, USA",
+    "latitude": 34.7303688,
+    "location": {
+      "lat": 34.7303688,
+      "lng": -86.5861037
+    },
+    "longitude": -86.5861037,
+    "name": "Huntsville",
+    "value": 1
+  },
+  {
+    "formatted_address": "Huntly AB54, UK",
+    "latitude": 57.445936,
+    "location": {
+      "lat": 57.445936,
+      "lng": -2.7878058
+    },
+    "longitude": -2.7878058,
+    "name": "Huntly",
     "value": 1
   },
   {
@@ -3894,17 +3806,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Holland, MI 49423, USA",
-    "latitude": 42.7875235,
-    "location": {
-      "lat": 42.7875235,
-      "lng": -86.1089301
-    },
-    "longitude": -86.1089301,
-    "name": "Holland (US)",
-    "value": 1
-  },
-  {
     "formatted_address": "Honiara, Solomon Islands",
     "latitude": -9.4456381,
     "location": {
@@ -3916,14 +3817,14 @@
     "value": 1
   },
   {
-    "formatted_address": "1314 W 7th St, Coffeyville, KS 67337, USA",
-    "latitude": 37.0375471,
+    "formatted_address": "Holland, MI 49423, USA",
+    "latitude": 42.7875235,
     "location": {
-      "lat": 37.0375471,
-      "lng": -95.6372785
+      "lat": 42.7875235,
+      "lng": -86.1089301
     },
-    "longitude": -95.6372785,
-    "name": "Holiday",
+    "longitude": -86.1089301,
+    "name": "Holland (US)",
     "value": 1
   },
   {
@@ -3938,17 +3839,6 @@
     "value": 1
   },
   {
-    "formatted_address": "53773 Hennef, Germany",
-    "latitude": 50.760274,
-    "location": {
-      "lat": 50.760274,
-      "lng": 7.3465066
-    },
-    "longitude": 7.3465066,
-    "name": "Hennef",
-    "value": 1
-  },
-  {
     "formatted_address": "Hengelo, Netherlands",
     "latitude": 52.2574121,
     "location": {
@@ -3957,6 +3847,17 @@
     },
     "longitude": 6.7927725,
     "name": "Hengelo",
+    "value": 1
+  },
+  {
+    "formatted_address": "Hawaii, USA",
+    "latitude": 19.8967662,
+    "location": {
+      "lat": 19.8967662,
+      "lng": -155.5827818
+    },
+    "longitude": -155.5827818,
+    "name": "Hawaii",
     "value": 1
   },
   {
@@ -3982,28 +3883,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Hawaii, USA",
-    "latitude": 19.8967662,
-    "location": {
-      "lat": 19.8967662,
-      "lng": -155.5827818
-    },
-    "longitude": -155.5827818,
-    "name": "Hawaii",
-    "value": 1
-  },
-  {
-    "formatted_address": "204 W North St, Hanover, KS 66945, USA",
-    "latitude": 39.89295680000001,
-    "location": {
-      "lat": 39.89295680000001,
-      "lng": -96.87842239999999
-    },
-    "longitude": -96.87842239999999,
-    "name": "Hanover",
-    "value": 1
-  },
-  {
     "formatted_address": "Harrogate, UK",
     "latitude": 53.99212,
     "location": {
@@ -4012,17 +3891,6 @@
     },
     "longitude": -1.541812,
     "name": "Harrogate",
-    "value": 1
-  },
-  {
-    "formatted_address": "Halifax Regional Municipality, NS, Canada",
-    "latitude": 44.64876350000001,
-    "location": {
-      "lat": 44.64876350000001,
-      "lng": -63.5752387
-    },
-    "longitude": -63.5752387,
-    "name": "Halifax",
     "value": 1
   },
   {
@@ -4037,6 +3905,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Halifax Regional Municipality, NS, Canada",
+    "latitude": 44.64876350000001,
+    "location": {
+      "lat": 44.64876350000001,
+      "lng": -63.5752387
+    },
+    "longitude": -63.5752387,
+    "name": "Halifax",
+    "value": 1
+  },
+  {
     "formatted_address": "Hadera, Israel",
     "latitude": 32.4340458,
     "location": {
@@ -4045,28 +3924,6 @@
     },
     "longitude": 34.9196518,
     "name": "Hadera",
-    "value": 1
-  },
-  {
-    "formatted_address": "Greenville, SC, USA",
-    "latitude": 34.85261759999999,
-    "location": {
-      "lat": 34.85261759999999,
-      "lng": -82.3940104
-    },
-    "longitude": -82.3940104,
-    "name": "Greenville",
-    "value": 1
-  },
-  {
-    "formatted_address": "4302 East, US-160, Independence, KS 67301, United States",
-    "latitude": 37.223718,
-    "location": {
-      "lat": 37.223718,
-      "lng": -95.673952
-    },
-    "longitude": -95.673952,
-    "name": "Good",
     "value": 1
   },
   {
@@ -4081,6 +3938,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Greenville, SC, USA",
+    "latitude": 34.85261759999999,
+    "location": {
+      "lat": 34.85261759999999,
+      "lng": -82.3940104
+    },
+    "longitude": -82.3940104,
+    "name": "Greenville",
+    "value": 1
+  },
+  {
     "formatted_address": "Greenbelt, MD, USA",
     "latitude": 39.0045544,
     "location": {
@@ -4089,28 +3957,6 @@
     },
     "longitude": -76.87552819999999,
     "name": "Greenbelt",
-    "value": 1
-  },
-  {
-    "formatted_address": "Grand Rapids, MI, USA",
-    "latitude": 42.9633599,
-    "location": {
-      "lat": 42.9633599,
-      "lng": -85.6680863
-    },
-    "longitude": -85.6680863,
-    "name": "Grand Rapids",
-    "value": 1
-  },
-  {
-    "formatted_address": "Grantown-on-Spey PH26, UK",
-    "latitude": 57.33041,
-    "location": {
-      "lat": 57.33041,
-      "lng": -3.609628
-    },
-    "longitude": -3.609628,
-    "name": "Grantown on Spey",
     "value": 1
   },
   {
@@ -4125,47 +3971,25 @@
     "value": 1
   },
   {
-    "formatted_address": "Geelong VIC 3220, Australia",
-    "latitude": -38.1499181,
+    "formatted_address": "Grantown-on-Spey PH26, UK",
+    "latitude": 57.33041,
     "location": {
-      "lat": -38.1499181,
-      "lng": 144.3617186
+      "lat": 57.33041,
+      "lng": -3.609628
     },
-    "longitude": 144.3617186,
-    "name": "Geelong",
+    "longitude": -3.609628,
+    "name": "Grantown on Spey",
     "value": 1
   },
   {
-    "formatted_address": "Golbey, France",
-    "latitude": 48.197368,
+    "formatted_address": "Grand Rapids, MI, USA",
+    "latitude": 42.9633599,
     "location": {
-      "lat": 48.197368,
-      "lng": 6.440424999999999
+      "lat": 42.9633599,
+      "lng": -85.6680863
     },
-    "longitude": 6.440424999999999,
-    "name": "Golbey",
-    "value": 1
-  },
-  {
-    "formatted_address": "3865 Gallagher Dr, Edina, MN 55435, USA",
-    "latitude": 44.8704543,
-    "location": {
-      "lat": 44.8704543,
-      "lng": -93.3283575
-    },
-    "longitude": -93.3283575,
-    "name": "Gent",
-    "value": 1
-  },
-  {
-    "formatted_address": "Gibraltar",
-    "latitude": 36.140751,
-    "location": {
-      "lat": 36.140751,
-      "lng": -5.353585
-    },
-    "longitude": -5.353585,
-    "name": "Gibraltar",
+    "longitude": -85.6680863,
+    "name": "Grand Rapids",
     "value": 1
   },
   {
@@ -4180,6 +4004,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Golbey, France",
+    "latitude": 48.197368,
+    "location": {
+      "lat": 48.197368,
+      "lng": 6.440424999999999
+    },
+    "longitude": 6.440424999999999,
+    "name": "Golbey",
+    "value": 1
+  },
+  {
     "formatted_address": "Glen Rock, NJ 07452, USA",
     "latitude": 40.9628758,
     "location": {
@@ -4191,6 +4026,28 @@
     "value": 1
   },
   {
+    "formatted_address": "Gibraltar",
+    "latitude": 36.140751,
+    "location": {
+      "lat": 36.140751,
+      "lng": -5.353585
+    },
+    "longitude": -5.353585,
+    "name": "Gibraltar",
+    "value": 1
+  },
+  {
+    "formatted_address": "Ghent, Belgium",
+    "latitude": 51.0543422,
+    "location": {
+      "lat": 51.0543422,
+      "lng": 3.7174243
+    },
+    "longitude": 3.7174243,
+    "name": "Ghent",
+    "value": 1
+  },
+  {
     "formatted_address": "Germantown, TN, USA",
     "latitude": 35.0867577,
     "location": {
@@ -4199,6 +4056,17 @@
     },
     "longitude": -89.8100858,
     "name": "Germantown",
+    "value": 1
+  },
+  {
+    "formatted_address": "Geelong VIC 3220, Australia",
+    "latitude": -38.1499181,
+    "location": {
+      "lat": -38.1499181,
+      "lng": 144.3617186
+    },
+    "longitude": 144.3617186,
+    "name": "Geelong",
     "value": 1
   },
   {
@@ -4224,28 +4092,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Ghent, Belgium",
-    "latitude": 51.0543422,
-    "location": {
-      "lat": 51.0543422,
-      "lng": 3.7174243
-    },
-    "longitude": 3.7174243,
-    "name": "Ghent",
-    "value": 1
-  },
-  {
-    "formatted_address": "Flemington, NJ 08822, USA",
-    "latitude": 40.5123258,
-    "location": {
-      "lat": 40.5123258,
-      "lng": -74.85933179999999
-    },
-    "longitude": -74.85933179999999,
-    "name": "Flemington",
-    "value": 1
-  },
-  {
     "formatted_address": "Fredericton, NB, Canada",
     "latitude": 45.9635895,
     "location": {
@@ -4265,6 +4111,17 @@
     },
     "longitude": -120.846409,
     "name": "Fort Saint John",
+    "value": 1
+  },
+  {
+    "formatted_address": "Flemington, NJ 08822, USA",
+    "latitude": 40.5123258,
+    "location": {
+      "lat": 40.5123258,
+      "lng": -74.85933179999999
+    },
+    "longitude": -74.85933179999999,
+    "name": "Flemington",
     "value": 1
   },
   {
@@ -4290,17 +4147,6 @@
     "value": 1
   },
   {
-    "formatted_address": "East Lansing, MI, USA",
-    "latitude": 42.7369792,
-    "location": {
-      "lat": 42.7369792,
-      "lng": -84.48386540000001
-    },
-    "longitude": -84.48386540000001,
-    "name": "East Lansing",
-    "value": 1
-  },
-  {
     "formatted_address": "Fair Lawn, NJ 07410, USA",
     "latitude": 40.9403762,
     "location": {
@@ -4309,6 +4155,17 @@
     },
     "longitude": -74.1318096,
     "name": "Fair Lawn",
+    "value": 1
+  },
+  {
+    "formatted_address": "East Lansing, MI, USA",
+    "latitude": 42.7369792,
+    "location": {
+      "lat": 42.7369792,
+      "lng": -84.48386540000001
+    },
+    "longitude": -84.48386540000001,
+    "name": "East Lansing",
     "value": 1
   },
   {
@@ -4345,25 +4202,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Corby, UK",
-    "latitude": 52.49229829999999,
+    "formatted_address": "Dakar, Senegal",
+    "latitude": 14.716677,
     "location": {
-      "lat": 52.49229829999999,
-      "lng": -0.6842332999999999
+      "lat": 14.716677,
+      "lng": -17.4676861
     },
-    "longitude": -0.6842332999999999,
-    "name": "Corby",
-    "value": 1
-  },
-  {
-    "formatted_address": "Cowes, UK",
-    "latitude": 50.76278500000001,
-    "location": {
-      "lat": 50.76278500000001,
-      "lng": -1.300533
-    },
-    "longitude": -1.300533,
-    "name": "Cowes",
+    "longitude": -17.4676861,
+    "name": "Dakar",
     "value": 1
   },
   {
@@ -4378,36 +4224,47 @@
     "value": 1
   },
   {
-    "formatted_address": "Dakar, Senegal",
-    "latitude": 14.716677,
+    "formatted_address": "Cowes, UK",
+    "latitude": 50.76278500000001,
     "location": {
-      "lat": 14.716677,
-      "lng": -17.4676861
+      "lat": 50.76278500000001,
+      "lng": -1.300533
     },
-    "longitude": -17.4676861,
-    "name": "Dakar",
+    "longitude": -1.300533,
+    "name": "Cowes",
     "value": 1
   },
   {
-    "formatted_address": "1450 Old Arrington Rd, College Station, TX 77845, USA",
-    "latitude": 30.5536535,
+    "formatted_address": "Corby, UK",
+    "latitude": 52.49229829999999,
     "location": {
-      "lat": 30.5536535,
-      "lng": -96.2597006
+      "lat": 52.49229829999999,
+      "lng": -0.6842332999999999
     },
-    "longitude": -96.2597006,
-    "name": "College Station/Houston",
+    "longitude": -0.6842332999999999,
+    "name": "Corby",
     "value": 1
   },
   {
-    "formatted_address": "Audubon Village, 2480 US-41, Henderson, KY 42420, USA",
-    "latitude": 37.871458,
+    "formatted_address": "Concord, CA, USA",
+    "latitude": 37.9779776,
     "location": {
-      "lat": 37.871458,
-      "lng": -87.56785599999999
+      "lat": 37.9779776,
+      "lng": -122.0310733
     },
-    "longitude": -87.56785599999999,
-    "name": "Columbia (US)",
+    "longitude": -122.0310733,
+    "name": "Concord",
+    "value": 1
+  },
+  {
+    "formatted_address": "Colorado Springs, CO, USA",
+    "latitude": 38.8338816,
+    "location": {
+      "lat": 38.8338816,
+      "lng": -104.8213634
+    },
+    "longitude": -104.8213634,
+    "name": "Colorado Springs",
     "value": 1
   },
   {
@@ -4444,28 +4301,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Concord, CA, USA",
-    "latitude": 37.9779776,
-    "location": {
-      "lat": 37.9779776,
-      "lng": -122.0310733
-    },
-    "longitude": -122.0310733,
-    "name": "Concord",
-    "value": 1
-  },
-  {
-    "formatted_address": "Colorado Springs, CO, USA",
-    "latitude": 38.8338816,
-    "location": {
-      "lat": 38.8338816,
-      "lng": -104.8213634
-    },
-    "longitude": -104.8213634,
-    "name": "Colorado Springs",
-    "value": 1
-  },
-  {
     "formatted_address": "Cincinnati, OH, USA",
     "latitude": 39.1031182,
     "location": {
@@ -4477,28 +4312,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Chehalis, WA 98532, USA",
-    "latitude": 46.6652443,
-    "location": {
-      "lat": 46.6652443,
-      "lng": -122.9698002
-    },
-    "longitude": -122.9698002,
-    "name": "Chehalis",
-    "value": 1
-  },
-  {
-    "formatted_address": "Mangalore Central, Attavar, Mangaluru, Karnataka 575001, India",
-    "latitude": 12.8633482,
-    "location": {
-      "lat": 12.8633482,
-      "lng": 74.8432576
-    },
-    "longitude": 74.8432576,
-    "name": "Chennai & Mangalore ",
-    "value": 1
-  },
-  {
     "formatted_address": "Chocowinity, NC 27817, USA",
     "latitude": 35.5126631,
     "location": {
@@ -4507,6 +4320,17 @@
     },
     "longitude": -77.1005091,
     "name": "Chocowinity",
+    "value": 1
+  },
+  {
+    "formatted_address": "Chehalis, WA 98532, USA",
+    "latitude": 46.6652443,
+    "location": {
+      "lat": 46.6652443,
+      "lng": -122.9698002
+    },
+    "longitude": -122.9698002,
+    "name": "Chehalis",
     "value": 1
   },
   {
@@ -4532,14 +4356,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Castillejos, Zambales, Philippines",
-    "latitude": 14.9438211,
+    "formatted_address": "Central Coast, NSW, Australia",
+    "latitude": -33.3208415,
     "location": {
-      "lat": 14.9438211,
-      "lng": 120.1935663
+      "lat": -33.3208415,
+      "lng": 151.2335592
     },
-    "longitude": 120.1935663,
-    "name": "Castillejos",
+    "longitude": 151.2335592,
+    "name": "Central Coast",
     "value": 1
   },
   {
@@ -4554,36 +4378,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Central Coast, NSW, Australia",
-    "latitude": -33.3208415,
+    "formatted_address": "Castillejos, Zambales, Philippines",
+    "latitude": 14.9438211,
     "location": {
-      "lat": -33.3208415,
-      "lng": 151.2335592
+      "lat": 14.9438211,
+      "lng": 120.1935663
     },
-    "longitude": 151.2335592,
-    "name": "Central Coast",
-    "value": 1
-  },
-  {
-    "formatted_address": "Buenos Aires, Argentina",
-    "latitude": -34.6036844,
-    "location": {
-      "lat": -34.6036844,
-      "lng": -58.3815591
-    },
-    "longitude": -58.3815591,
-    "name": "Buenos Aires",
-    "value": 1
-  },
-  {
-    "formatted_address": "2831 N 16th St, Parsons, KS 67357, USA",
-    "latitude": 37.3683196,
-    "location": {
-      "lat": 37.3683196,
-      "lng": -95.257615
-    },
-    "longitude": -95.257615,
-    "name": "Cadillac",
+    "longitude": 120.1935663,
+    "name": "Castillejos",
     "value": 1
   },
   {
@@ -4620,14 +4422,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Brunswick, OH 44212, USA",
-    "latitude": 41.2381096,
+    "formatted_address": "Buenos Aires, Argentina",
+    "latitude": -34.6036844,
     "location": {
-      "lat": 41.2381096,
-      "lng": -81.8418006
+      "lat": -34.6036844,
+      "lng": -58.3815591
     },
-    "longitude": -81.8418006,
-    "name": "Brunswick",
+    "longitude": -58.3815591,
+    "name": "Buenos Aires",
     "value": 1
   },
   {
@@ -4642,14 +4444,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Braga, Portugal",
-    "latitude": 41.5454486,
+    "formatted_address": "Brașov, Romania",
+    "latitude": 45.6579755,
     "location": {
-      "lat": 41.5454486,
-      "lng": -8.426506999999999
+      "lat": 45.6579755,
+      "lng": 25.6011977
     },
-    "longitude": -8.426506999999999,
-    "name": "Braga",
+    "longitude": 25.6011977,
+    "name": "Brasov",
     "value": 1
   },
   {
@@ -4664,36 +4466,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Brașov, Romania",
-    "latitude": 45.6579755,
+    "formatted_address": "Braga, Portugal",
+    "latitude": 41.5454486,
     "location": {
-      "lat": 45.6579755,
-      "lng": 25.6011977
+      "lat": 41.5454486,
+      "lng": -8.426506999999999
     },
-    "longitude": 25.6011977,
-    "name": "Brasov",
-    "value": 1
-  },
-  {
-    "formatted_address": "3948 S Hudson Ave, Tulsa, OK 74135, USA",
-    "latitude": 36.1059007,
-    "location": {
-      "lat": 36.1059007,
-      "lng": -95.9136556
-    },
-    "longitude": -95.9136556,
-    "name": "Bra",
-    "value": 1
-  },
-  {
-    "formatted_address": "Boise, ID, USA",
-    "latitude": 43.6150186,
-    "location": {
-      "lat": 43.6150186,
-      "lng": -116.2023137
-    },
-    "longitude": -116.2023137,
-    "name": "Boise",
+    "longitude": -8.426506999999999,
+    "name": "Braga",
     "value": 1
   },
   {
@@ -4719,14 +4499,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Birmingham, AL, USA",
-    "latitude": 33.5185892,
+    "formatted_address": "Boise, ID, USA",
+    "latitude": 43.6150186,
     "location": {
-      "lat": 33.5185892,
-      "lng": -86.8103567
+      "lat": 43.6150186,
+      "lng": -116.2023137
     },
-    "longitude": -86.8103567,
-    "name": "Birmingham (USA)",
+    "longitude": -116.2023137,
+    "name": "Boise",
     "value": 1
   },
   {
@@ -4741,6 +4521,17 @@
     "value": 1
   },
   {
+    "formatted_address": "Birmingham, AL, USA",
+    "latitude": 33.5185892,
+    "location": {
+      "lat": 33.5185892,
+      "lng": -86.8103567
+    },
+    "longitude": -86.8103567,
+    "name": "Birmingham (USA)",
+    "value": 1
+  },
+  {
     "formatted_address": "Bexhill, Bexhill-on-Sea, UK",
     "latitude": 50.8499062,
     "location": {
@@ -4749,6 +4540,17 @@
     },
     "longitude": 0.4662071,
     "name": "Bexhill",
+    "value": 1
+  },
+  {
+    "formatted_address": "Bendigo VIC 3550, Australia",
+    "latitude": -36.7570157,
+    "location": {
+      "lat": -36.7570157,
+      "lng": 144.2793906
+    },
+    "longitude": 144.2793906,
+    "name": "Bendigo",
     "value": 1
   },
   {
@@ -4774,14 +4576,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Bendigo VIC 3550, Australia",
-    "latitude": -36.7570157,
+    "formatted_address": "Beirut, Lebanon",
+    "latitude": 33.8937913,
     "location": {
-      "lat": -36.7570157,
-      "lng": 144.2793906
+      "lat": 33.8937913,
+      "lng": 35.5017767
     },
-    "longitude": 144.2793906,
-    "name": "Bendigo",
+    "longitude": 35.5017767,
+    "name": "Beirut ",
     "value": 1
   },
   {
@@ -4796,14 +4598,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Beirut, Lebanon",
-    "latitude": 33.8937913,
+    "formatted_address": "Bedford, MA, USA",
+    "latitude": 42.4906231,
     "location": {
-      "lat": 33.8937913,
-      "lng": 35.5017767
+      "lat": 42.4906231,
+      "lng": -71.2760089
     },
-    "longitude": 35.5017767,
-    "name": "Beirut ",
+    "longitude": -71.2760089,
+    "name": "Bedford (US)",
     "value": 1
   },
   {
@@ -4818,14 +4620,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Annapolis, MD, USA",
-    "latitude": 38.9784453,
+    "formatted_address": "Bayreuth, Germany",
+    "latitude": 49.9456399,
     "location": {
-      "lat": 38.9784453,
-      "lng": -76.4921829
+      "lat": 49.9456399,
+      "lng": 11.5713346
     },
-    "longitude": -76.4921829,
-    "name": "Annapolis",
+    "longitude": 11.5713346,
+    "name": "Bayreuth",
     "value": 1
   },
   {
@@ -4862,14 +4664,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Abergavenny NP7, UK",
-    "latitude": 51.825366,
+    "formatted_address": "Bamenda, Cameroon",
+    "latitude": 5.9630513,
     "location": {
-      "lat": 51.825366,
-      "lng": -3.019423
+      "lat": 5.9630513,
+      "lng": 10.1591213
     },
-    "longitude": -3.019423,
-    "name": "Abergavenny",
+    "longitude": 10.1591213,
+    "name": "Bamenda",
     "value": 1
   },
   {
@@ -4884,47 +4686,14 @@
     "value": 1
   },
   {
-    "formatted_address": "Bedford, MA, USA",
-    "latitude": 42.4906231,
+    "formatted_address": "Audubon Village, 2480 US-41, Henderson, KY 42420, USA",
+    "latitude": 37.871458,
     "location": {
-      "lat": 42.4906231,
-      "lng": -71.2760089
+      "lat": 37.871458,
+      "lng": -87.56785599999999
     },
-    "longitude": -71.2760089,
-    "name": "Bedford (US)",
-    "value": 1
-  },
-  {
-    "formatted_address": "Bamenda, Cameroon",
-    "latitude": 5.9630513,
-    "location": {
-      "lat": 5.9630513,
-      "lng": 10.1591213
-    },
-    "longitude": 10.1591213,
-    "name": "Bamenda",
-    "value": 1
-  },
-  {
-    "formatted_address": "10010 Little Cottonwood Canyon Rd, Alta, UT 84092, USA",
-    "latitude": 40.5882661,
-    "location": {
-      "lat": 40.5882661,
-      "lng": -111.6358047
-    },
-    "longitude": -111.6358047,
-    "name": "Alta",
-    "value": 1
-  },
-  {
-    "formatted_address": "2029, 1704 NW 16th St, Oklahoma City, OK 73106, United States",
-    "latitude": 35.4858766,
-    "location": {
-      "lat": 35.4858766,
-      "lng": -97.5391684
-    },
-    "longitude": -97.5391684,
-    "name": "Aurora",
+    "longitude": -87.56785599999999,
+    "name": "Columbia (US)",
     "value": 1
   },
   {
@@ -4939,50 +4708,6 @@
     "value": 1
   },
   {
-    "formatted_address": "A Coruña, Spain",
-    "latitude": 43.3623436,
-    "location": {
-      "lat": 43.3623436,
-      "lng": -8.4115401
-    },
-    "longitude": -8.4115401,
-    "name": "A Coruña",
-    "value": 1
-  },
-  {
-    "formatted_address": "Arnhem, Netherlands",
-    "latitude": 51.9851034,
-    "location": {
-      "lat": 51.9851034,
-      "lng": 5.898729599999999
-    },
-    "longitude": 5.898729599999999,
-    "name": "Arnhem",
-    "value": 1
-  },
-  {
-    "formatted_address": "8620 Spectrum Center Blvd, San Diego, CA 92123, USA",
-    "latitude": 32.8272973,
-    "location": {
-      "lat": 32.8272973,
-      "lng": -117.1418509
-    },
-    "longitude": -117.1418509,
-    "name": "Ashford",
-    "value": 1
-  },
-  {
-    "formatted_address": "Bayreuth, Germany",
-    "latitude": 49.9456399,
-    "location": {
-      "lat": 49.9456399,
-      "lng": 11.5713346
-    },
-    "longitude": 11.5713346,
-    "name": "Bayreuth",
-    "value": 1
-  },
-  {
     "formatted_address": "Ashtead, UK",
     "latitude": 51.31068399999999,
     "location": {
@@ -4991,50 +4716,6 @@
     },
     "longitude": -0.296968,
     "name": "Ashtead",
-    "value": 1
-  },
-  {
-    "formatted_address": "Antwerp, Belgium",
-    "latitude": 51.2194475,
-    "location": {
-      "lat": 51.2194475,
-      "lng": 4.4024643
-    },
-    "longitude": 4.4024643,
-    "name": "Antwerp",
-    "value": 1
-  },
-  {
-    "formatted_address": "Alice Springs NT 0870, Australia",
-    "latitude": -23.698042,
-    "location": {
-      "lat": -23.698042,
-      "lng": 133.8807471
-    },
-    "longitude": 133.8807471,
-    "name": "Alice Springs",
-    "value": 1
-  },
-  {
-    "formatted_address": "Aberystwyth, UK",
-    "latitude": 52.41530299999999,
-    "location": {
-      "lat": 52.41530299999999,
-      "lng": -4.08292
-    },
-    "longitude": -4.08292,
-    "name": "Aberystwyth",
-    "value": 1
-  },
-  {
-    "formatted_address": "74100 Annemasse, France",
-    "latitude": 46.19325300000001,
-    "location": {
-      "lat": 46.19325300000001,
-      "lng": 6.234158
-    },
-    "longitude": 6.234158,
-    "name": "Annemasse",
     "value": 1
   },
   {
@@ -5049,14 +4730,47 @@
     "value": 1
   },
   {
-    "formatted_address": "Aalborg, Denmark",
-    "latitude": 57.0488195,
+    "formatted_address": "Arnhem, Netherlands",
+    "latitude": 51.9851034,
     "location": {
-      "lat": 57.0488195,
-      "lng": 9.921747
+      "lat": 51.9851034,
+      "lng": 5.898729599999999
     },
-    "longitude": 9.921747,
-    "name": "Aalborg",
+    "longitude": 5.898729599999999,
+    "name": "Arnhem",
+    "value": 1
+  },
+  {
+    "formatted_address": "Antwerp, Belgium",
+    "latitude": 51.2194475,
+    "location": {
+      "lat": 51.2194475,
+      "lng": 4.4024643
+    },
+    "longitude": 4.4024643,
+    "name": "Antwerp",
+    "value": 1
+  },
+  {
+    "formatted_address": "Annapolis, MD, USA",
+    "latitude": 38.9784453,
+    "location": {
+      "lat": 38.9784453,
+      "lng": -76.4921829
+    },
+    "longitude": -76.4921829,
+    "name": "Annapolis",
+    "value": 1
+  },
+  {
+    "formatted_address": "Anaheim, CA, USA",
+    "latitude": 33.8365932,
+    "location": {
+      "lat": 33.8365932,
+      "lng": -117.9143012
+    },
+    "longitude": -117.9143012,
+    "name": "Anaheim",
     "value": 1
   },
   {
@@ -5082,17 +4796,6 @@
     "value": 1
   },
   {
-    "formatted_address": "Ämnäs 22410, Åland Islands",
-    "latitude": 60.21135220000001,
-    "location": {
-      "lat": 60.21135220000001,
-      "lng": 19.9731429
-    },
-    "longitude": 19.9731429,
-    "name": "Ämnäs",
-    "value": 1
-  },
-  {
     "formatted_address": "Alstonville NSW 2477, Australia",
     "latitude": -28.8408655,
     "location": {
@@ -5104,25 +4807,25 @@
     "value": 1
   },
   {
-    "formatted_address": "Aberdeen, UK",
-    "latitude": 57.149717,
+    "formatted_address": "Alice Springs NT 0870, Australia",
+    "latitude": -23.698042,
     "location": {
-      "lat": 57.149717,
-      "lng": -2.094278
+      "lat": -23.698042,
+      "lng": 133.8807471
     },
-    "longitude": -2.094278,
-    "name": "Aberdeen",
+    "longitude": 133.8807471,
+    "name": "Alice Springs",
     "value": 1
   },
   {
-    "formatted_address": "Anaheim, CA, USA",
-    "latitude": 33.8365932,
+    "formatted_address": "Albuquerque, NM, USA",
+    "latitude": 35.0843859,
     "location": {
-      "lat": 33.8365932,
-      "lng": -117.9143012
+      "lat": 35.0843859,
+      "lng": -106.650422
     },
-    "longitude": -117.9143012,
-    "name": "Anaheim",
+    "longitude": -106.650422,
+    "name": "Albuquerque",
     "value": 1
   },
   {
@@ -5137,14 +4840,311 @@
     "value": 1
   },
   {
-    "formatted_address": "Albuquerque, NM, USA",
-    "latitude": 35.0843859,
+    "formatted_address": "Aberystwyth, UK",
+    "latitude": 52.41530299999999,
     "location": {
-      "lat": 35.0843859,
-      "lng": -106.650422
+      "lat": 52.41530299999999,
+      "lng": -4.08292
     },
-    "longitude": -106.650422,
-    "name": "Albuquerque",
+    "longitude": -4.08292,
+    "name": "Aberystwyth",
+    "value": 1
+  },
+  {
+    "formatted_address": "Abergavenny NP7, UK",
+    "latitude": 51.825366,
+    "location": {
+      "lat": 51.825366,
+      "lng": -3.019423
+    },
+    "longitude": -3.019423,
+    "name": "Abergavenny",
+    "value": 1
+  },
+  {
+    "formatted_address": "Aberdeen, UK",
+    "latitude": 57.149717,
+    "location": {
+      "lat": 57.149717,
+      "lng": -2.094278
+    },
+    "longitude": -2.094278,
+    "name": "Aberdeen",
+    "value": 1
+  },
+  {
+    "formatted_address": "Aalborg, Denmark",
+    "latitude": 57.0488195,
+    "location": {
+      "lat": 57.0488195,
+      "lng": 9.921747
+    },
+    "longitude": 9.921747,
+    "name": "Aalborg",
+    "value": 1
+  },
+  {
+    "formatted_address": "A Coruña, Spain",
+    "latitude": 43.3623436,
+    "location": {
+      "lat": 43.3623436,
+      "lng": -8.4115401
+    },
+    "longitude": -8.4115401,
+    "name": "A Coruña",
+    "value": 1
+  },
+  {
+    "formatted_address": "8620 Spectrum Center Blvd, San Diego, CA 92123, USA",
+    "latitude": 32.8272973,
+    "location": {
+      "lat": 32.8272973,
+      "lng": -117.1418509
+    },
+    "longitude": -117.1418509,
+    "name": "Ashford",
+    "value": 1
+  },
+  {
+    "formatted_address": "82 S Main St, Eureka Springs, AR 72632, USA",
+    "latitude": 36.3997612,
+    "location": {
+      "lat": 36.3997612,
+      "lng": -93.7406462
+    },
+    "longitude": -93.7406462,
+    "name": "Stonehouse",
+    "value": 1
+  },
+  {
+    "formatted_address": "74100 Annemasse, France",
+    "latitude": 46.19325300000001,
+    "location": {
+      "lat": 46.19325300000001,
+      "lng": 6.234158
+    },
+    "longitude": 6.234158,
+    "name": "Annemasse",
+    "value": 1
+  },
+  {
+    "formatted_address": "7301 Rufe Snow Dr, Watauga, TX 76148, USA",
+    "latitude": 32.877746,
+    "location": {
+      "lat": 32.877746,
+      "lng": -97.238708
+    },
+    "longitude": -97.238708,
+    "name": "Brunswick",
+    "value": 1
+  },
+  {
+    "formatted_address": "700 University Ave, Monroe, LA 71209, USA",
+    "latitude": 32.528282,
+    "location": {
+      "lat": 32.528282,
+      "lng": -92.073415
+    },
+    "longitude": -92.073415,
+    "name": "Ulm",
+    "value": 1
+  },
+  {
+    "formatted_address": "5904 Bee Cave Rd, Austin, TX 78746, USA",
+    "latitude": 30.2963348,
+    "location": {
+      "lat": 30.2963348,
+      "lng": -97.82666170000002
+    },
+    "longitude": -97.82666170000002,
+    "name": "Strangeland",
+    "value": 1
+  },
+  {
+    "formatted_address": "53773 Hennef, Germany",
+    "latitude": 50.760274,
+    "location": {
+      "lat": 50.760274,
+      "lng": 7.3465066
+    },
+    "longitude": 7.3465066,
+    "name": "Hennef",
+    "value": 1
+  },
+  {
+    "formatted_address": "53100 Siena, Province of Siena, Italy",
+    "latitude": 43.31880899999999,
+    "location": {
+      "lat": 43.31880899999999,
+      "lng": 11.3307574
+    },
+    "longitude": 11.3307574,
+    "name": "Siena",
+    "value": 1
+  },
+  {
+    "formatted_address": "525 Grandview Ave, Ottumwa, IA 52501, USA",
+    "latitude": 41.044962,
+    "location": {
+      "lat": 41.044962,
+      "lng": -92.394464
+    },
+    "longitude": -92.394464,
+    "name": "Indian Hills",
+    "value": 1
+  },
+  {
+    "formatted_address": "4302 East, US-160, Independence, KS 67301, United States",
+    "latitude": 37.223718,
+    "location": {
+      "lat": 37.223718,
+      "lng": -95.673952
+    },
+    "longitude": -95.673952,
+    "name": "Good",
+    "value": 1
+  },
+  {
+    "formatted_address": "400 Cedar Ave, West Long Branch, NJ 07764, USA",
+    "latitude": 40.2804557,
+    "location": {
+      "lat": 40.2804557,
+      "lng": -74.0058114
+    },
+    "longitude": -74.0058114,
+    "name": "Monmouth",
+    "value": 1
+  },
+  {
+    "formatted_address": "3948 S Hudson Ave, Tulsa, OK 74135, USA",
+    "latitude": 36.1059007,
+    "location": {
+      "lat": 36.1059007,
+      "lng": -95.9136556
+    },
+    "longitude": -95.9136556,
+    "name": "Bra",
+    "value": 1
+  },
+  {
+    "formatted_address": "3865 Gallagher Dr, Edina, MN 55435, USA",
+    "latitude": 44.8704543,
+    "location": {
+      "lat": 44.8704543,
+      "lng": -93.3283575
+    },
+    "longitude": -93.3283575,
+    "name": "Gent",
+    "value": 1
+  },
+  {
+    "formatted_address": "3600 E Harry St, Wichita, KS 67218, USA",
+    "latitude": 37.66614939999999,
+    "location": {
+      "lat": 37.66614939999999,
+      "lng": -97.29310060000002
+    },
+    "longitude": -97.29310060000002,
+    "name": "St. Joseph",
+    "value": 1
+  },
+  {
+    "formatted_address": "3200 Mount Vernon Hwy, Mt Vernon, VA 22121, USA",
+    "latitude": 38.707982,
+    "location": {
+      "lat": 38.707982,
+      "lng": -77.0861753
+    },
+    "longitude": -77.0861753,
+    "name": "Mount Vernon",
+    "value": 1
+  },
+  {
+    "formatted_address": "2831 N 16th St, Parsons, KS 67357, USA",
+    "latitude": 37.3683196,
+    "location": {
+      "lat": 37.3683196,
+      "lng": -95.257615
+    },
+    "longitude": -95.257615,
+    "name": "Cadillac",
+    "value": 1
+  },
+  {
+    "formatted_address": "204 W North St, Hanover, KS 66945, USA",
+    "latitude": 39.89295680000001,
+    "location": {
+      "lat": 39.89295680000001,
+      "lng": -96.87842239999999
+    },
+    "longitude": -96.87842239999999,
+    "name": "Hanover",
+    "value": 1
+  },
+  {
+    "formatted_address": "2029, 1704 NW 16th St, Oklahoma City, OK 73106, United States",
+    "latitude": 35.4858766,
+    "location": {
+      "lat": 35.4858766,
+      "lng": -97.5391684
+    },
+    "longitude": -97.5391684,
+    "name": "Aurora",
+    "value": 1
+  },
+  {
+    "formatted_address": "1707 Johnson Rd, Springdale, AR 72762, USA",
+    "latitude": 36.1709755,
+    "location": {
+      "lat": 36.1709755,
+      "lng": -94.15627169999999
+    },
+    "longitude": -94.15627169999999,
+    "name": "Shiloh",
+    "value": 1
+  },
+  {
+    "formatted_address": "1450 Old Arrington Rd, College Station, TX 77845, USA",
+    "latitude": 30.5536535,
+    "location": {
+      "lat": 30.5536535,
+      "lng": -96.2597006
+    },
+    "longitude": -96.2597006,
+    "name": "College Station/Houston",
+    "value": 1
+  },
+  {
+    "formatted_address": "1314 W 7th St, Coffeyville, KS 67337, USA",
+    "latitude": 37.0375471,
+    "location": {
+      "lat": 37.0375471,
+      "lng": -95.6372785
+    },
+    "longitude": -95.6372785,
+    "name": "Holiday",
+    "value": 1
+  },
+  {
+    "formatted_address": "10010 Little Cottonwood Canyon Rd, Alta, UT 84092, USA",
+    "latitude": 40.5882661,
+    "location": {
+      "lat": 40.5882661,
+      "lng": -111.6358047
+    },
+    "longitude": -111.6358047,
+    "name": "Alta",
+    "value": 1
+  },
+  {
+    "formatted_address": "05-070 Sulejowek, Poland",
+    "latitude": 52.25242410000001,
+    "location": {
+      "lat": 52.25242410000001,
+      "lng": 21.2690107
+    },
+    "longitude": 21.2690107,
+    "name": "Sulejówek",
     "value": 1
   }
 ]

@@ -55,7 +55,7 @@ function translate(city) {
   return city;
 }
 
-const vague = [];
+const vague = {};
 
 const promises = _.map(counted, async (value, key) => {
   const city = translate(key);
@@ -69,7 +69,7 @@ const promises = _.map(counted, async (value, key) => {
   const result = response.json.results[0];
 
   if (response.json.results.length > 1) {
-    vague.push(response.json.results);
+    vague[city] = response.json.results;
   }
 
   if (!result || !result.geometry || !result.formatted_address) {
@@ -95,7 +95,7 @@ Promise.all(promises).finally(() => {
         return currentCity;
       });
     })
-    .orderBy('value')
+    .orderBy(['value', 'formatted_address'])
     .reverse()
     .value();
 
@@ -107,7 +107,7 @@ Promise.all(promises).finally(() => {
 
   console.log(
     `there is ${
-      vague.length
+      _.toArray(vague).length
     } vague locations (more than 1 match in google api)`,
   );
 
