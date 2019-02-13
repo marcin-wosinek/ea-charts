@@ -88,6 +88,8 @@ Promise.all(promises).finally(() => {
         return currentCity;
       });
     })
+    .orderBy('value')
+    .reverse()
     .value();
 
   fs.writeFileSync(
