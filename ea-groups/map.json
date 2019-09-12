@@ -1,0 +1,47 @@
+{
+  "title": "EA cities",
+  "width": 1000,
+  "height": 750,
+  "projection": {"type": "mercator", "clipExtent": [[0, 0], [1000, 750]]},
+  "layer": [
+    {
+      "data": {
+        "url": "../ea-survey/data/all-countries.json",
+        "type": "topojson"
+      },
+      "mark": {
+        "type": "geoshape",
+        "stroke": "black",
+        "strokeWidth": 0.3
+      }
+    },
+    {
+      "data": {
+        "url": "./data/EA Groups Cities - Sheet3.csv"
+      },
+      "mark": {
+        "type": "point"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Long",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Lat",
+          "type": "quantitative"
+        },
+        "opacity": {
+          "value": "0.2"
+        },
+        "tooltip": [
+          {
+            "field": "Local grou",
+            "title": "group name",
+            "type": "nominal"
+          }
+        ]
+      }
+    }
+  ]
+}
