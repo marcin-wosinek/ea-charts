@@ -4,6 +4,7 @@
   "description": "library with interactive charts for EA comunity",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext js,ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm-run-all build:*",
     "build:ea-survey": "npm-run-all build:ea-survey:*",
@@ -32,7 +33,9 @@
   "devDependencies": {
     "countryjs": "^1.8.0",
     "d3-dsv": "^1.0.10",
-    "eslint": "^5.13.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "lodash": "^4.17.11",
     "npm-run-all": "^4.1.5",
     "vega": "^4.4.0",
