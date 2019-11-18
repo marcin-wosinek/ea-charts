@@ -44,7 +44,7 @@
         },
         "tooltip": [
           {
-            "field": "formatted_address",
+            "field": "name",
             "title": "city",
             "type": "nominal"
           },
